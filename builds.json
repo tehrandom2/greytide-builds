@@ -1,0 +1,242 @@
+{
+ "schema": 1,
+ "source": "tehrandom2/greytide",
+ "repo": "tehrandom2/greytide-builds",
+ "site": "https://dev.advancedstudios.net/greytide-builds/",
+ "builds": [
+  {
+   "tag": "dev-2802a8f",
+   "sha": "2802a8f0313970c20676d58c396d6bbefd5352d0",
+   "short": "2802a8f",
+   "published": "2026-10-03T07:29:23+00:00",
+   "committed": "2026-10-03T03:19:29-04:00",
+   "headline": "Music: ACE-generated medieval dubstep/electroclash candidates, player and demo (#59)",
+   "previous": null,
+   "changes": [
+    {
+     "number": 77,
+     "title": "Music: ACE-generated medieval dubstep/electroclash candidates, player and demo (#59)",
+     "mergedAt": "2026-10-03T07:19:29Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/77"
+    },
+    {
+     "number": 76,
+     "title": "unity: the other five grunts (#71)",
+     "mergedAt": "2026-10-03T07:19:06Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/76"
+    },
+    {
+     "number": 74,
+     "title": "unity: re-lay desk props for board C (#73)",
+     "mergedAt": "2026-10-03T07:16:41Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/74"
+    },
+    {
+     "number": 72,
+     "title": "unity: four satisfying sound themes (#58)",
+     "mergedAt": "2026-10-03T07:06:42Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/72"
+    },
+    {
+     "number": 69,
+     "title": "unity: first-table enemy slice (4 grunts, mini-boss, boss) (#57)",
+     "mergedAt": "2026-10-03T07:05:28Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/69"
+    },
+    {
+     "number": 68,
+     "title": "unity: board C, 120 x 60 with the winding road (#52)",
+     "mergedAt": "2026-10-03T07:05:07Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/68"
+    },
+    {
+     "number": 66,
+     "title": "Tower: Lady Wash, the fourth tower (area)",
+     "mergedAt": "2026-10-03T07:04:08Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/66"
+    },
+    {
+     "number": 65,
+     "title": "unity: card and tag rules library (#55)",
+     "mergedAt": "2026-10-03T07:04:03Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/65"
+    },
+    {
+     "number": 32,
+     "title": "unity: Linux command-line tools (compile/build/shot)",
+     "mergedAt": "2026-10-03T06:54:06Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/32"
+    },
+    {
+     "number": 51,
+     "title": "unity: compress the Web build and cap the phone render scale (#49)",
+     "mergedAt": "2026-10-02T08:19:38Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/51"
+    },
+    {
+     "number": 50,
+     "title": "unity: shot.ps1 follows the player default demo (#46)",
+     "mergedAt": "2026-10-02T08:06:32Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/50"
+    },
+    {
+     "number": 48,
+     "title": "unity: run the Web build in a browser and measure it (#17)",
+     "mergedAt": "2026-10-02T07:59:24Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/48"
+    },
+    {
+     "number": 47,
+     "title": "unity: death animations worth watching (#26)",
+     "mergedAt": "2026-10-02T07:47:23Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/47"
+    },
+    {
+     "number": 45,
+     "title": "unity: make the toy the default demo (#44)",
+     "mergedAt": "2026-10-02T07:42:28Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/45"
+    },
+    {
+     "number": 43,
+     "title": "unity: assemble the toy (#16)",
+     "mergedAt": "2026-10-02T07:34:29Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/43"
+    },
+    {
+     "number": 38,
+     "title": "unity: terrain board (#10)",
+     "mergedAt": "2026-10-02T07:14:56Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/38"
+    },
+    {
+     "number": 37,
+     "title": "unity: the god-hand (#13)",
+     "mergedAt": "2026-10-02T07:12:29Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/37"
+    },
+    {
+     "number": 36,
+     "title": "unity: stage (desk, lamp lighting, tilt-shift, camera rig)",
+     "mergedAt": "2026-10-02T07:12:26Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/36"
+    },
+    {
+     "number": 35,
+     "title": "unity: painted tower minis (#12)",
+     "mergedAt": "2026-10-02T07:08:47Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/35"
+    },
+    {
+     "number": 29,
+     "title": "unity: grey dudes and ragdolls",
+     "mergedAt": "2026-10-02T07:08:29Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/29"
+    },
+    {
+     "number": 34,
+     "title": "unity: sound effects (procedural audio)",
+     "mergedAt": "2026-10-02T07:07:40Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/34"
+    },
+    {
+     "number": 31,
+     "title": "unity: hobby desk clutter (issue 14)",
+     "mergedAt": "2026-10-02T07:07:06Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/31"
+    }
+   ],
+   "moreChanges": 0,
+   "commit_url": "https://github.com/tehrandom2/greytide/commit/2802a8f0313970c20676d58c396d6bbefd5352d0",
+   "assets": [
+    {
+     "platform": "win",
+     "label": "Windows",
+     "name": "greytide-win64.zip",
+     "size": 48196927,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-2802a8f/greytide-win64.zip",
+     "sha256": "827c3d3c9124a9392aee88d4c8fbe9231c7d19e3091d7f0906ae14e1e04a94ba"
+    },
+    {
+     "platform": "linux",
+     "label": "Linux",
+     "name": "greytide-linux64.zip",
+     "size": 46339734,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-2802a8f/greytide-linux64.zip",
+     "sha256": "bac715362177bf6b74b5935c1bd9ea199563cd603e85522d9ee0ddaac6edb00c"
+    },
+    {
+     "platform": "web",
+     "label": "Web build (zip)",
+     "name": "greytide-web.zip",
+     "size": 29605012,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-2802a8f/greytide-web.zip",
+     "sha256": "144a89c1f88b419df667b9788a4521633de610db31cb5d7dd014ace1d21563e4"
+    }
+   ],
+   "shots": [
+    {
+     "path": "shots/dev-2802a8f/issue-73-closeup-paint.jpg",
+     "issue": 73,
+     "caption": "closeup paint"
+    },
+    {
+     "path": "shots/dev-2802a8f/issue-73-default.jpg",
+     "issue": 73,
+     "caption": "default"
+    },
+    {
+     "path": "shots/dev-2802a8f/issue-71-lineup-nine-grunts.jpg",
+     "issue": 71,
+     "caption": "lineup nine grunts"
+    },
+    {
+     "path": "shots/dev-2802a8f/issue-71-traits-lefty-tangle-loot-tip.jpg",
+     "issue": 71,
+     "caption": "traits lefty tangle loot tip"
+    },
+    {
+     "path": "shots/dev-2802a8f/issue-59-music-3.png",
+     "issue": 59,
+     "caption": "music 3"
+    },
+    {
+     "path": "shots/dev-2802a8f/issue-59-music-4.png",
+     "issue": 59,
+     "caption": "music 4"
+    },
+    {
+     "path": "shots/dev-2802a8f/issue-58-sfx-final-cartoon.png",
+     "issue": 58,
+     "caption": "sfx final cartoon"
+    },
+    {
+     "path": "shots/dev-2802a8f/issue-58-sfx-final-chunky.png",
+     "issue": 58,
+     "caption": "sfx final chunky"
+    },
+    {
+     "path": "shots/dev-2802a8f/issue-57-box-spills-grunts.png",
+     "issue": 57,
+     "caption": "box spills grunts"
+    },
+    {
+     "path": "shots/dev-2802a8f/issue-57-lineup.png",
+     "issue": 57,
+     "caption": "lineup"
+    },
+    {
+     "path": "shots/dev-2802a8f/issue-56-four-towers-and-puddles.jpg",
+     "issue": 56,
+     "caption": "four towers and puddles"
+    },
+    {
+     "path": "shots/dev-2802a8f/issue-56-lady-wash-closeup.jpg",
+     "issue": 56,
+     "caption": "lady wash closeup"
+    }
+   ],
+   "playable": true
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>greytide builds</title>
+  <subtitle>Fresh off the desk. Painted towers against the unpainted grey horde.</subtitle>
+  <link href="https://dev.advancedstudios.net/greytide-builds/feed.xml" rel="self"/>
+  <link href="https://dev.advancedstudios.net/greytide-builds/"/>
+  <id>https://dev.advancedstudios.net/greytide-builds/</id>
+  <updated>2026-10-03T07:29:23+00:00</updated>
+  <entry>
+    <title>dev-2802a8f: Music: ACE-generated medieval dubstep/electroclash candidates, player and demo (#59)</title>
+    <link href="https://dev.advancedstudios.net/greytide-builds/#dev-2802a8f"/>
+    <id>https://dev.advancedstudios.net/greytide-builds/#dev-2802a8f</id>
+    <updated>2026-10-03T07:29:23+00:00</updated>
+    <content type="html">&lt;p&gt;Play in the browser: &lt;a href=&quot;https://dev.advancedstudios.net/greytide-builds/play/&quot;&gt;https://dev.advancedstudios.net/greytide-builds/play/&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Music: ACE-generated medieval dubstep/electroclash candidates, player and demo (#59) (#77)&lt;/li&gt;&lt;li&gt;unity: the other five grunts (#71) (#76)&lt;/li&gt;&lt;li&gt;unity: re-lay desk props for board C (#73) (#74)&lt;/li&gt;&lt;li&gt;unity: four satisfying sound themes (#58) (#72)&lt;/li&gt;&lt;li&gt;unity: first-table enemy slice (4 grunts, mini-boss, boss) (#57) (#69)&lt;/li&gt;&lt;li&gt;unity: board C, 120 x 60 with the winding road (#52) (#68)&lt;/li&gt;&lt;li&gt;Tower: Lady Wash, the fourth tower (area) (#66)&lt;/li&gt;&lt;li&gt;unity: card and tag rules library (#55) (#65)&lt;/li&gt;&lt;li&gt;unity: Linux command-line tools (compile/build/shot) (#32)&lt;/li&gt;&lt;li&gt;unity: compress the Web build and cap the phone render scale (#49) (#51)&lt;/li&gt;&lt;li&gt;unity: shot.ps1 follows the player default demo (#46) (#50)&lt;/li&gt;&lt;li&gt;unity: run the Web build in a browser and measure it (#17) (#48)&lt;/li&gt;&lt;li&gt;unity: death animations worth watching (#26) (#47)&lt;/li&gt;&lt;li&gt;unity: make the toy the default demo (#44) (#45)&lt;/li&gt;&lt;li&gt;unity: assemble the toy (#16) (#43)&lt;/li&gt;&lt;li&gt;unity: terrain board (#10) (#38)&lt;/li&gt;&lt;li&gt;unity: the god-hand (#13) (#37)&lt;/li&gt;&lt;li&gt;unity: stage (desk, lamp lighting, tilt-shift, camera rig) (#36)&lt;/li&gt;&lt;li&gt;unity: painted tower minis (#12) (#35)&lt;/li&gt;&lt;li&gt;unity: grey dudes and ragdolls (#29)&lt;/li&gt;&lt;li&gt;unity: sound effects (procedural audio) (#34)&lt;/li&gt;&lt;li&gt;unity: hobby desk clutter (issue 14) (#31)&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/tehrandom2/greytide-builds/releases/download/dev-2802a8f/greytide-win64.zip&quot;&gt;Windows&lt;/a&gt; (48.2 MB)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/tehrandom2/greytide-builds/releases/download/dev-2802a8f/greytide-linux64.zip&quot;&gt;Linux&lt;/a&gt; (46.3 MB)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/tehrandom2/greytide-builds/releases/download/dev-2802a8f/greytide-web.zip&quot;&gt;Web build (zip)&lt;/a&gt; (29.6 MB)&lt;/li&gt;&lt;/ul&gt;</content>
+  </entry>
+</feed>

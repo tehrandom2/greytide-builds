@@ -1,0 +1,8 @@
+title: Hurdy Gurdy Riddim (build phase)
+idea: medieval-dubstep
+mood: build
+bpm: 75
+seed: 590003
+model: ACE-Step 1.5 (acestep-v15-turbo, LM acestep-5Hz-lm-1.7B)
+prompt: Medieval riddim dubstep, calm, 75 bpm, wobbling hurdy-gurdy bass, recorder melody, gentle lute arpeggios, soft sub, tabletop board game night atmosphere, spacious and mellow, loopable, no big drop, instrumental, no vocals
+date: 2026-10-03

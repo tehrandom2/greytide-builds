@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>greytide</title>
+    <style>
+      html, body { margin: 0; padding: 0; height: 100%; background: #0b0a09; overflow: hidden; }
+      body { display: flex; align-items: center; justify-content: center; }
+      /* Desktop: the 16:9 canvas fills the window up to 1280x720, letterboxed on the dark page. */
+      #unity-canvas { display: block; background: #0b0a09; width: min(100vw, calc(100vh * 16 / 9), 1280px); height: min(100vh, calc(100vw * 9 / 16), 720px); touch-action: none; outline: none; }
+      /* Phones: fill the whole screen, whatever its aspect. */
+      body.mobile #unity-canvas { position: fixed; left: 0; top: 0; width: 100vw; height: 100vh; height: 100dvh; }
+      #loading { position: fixed; left: 0; right: 0; top: 50%; transform: translateY(-50%); text-align: center; font: 14px/1.4 system-ui, sans-serif; color: #b9a98c; pointer-events: none; }
+      #bar { width: 160px; height: 4px; margin: 10px auto 0; background: #2a2620; border-radius: 2px; overflow: hidden; }
+      #bar > div { width: 0; height: 100%; background: #e0b25c; }
+      #error { position: fixed; left: 8px; right: 8px; top: 8px; padding: 10px; background: #8a1c1c; color: #fff; font: 14px system-ui, sans-serif; display: none; }
+    </style>
+  </head>
+  <body><a href="../" style="position:fixed;left:50%;transform:translateX(-50%);top:8px;z-index:5;font:600 12px system-ui,sans-serif;color:#e8d9b8;background:rgba(12,10,8,.72);padding:6px 10px;border-radius:999px;text-decoration:none;border:1px solid rgba(232,217,184,.25)">&larr; all builds</a>
+    <canvas id="unity-canvas" width="1280" height="720" tabindex="-1"></canvas>
+    <div id="loading">greytide<div id="bar"><div></div></div></div>
+    <div id="error"></div>
+    <script src="Build/web.loader.js"></script>
+    <script>
+      var canvas = document.querySelector("#unity-canvas");
+      var mobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+      if (mobile) document.body.classList.add("mobile");
+
+      // Unity sizes the render target to the canvas's CSS size times config.devicePixelRatio.
+      // A 3x phone would otherwise draw 2532x1170 pixels; cap it. Override with ?dpr=1 for measuring.
+      var q = new URLSearchParams(location.search);
+      var cap = q.has("dpr") ? parseFloat(q.get("dpr")) : (mobile ? 1.5 : 2);
+      var dpr = Math.max(0.5, Math.min(window.devicePixelRatio || 1, cap));
+
+      createUnityInstance(canvas, {
+        arguments: [],
+        dataUrl: "Build/web.data.unityweb",
+        frameworkUrl: "Build/web.framework.js.unityweb",
+        codeUrl: "Build/web.wasm.unityweb",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "greytide",
+        productName: "greytide",
+        productVersion: "1.0",
+        devicePixelRatio: dpr,
+        showBanner: function (msg, type) { if (type === "error") { var e = document.querySelector("#error"); e.style.display = "block"; e.textContent = msg; } else console.warn(msg); },
+      }, function (progress) {
+        document.querySelector("#bar > div").style.width = 100 * progress + "%";
+      }).then(function () {
+        document.querySelector("#loading").style.display = "none";
+      }).catch(function (message) {
+        var e = document.querySelector("#error"); e.style.display = "block"; e.textContent = String(message);
+      });
+    </script>
+  </body>
+</html>

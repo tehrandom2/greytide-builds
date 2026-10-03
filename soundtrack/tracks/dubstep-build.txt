@@ -1,0 +1,8 @@
+title: Siege Lute (build phase)
+idea: medieval-dubstep
+mood: build
+bpm: 70
+seed: 590001
+model: ACE-Step 1.5 (acestep-v15-turbo, LM acestep-5Hz-lm-1.7B)
+prompt: Medieval dubstep, calm and dark, 70 bpm half-time, plucked lute and hurdy-gurdy drone over deep warm sub bass, soft wobble pulses, hand drum and sparse tambourine, late-night candlelit tavern mood, restrained and loopable, steady arrangement with no big drop, instrumental, no vocals
+date: 2026-10-03
