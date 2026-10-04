@@ -1,0 +1,8 @@
+title: Hurdy Gurdy Riddim (wave)
+idea: medieval-dubstep
+mood: wave
+bpm: 140
+seed: 590004
+model: ACE-Step 1.5 (acestep-v15-turbo, LM acestep-5Hz-lm-1.7B)
+prompt: Medieval riddim dubstep, 140 bpm half-time, heavy robotic wobble bass mimicking a hurdy-gurdy, sparse stuttering rhythm, war horn blasts, pounding tom drums, sharp lute plucks, relentless marching energy, loopable, instrumental, no vocals
+date: 2026-10-03
