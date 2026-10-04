@@ -1,0 +1,8 @@
+title: Siege Lute (wave)
+idea: medieval-dubstep
+mood: wave
+bpm: 140
+seed: 590002
+model: ACE-Step 1.5 (acestep-v15-turbo, LM acestep-5Hz-lm-1.7B)
+prompt: Medieval dubstep, 140 bpm half-time, aggressive growling reese sub bass wobbles, distorted bagpipe-like synth lead, war drums and pounding kick, fast plucked lute riffs, brass fanfare stabs, battle intensity, steady driving loopable arrangement, instrumental, no vocals
+date: 2026-10-03
