@@ -1,0 +1,13 @@
+title: Fridge Magnet Muzak (wave)
+idea: wrong-footed lounge exotica with vibraphone and cheesy organ
+mood: wave
+bpm: 100
+key: C major
+seed: 640006
+model: ACE-Step 1.5 (acestep-v15-turbo, LM acestep-5Hz-lm-1.7B)
+prompt: Lounge exotica and muzak played slightly wrong, 100 bpm, bouncy vibraphone, cheesy organ stabs, bossa nova drum box with more drive, walking bass, slide whistle that wanders, congas, sunny melody going a little sour, quirky, good-humoured, steady loopable arrangement, instrumental, no vocals, no singing, no speech, no drops, no wobble bass, no build-ups, no aggressive drums
+rejected seeds: none
+measured: -16.0 LUFS (gain +2.0 dB), tempo ~98 bpm, 0.6% above 6 kHz, 6% below 60 Hz, 3.6 onsets/s
+checks: all automatic checks passed
+date: 2026-10-05
+licence: MIT model weights; output generated locally on littlebluebox from a text prompt, no samples or reference audio, no third-party rights claimed

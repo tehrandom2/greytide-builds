@@ -1,0 +1,13 @@
+title: Wonky Pub Piano (build phase)
+idea: wonky pub-piano and wheezy accordion shuffle
+mood: build
+bpm: 92
+key: C major
+seed: 702910
+model: ACE-Step 1.5 (acestep-v15-turbo, LM acestep-5Hz-lm-1.7B)
+prompt: Laid back wonky honky-tonk pub piano, wheezy accordion, shuffling brushed drum machine, walking fuzzy bass, clinking glass percussion, slightly out of tune, tipsy and good-humoured, 92 bpm, a tipsy tuba-like synth and handclaps, calm and spacious, steady loopable arrangement, instrumental, no vocals, no singing, no speech, no drops, no wobble bass, no build-ups, no aggressive drums, no sub bass, light thin low end, bass in the mid range only
+rejected seeds: 700910, 701910
+measured: -16.0 LUFS (gain +0.7 dB), tempo ~92 bpm, 1.4% above 6 kHz, 7% below 60 Hz, 3.9 onsets/s
+checks: all automatic checks passed
+date: 2026-10-05
+licence: MIT model weights; output generated locally on littlebluebox from a text prompt, no samples or reference audio, no third-party rights claimed

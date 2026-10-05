@@ -1,0 +1,13 @@
+title: Garden Gnome Daydream (wave)
+idea: sun-struck back-yard picnic with wrong-note nylon guitar and wheezy melodica
+mood: wave
+bpm: 85
+key: A major
+seed: 701045
+model: ACE-Step 1.5 (acestep-v15-turbo, LM acestep-5Hz-lm-1.7B)
+prompt: Laid back warm lazy summer-evening groove, nylon guitar or ukulele played a bit wrong, wheezy melodica, soft hand percussion, woozy tape-warped synth underneath, cricket-like shaker textures, slightly sun-struck, picnic blanket in a garden, good-humoured, 85 bpm, toy glockenspiel and a woozy detuned pad, the same groove with a little more drive and bounce, steady loopable arrangement, instrumental, no vocals, no singing, no speech, no drops, no wobble bass, no build-ups, no aggressive drums, no sub bass, light thin low end, bass in the mid range only
+rejected seeds: none
+measured: -16.0 LUFS (gain +0.2 dB), tempo ~84 bpm, 0.9% above 6 kHz, 8% below 60 Hz, 2.6 onsets/s
+checks: all automatic checks passed
+date: 2026-10-05
+licence: MIT model weights; output generated locally on littlebluebox from a text prompt, no samples or reference audio, no third-party rights claimed

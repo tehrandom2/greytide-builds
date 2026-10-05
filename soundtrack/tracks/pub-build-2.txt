@@ -1,0 +1,13 @@
+title: Last Orders Shuffle (build phase)
+idea: wonky pub-piano and wheezy accordion shuffle
+mood: build
+bpm: 88
+key: G major
+seed: 700920
+model: ACE-Step 1.5 (acestep-v15-turbo, LM acestep-5Hz-lm-1.7B)
+prompt: Laid back wonky honky-tonk pub piano, wheezy accordion, shuffling brushed drum machine, walking fuzzy bass, clinking glass percussion, slightly out of tune, tipsy and good-humoured, 88 bpm, banjo-like plucks and a wheezy harmonica-like lead, calm and spacious, steady loopable arrangement, instrumental, no vocals, no singing, no speech, no drops, no wobble bass, no build-ups, no aggressive drums, no sub bass, light thin low end, bass in the mid range only
+rejected seeds: none
+measured: -16.0 LUFS (gain +2.0 dB), tempo ~87 bpm, 2.3% above 6 kHz, 14% below 60 Hz, 4.1 onsets/s
+checks: all automatic checks passed
+date: 2026-10-05
+licence: MIT model weights; output generated locally on littlebluebox from a text prompt, no samples or reference audio, no third-party rights claimed

@@ -1,0 +1,13 @@
+title: Lamp Hum Daydream (wave)
+idea: woozy tape-warped analog synth funk
+mood: wave
+bpm: 91
+key: C minor
+seed: 700055
+model: ACE-Step 1.5 (acestep-v15-turbo, LM acestep-5Hz-lm-1.7B)
+prompt: Laid back woozy analog synth funk, tape-warped detuned synthesizers drifting slightly out of tune, fuzzy mid-range bass, soft vocoder pads used as an instrument, dusty lo-fi drum machine with loose swing, warm hazy head-nodding groove, psychedelic hobby desk daydream, 91 bpm, talk-box textures and a wandering analog arpeggio, the same groove with a little more drive and bounce, steady loopable arrangement, instrumental, no vocals, no singing, no speech, no drops, no wobble bass, no build-ups, no aggressive drums, no sub bass, light thin low end, bass in the mid range only
+rejected seeds: none
+measured: -16.0 LUFS (gain +0.1 dB), tempo ~92 bpm, 1.7% above 6 kHz, 15% below 60 Hz, 3.4 onsets/s
+checks: all automatic checks passed
+date: 2026-10-05
+licence: MIT model weights; output generated locally on littlebluebox from a text prompt, no samples or reference audio, no third-party rights claimed
