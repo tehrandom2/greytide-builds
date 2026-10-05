@@ -1,0 +1,13 @@
+title: Under The Covers Funk (wave)
+idea: sleepy music-box and soft fuzz bass
+mood: wave
+bpm: 81
+key: G major
+seed: 700255
+model: ACE-Step 1.5 (acestep-v15-turbo, LM acestep-5Hz-lm-1.7B)
+prompt: Laid back sleepy drowsy lullaby groove, music-box plucks, soft fuzzy bass, warm lo-fi felt piano, slow brushed drum machine, tape hiss, duvet-warm and dreamy, gentle and good-humoured, 81 bpm, glockenspiel and a drowsy slide guitar-like synth, the same groove with a little more drive and bounce, steady loopable arrangement, instrumental, no vocals, no singing, no speech, no drops, no wobble bass, no build-ups, no aggressive drums, no sub bass, light thin low end, bass in the mid range only
+rejected seeds: none
+measured: -16.0 LUFS (gain +1.2 dB), tempo ~80 bpm, 1.2% above 6 kHz, 29% below 60 Hz, 3.9 onsets/s
+checks: all automatic checks passed
+date: 2026-10-05
+licence: MIT model weights; output generated locally on littlebluebox from a text prompt, no samples or reference audio, no third-party rights claimed
