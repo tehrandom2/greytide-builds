@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>greytide</title>
+    <style>
+      html, body { margin: 0; padding: 0; height: 100%; background: #0b0a09; overflow: hidden; }
+      /* The canvas fills the whole window at any size and aspect; the render target follows it (see sizeFor below). */
+      #unity-canvas { display: block; position: fixed; left: 0; top: 0; width: 100vw; height: 100vh; height: 100dvh; background: #0b0a09; touch-action: none; outline: none; }
+      /* beside the game's own dev-menu button (a physical knob in the lower-left corner, about 11.8vh wide), not under it */
+      #fs { position: fixed; left: calc(12.5vh + 10px); bottom: 8px; z-index: 5; width: 30px; height: 30px; padding: 0; border-radius: 6px; cursor: pointer; display: none;
+            background: rgba(12,10,8,.55); border: 1px solid rgba(232,217,184,.25); opacity: .55; transition: opacity .2s; }
+      #fs:hover, #fs:focus-visible { opacity: 1; }
+      #fs svg { display: block; margin: auto; width: 16px; height: 16px; fill: none; stroke: #e8d9b8; stroke-width: 1.6; }
+      body.mobile #fs { display: none !important; }
+      #loading { position: fixed; left: 0; right: 0; top: 50%; transform: translateY(-50%); text-align: center; font: 14px/1.4 system-ui, sans-serif; color: #b9a98c; pointer-events: none; }
+      #bar { width: 160px; height: 4px; margin: 10px auto 0; background: #2a2620; border-radius: 2px; overflow: hidden; }
+      #bar > div { width: 0; height: 100%; background: #e0b25c; }
+      #error { position: fixed; left: 8px; right: 8px; top: 8px; padding: 10px; background: #8a1c1c; color: #fff; font: 14px system-ui, sans-serif; display: none; }
+      #error a { color: #ffe9a8; }
+    </style>
+  </head>
+  <body><a id="allbuilds" href="../">&larr; all builds</a><style>#allbuilds{position:fixed;left:8px;top:8px;z-index:5;font:600 12px system-ui,sans-serif;color:#e8d9b8;background:rgba(12,10,8,.72);padding:6px 10px;border-radius:999px;text-decoration:none;border:1px solid rgba(232,217,184,.25);transition:opacity .6s}#allbuilds.away{opacity:0;pointer-events:none}</style><script>(function(){var a=document.getElementById("allbuilds"),t;function show(){a.classList.remove("away");clearTimeout(t);t=setTimeout(function(){a.classList.add("away")},4000)}addEventListener("pointermove",function(e){if(e.clientX<180&&e.clientY<90)show()},true);show()})()</script>
+    <canvas id="unity-canvas" width="1280" height="720" tabindex="-1"></canvas>
+    <button id="fs" type="button" title="Fullscreen (Alt+Enter)" aria-label="Fullscreen">
+      <svg viewBox="0 0 16 16"><path d="M1 5V1h4M11 1h4v4M15 11v4h-4M5 15H1v-4"/></svg>
+    </button>
+    <div id="loading">greytide<div id="bar"><div></div></div></div>
+    <div id="error"></div>
+    <script src="Build/web.loader.js"></script>
+    <script>
+      var canvas = document.querySelector("#unity-canvas");
+      var mobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+      if (mobile) document.body.classList.add("mobile");
+
+      // Unity sizes the render target to the canvas's CSS size times Module.devicePixelRatio (matchWebGLToCanvasSize
+      // is on by default, so it re-reads the canvas every frame and follows window resizes by itself).
+      // Two caps keep the cost sane: the device pixel ratio (?dpr= overrides it, for measuring), and the total
+      // rendered pixels (?maxpx= overrides, default about 2560x1440); above that the browser scales the canvas up.
+      var q = new URLSearchParams(location.search);
+      var cap = q.has("dpr") ? parseFloat(q.get("dpr")) : (mobile ? 1.5 : 2);
+      var maxPx = q.has("maxpx") ? parseFloat(q.get("maxpx")) : 2560 * 1440;
+      function sizeFor() {
+        var d = Math.max(0.5, Math.min(window.devicePixelRatio || 1, cap));
+        var px = Math.max(1, window.innerWidth * window.innerHeight) * d * d;
+        if (px > maxPx) d *= Math.sqrt(maxPx / px);
+        return d;
+      }
+      var dpr = sizeFor(), instance = null;
+      function applyDpr() { dpr = sizeFor(); if (instance && instance.Module) instance.Module.devicePixelRatio = dpr; }
+      window.addEventListener("resize", applyDpr);
+
+      // Fullscreen: a corner button and Alt+Enter. Leaving it (Esc, the button, the browser) restores the window layout
+      // by itself, because the canvas is always the full viewport.
+      var fsBtn = document.querySelector("#fs");
+      function fsOn() { return !!(document.fullscreenElement || document.webkitFullscreenElement); }
+      function toggleFs() {
+        var el = document.documentElement;
+        if (fsOn()) { (document.exitFullscreen || document.webkitExitFullscreen).call(document); }
+        else { var f = el.requestFullscreen || el.webkitRequestFullscreen; if (f) f.call(el); }
+        canvas.focus();
+      }
+      if (document.fullscreenEnabled || document.webkitFullscreenEnabled) fsBtn.style.display = "block";
+      fsBtn.addEventListener("click", toggleFs);
+      window.addEventListener("keydown", function (e) {
+        if (e.altKey && (e.key === "Enter" || e.code === "Enter")) { e.preventDefault(); toggleFs(); }
+      }, true);
+
+      // Unity's own fatal-error alert says only "an error occurred running the Unity content". When the page died of memory (a table too big for this
+      // browser's tab), say so and offer the way back: the same page on the painting desk (an explicit ?board= is never saved, so it cannot loop).
+      function fatal(message) {
+        var e = document.querySelector("#error"), oom = /OOM|out of memory|Cannot enlarge memory|memory access out of bounds|RangeError: Array buffer allocation/i.test(String(message));
+        var p = new URLSearchParams(location.search); p.set("board", "desk");
+        e.style.display = "block";
+        e.textContent = "";
+        e.appendChild(document.createTextNode(oom ? "This browser ran out of memory building the table. " : "The game stopped: " + String(message).slice(0, 160) + " "));
+        var a = document.createElement("a"); a.href = location.pathname + "?" + p.toString(); a.textContent = "Reload on the painting desk";
+        e.appendChild(a);
+        document.querySelector("#loading").style.display = "none";
+      }
+
+      createUnityInstance(canvas, {
+        arguments: [],
+        dataUrl: "Build/web.data.unityweb",
+        frameworkUrl: "Build/web.framework.js.unityweb",
+        codeUrl: "Build/web.wasm.unityweb",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "greytide",
+        productName: "greytide",
+        productVersion: "1.0",
+        devicePixelRatio: dpr,
+        errorHandler: function (message) { fatal(message); return true; },
+        showBanner: function (msg, type) { if (type === "error") { var e = document.querySelector("#error"); e.style.display = "block"; e.textContent = msg; } else console.warn(msg); },
+      }, function (progress) {
+        document.querySelector("#bar > div").style.width = 100 * progress + "%";
+      }).then(function (u) {
+        instance = u; applyDpr();
+        document.querySelector("#loading").style.display = "none";
+      }).catch(function (message) {
+        fatal(message);
+      });
+    </script>
+  </body>
+</html>

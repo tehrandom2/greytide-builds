@@ -1,0 +1,13 @@
+title: Tape Wobble Funk (wave)
+idea: woozy tape-warped analog synth funk
+mood: wave
+bpm: 90
+key: D minor
+seed: 630004
+model: ACE-Step 1.5 (acestep-v15-turbo, LM acestep-5Hz-lm-1.7B)
+prompt: Laid back woozy analog synth funk, 90 bpm, tape-warped detuned synthesizers drifting out of tune, fuzzy bass with a little more bounce, vocoder talk-box texture as a lead instrument, dusty lo-fi drum machine with more drive, hazy head-nodding groove, slightly sour sunny melody, good-humoured, steady loopable arrangement, instrumental, no vocals, no singing, no speech, no drops, no wobble bass, no build-ups, no aggressive drums
+rejected seeds: none
+measured: -16.0 LUFS (gain -0.4 dB), tempo ~92 bpm, 0.8% above 6 kHz, 18% below 60 Hz, 3.8 onsets/s
+checks: all automatic checks passed
+date: 2026-10-05
+licence: MIT model weights; output generated locally on littlebluebox from a text prompt, no samples or reference audio, no third-party rights claimed
