@@ -1,0 +1,13 @@
+title: Afternoon Repeat (build phase)
+idea: daytime-television muzak gone sour
+mood: build
+bpm: 90
+key: Bb major
+seed: 700550
+model: ACE-Step 1.5 (acestep-v15-turbo, LM acestep-5Hz-lm-1.7B)
+prompt: Laid back daytime television muzak gone slightly sour, smooth electric piano, soft brushed drum machine, cheesy saxophone-like synth, game-show-theme melody drifting out of tune, warm and tired and good-humoured, 90 bpm, muted brass-like synth and finger snaps, calm and spacious, steady loopable arrangement, instrumental, no vocals, no singing, no speech, no drops, no wobble bass, no build-ups, no aggressive drums, no sub bass, light thin low end, bass in the mid range only
+rejected seeds: none
+measured: -16.0 LUFS (gain +1.5 dB), tempo ~120 bpm, 0.4% above 6 kHz, 7% below 60 Hz, 2.6 onsets/s
+checks: all automatic checks passed
+date: 2026-10-05
+licence: MIT model weights; output generated locally on littlebluebox from a text prompt, no samples or reference audio, no third-party rights claimed

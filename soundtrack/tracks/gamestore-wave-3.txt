@@ -1,0 +1,13 @@
+title: Clearance Bin Groove (wave)
+idea: plastic-toy keyboard funk
+mood: wave
+bpm: 84
+key: F major
+seed: 650006
+model: ACE-Step 1.5 (acestep-v15-turbo, LM acestep-5Hz-lm-1.7B)
+prompt: Slow fuzzy groove with a little more drive, 84 bpm, toy keyboards and music-box plucks, fuzzy bass groove, lo-fi drum machine with steady backbeat, kazoo-like lead used sparingly, childlike melody going a little sour, dreamy and good-humoured, steady loopable arrangement, instrumental, no vocals, no singing, no speech, no drops, no wobble bass, no build-ups, no aggressive drums
+rejected seeds: none
+measured: -16.0 LUFS (gain -2.0 dB), tempo ~82 bpm, 0.4% above 6 kHz, 15% below 60 Hz, 3.0 onsets/s
+checks: all automatic checks passed
+date: 2026-10-05
+licence: MIT model weights; output generated locally on littlebluebox from a text prompt, no samples or reference audio, no third-party rights claimed

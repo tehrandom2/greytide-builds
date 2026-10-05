@@ -1,0 +1,13 @@
+title: Counting Sheep Slowly (wave)
+idea: sleepy music-box and soft fuzz bass
+mood: wave
+bpm: 77
+key: C major
+seed: 700225
+model: ACE-Step 1.5 (acestep-v15-turbo, LM acestep-5Hz-lm-1.7B)
+prompt: Laid back sleepy drowsy lullaby groove, music-box plucks, soft fuzzy bass, warm lo-fi felt piano, slow brushed drum machine, tape hiss, duvet-warm and dreamy, gentle and good-humoured, 77 bpm, soft toy xylophone and a breathy flute-like synth, the same groove with a little more drive and bounce, steady loopable arrangement, instrumental, no vocals, no singing, no speech, no drops, no wobble bass, no build-ups, no aggressive drums, no sub bass, light thin low end, bass in the mid range only
+rejected seeds: none
+measured: -16.0 LUFS (gain +2.0 dB), tempo ~77 bpm, 2.1% above 6 kHz, 14% below 60 Hz, 2.0 onsets/s
+checks: all automatic checks passed
+date: 2026-10-05
+licence: MIT model weights; output generated locally on littlebluebox from a text prompt, no samples or reference audio, no third-party rights claimed

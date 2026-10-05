@@ -1,0 +1,13 @@
+title: Pillow Fort Lullaby (wave)
+idea: sleepy music-box and soft fuzz bass
+mood: wave
+bpm: 83
+key: F major
+seed: 700235
+model: ACE-Step 1.5 (acestep-v15-turbo, LM acestep-5Hz-lm-1.7B)
+prompt: Laid back sleepy drowsy lullaby groove, music-box plucks, soft fuzzy bass, warm lo-fi felt piano, slow brushed drum machine, tape hiss, duvet-warm and dreamy, gentle and good-humoured, 83 bpm, warm detuned pad and tiny bells, the same groove with a little more drive and bounce, steady loopable arrangement, instrumental, no vocals, no singing, no speech, no drops, no wobble bass, no build-ups, no aggressive drums, no sub bass, light thin low end, bass in the mid range only
+rejected seeds: none
+measured: -16.0 LUFS (gain +0.5 dB), tempo ~83 bpm, 1.0% above 6 kHz, 5% below 60 Hz, 2.1 onsets/s
+checks: all automatic checks passed
+date: 2026-10-05
+licence: MIT model weights; output generated locally on littlebluebox from a text prompt, no samples or reference audio, no third-party rights claimed

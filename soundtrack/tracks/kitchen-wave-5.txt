@@ -1,0 +1,13 @@
+title: Pantry Cha-Cha (wave)
+idea: wrong-footed lounge exotica with vibraphone and cheesy organ
+mood: wave
+bpm: 100
+key: D major
+seed: 701155
+model: ACE-Step 1.5 (acestep-v15-turbo, LM acestep-5Hz-lm-1.7B)
+prompt: Laid back lounge exotica and mall muzak played slightly wrong, mellow vibraphone, cheesy electric organ with a straight face, soft bossa nova drum box, upright bass, a melodica that wanders off the tune, sunny melody that turns a little sour, 100 bpm, slide whistle, bongos and a muted trumpet-like synth, the same groove with a little more drive and bounce, steady loopable arrangement, instrumental, no vocals, no singing, no speech, no drops, no wobble bass, no build-ups, no aggressive drums, no sub bass, light thin low end, bass in the mid range only
+rejected seeds: 700155
+measured: -16.0 LUFS (gain +0.4 dB), tempo ~98 bpm, 2.0% above 6 kHz, 21% below 60 Hz, 3.2 onsets/s
+checks: all automatic checks passed
+date: 2026-10-05
+licence: MIT model weights; output generated locally on littlebluebox from a text prompt, no samples or reference audio, no third-party rights claimed

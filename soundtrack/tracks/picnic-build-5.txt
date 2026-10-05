@@ -1,0 +1,13 @@
+title: Citronella Slow Jam (build phase)
+idea: sun-struck back-yard picnic with wrong-note nylon guitar and wheezy melodica
+mood: build
+bpm: 76
+key: F major
+seed: 701050
+model: ACE-Step 1.5 (acestep-v15-turbo, LM acestep-5Hz-lm-1.7B)
+prompt: Laid back warm lazy summer-evening groove, nylon guitar or ukulele played a bit wrong, wheezy melodica, soft hand percussion, woozy tape-warped synth underneath, cricket-like shaker textures, slightly sun-struck, picnic blanket in a garden, good-humoured, 76 bpm, a lazy slide guitar-like synth and shaker crickets, calm and spacious, steady loopable arrangement, instrumental, no vocals, no singing, no speech, no drops, no wobble bass, no build-ups, no aggressive drums, no sub bass, light thin low end, bass in the mid range only
+rejected seeds: none
+measured: -16.0 LUFS (gain -0.3 dB), tempo ~76 bpm, 0.8% above 6 kHz, 9% below 60 Hz, 2.3 onsets/s
+checks: all automatic checks passed
+date: 2026-10-05
+licence: MIT model weights; output generated locally on littlebluebox from a text prompt, no samples or reference audio, no third-party rights claimed
