@@ -1,0 +1,13 @@
+title: Casserole Exotica (build phase)
+idea: wrong-footed lounge exotica with vibraphone and cheesy organ
+mood: build
+bpm: 90
+key: G major
+seed: 800140
+model: ACE-Step 1.5 (acestep-v15-turbo, LM acestep-5Hz-lm-1.7B)
+prompt: Laid back wrong-footed lounge exotica, spoon taps, pan lid clinks and a kettle-whistle blip as a drum kit, mellow vibraphone, cheesy electric organ with a straight face, melodica used as an instrument that wanders off the tune, fuzzy round bass, dusty bossa nova drum box, late-night kitchen daydream, good-humoured, 90 bpm, marimba and a wheezy harmonium, calm and spacious, steady loopable arrangement, instrumental, no vocals, no singing, no speech, no drops, no wobble bass, no build-ups, no aggressive drums, no sub bass, light thin low end, bass in the mid range only
+rejected seeds: 801140
+measured: -16.0 LUFS (gain +3.0 dB), tempo ~90 bpm, 0.4% above 6 kHz, 16% below 60 Hz, 2.8 onsets/s
+checks: all automatic checks passed
+date: 2026-10-06
+licence: MIT model weights; output generated locally on littlebluebox from a text prompt, no samples or reference audio, no third-party rights claimed

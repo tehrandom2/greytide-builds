@@ -1,0 +1,13 @@
+title: Brush Cleaner Slow Jam (build phase)
+idea: woozy tape-warped analog synth funk
+mood: build
+bpm: 80
+key: E minor
+seed: 800040
+model: ACE-Step 1.5 (acestep-v15-turbo, LM acestep-5Hz-lm-1.7B)
+prompt: Laid back woozy analog synth funk, brush-handle taps, paint-jar clinks and cutting-mat ticks as a drum kit, tape-warped detuned synthesizers drifting slightly out of tune, vocoder lead used as an instrument, fuzzy round bass, dusty lo-fi drum machine with loose swing, lamp-lit painting desk daydream, good-humoured, 80 bpm, warbling clavinet licks and a detuned electric piano, calm and spacious, steady loopable arrangement, instrumental, no vocals, no singing, no speech, no drops, no wobble bass, no build-ups, no aggressive drums, no sub bass, light thin low end, bass in the mid range only
+rejected seeds: 801040
+measured: -16.0 LUFS (gain +2.1 dB), tempo ~79 bpm, 1.2% above 6 kHz, 18% below 60 Hz, 3.9 onsets/s
+checks: all automatic checks passed
+date: 2026-10-06
+licence: MIT model weights; output generated locally on littlebluebox from a text prompt, no samples or reference audio, no third-party rights claimed
