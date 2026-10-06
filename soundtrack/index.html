@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>greytide soundtrack - the tape deck</title>
+<meta name="description" content="The music of greytide, a tabletop tower defence. Listen on the tape deck, download any track, or take the whole tape home as a zip.">
+<meta name="theme-color" content="#120d0a">
+<meta property="og:type" content="music.album">
+<meta property="og:site_name" content="greytide">
+<meta property="og:title" content="greytide soundtrack - the tape deck">
+<meta property="og:description" content="Music for painting minis at night. Listen in the browser, download any track.">
+<meta property="og:url" content="https://dev.advancedstudios.net/greytide-builds/soundtrack/">
+<meta property="og:image" content="https://dev.advancedstudios.net/greytide-builds/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="../icon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Permanent+Marker&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/site.css">
+<link rel="stylesheet" href="css/soundtrack.css">
+</head>
+<body class="ost">
+<canvas id="viz" class="viz" aria-hidden="true"></canvas>
+
+<header class="bar">
+  <a class="bar__brand" href="../" aria-label="Back to the builds page">
+    <svg class="bar__mark" viewBox="0 0 32 32" aria-hidden="true"><use href="../icon.svg#mark"/></svg>
+    <span class="bar__name">greytide</span><span class="bar__sub">tape deck</span>
+  </a>
+  <nav class="bar__nav"><a href="../">&larr; Builds</a><a href="#tracks">Tracks</a></nav>
+</header>
+
+<main class="wrap deckwrap">
+  <section class="deck" aria-label="Tape deck">
+    <div class="deck__tape" id="tape">
+      <svg viewBox="0 0 420 270" class="cassette" role="img" aria-label="Cassette tape">
+        <rect x="6" y="6" width="408" height="258" rx="18" fill="#2a2119" stroke="#0b0805" stroke-width="3"/>
+        <rect x="6" y="6" width="408" height="258" rx="18" fill="url(#shine)"/>
+        <defs><linearGradient id="shine" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".16"/><stop offset=".5" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".3"/></linearGradient></defs>
+        <g fill="#0d0905" opacity=".9"><circle cx="24" cy="24" r="5"/><circle cx="396" cy="24" r="5"/><circle cx="24" cy="246" r="5"/><circle cx="396" cy="246" r="5"/></g>
+        <rect x="34" y="30" width="352" height="128" rx="8" fill="#e9dcc0"/>
+        <image id="label-art" x="40" y="36" width="116" height="116" href="" preserveAspectRatio="xMidYMid slice"/>
+        <rect x="40" y="36" width="116" height="116" rx="4" fill="none" stroke="#2a2118" stroke-opacity=".5"/>
+        <text id="label-side" x="170" y="56" font-family="IBM Plex Mono, monospace" font-size="12" fill="#85755a">SIDE A</text>
+        <text id="label-title" x="170" y="92" font-family="Permanent Marker, cursive" font-size="25" fill="#2a2118">nothing loaded</text>
+        <text id="label-sub" x="170" y="118" font-family="IBM Plex Mono, monospace" font-size="12" fill="#5d4f3a">insert a tape</text>
+        <g stroke="#2a2118" stroke-opacity=".4"><line x1="170" y1="130" x2="376" y2="130"/><line x1="170" y1="142" x2="376" y2="142"/></g>
+        <path d="M110 188 L310 188 L330 250 L90 250 Z" fill="#17110c"/>
+        <rect x="132" y="196" width="156" height="40" rx="20" fill="#3a2e22" stroke="#0b0805" stroke-width="2"/>
+        <g class="reel" id="reel-l"><circle cx="164" cy="216" r="15" fill="#e9dcc0"/><g stroke="#2a2118" stroke-width="4"><line x1="164" y1="203" x2="164" y2="229"/><line x1="151" y1="216" x2="177" y2="216"/><line x1="155" y1="207" x2="173" y2="225"/><line x1="173" y1="207" x2="155" y2="225"/></g><circle cx="164" cy="216" r="4" fill="#17110c"/></g>
+        <g class="reel" id="reel-r"><circle cx="256" cy="216" r="15" fill="#e9dcc0"/><g stroke="#2a2118" stroke-width="4"><line x1="256" y1="203" x2="256" y2="229"/><line x1="243" y1="216" x2="269" y2="216"/><line x1="247" y1="207" x2="265" y2="225"/><line x1="265" y1="207" x2="247" y2="225"/></g><circle cx="256" cy="216" r="4" fill="#17110c"/></g>
+      </svg>
+    </div>
+    <div class="deck__panel">
+      <p class="eyebrow">Music for painting minis at night</p>
+      <h1 class="deck__h" id="now-title">The tape deck</h1>
+      <p class="deck__sub" id="now-sub">Loading the shelf&hellip;</p>
+      <div class="deck__chips" id="now-chips"></div>
+      <div class="deck__btns">
+        <button class="btn btn--play" id="hero-play" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.14v13.72a1 1 0 0 0 1.52.85l10.9-6.86a1 1 0 0 0 0-1.7L9.52 4.29A1 1 0 0 0 8 5.14z" fill="currentColor"/></svg><span>Play</span></button>
+        <button class="btn btn--dl" id="dl-all" type="button" hidden>Download the whole tape <small id="dl-all-size"></small></button>
+      </div>
+    </div>
+  </section>
+
+  <section class="tracks" id="tracks" aria-labelledby="tr-h">
+    <div class="head"><h2 class="head__h" id="tr-h">Tracklist</h2><p class="head__p" id="tr-sub"></p></div>
+    <div class="empty" id="empty" hidden><b>The tape deck is empty</b>No music has been committed yet. When tracks land under <code>unity/Assets/Greytide/Audio/Music</code> with their prompt files, they show up here on the next publish.</div>
+    <ol class="tl" id="tl"></ol>
+  </section>
+  <p class="fine">Every track is listed with the prompt and seed that made it, and the licence statement for the set is in <a id="licence" href="#" hidden>LICENSES.md</a>. No prompt file, no listing. <span class="kb">Keys: <kbd>space</kbd> play, <kbd>&larr;</kbd><kbd>&rarr;</kbd> seek, <kbd>N</kbd>/<kbd>P</kbd> next/previous, <kbd>S</kbd> shuffle, <kbd>M</kbd> mute.</span></p>
+</main>
+
+<div class="dock" id="dock" hidden role="region" aria-label="Player">
+  <div class="dock__meta"><canvas id="dock-cover" width="96" height="96"></canvas><div><b id="dock-title">-</b><span id="dock-sub"></span></div></div>
+  <div class="dock__mid">
+    <div class="dock__ctl">
+      <button type="button" id="b-shuf" aria-pressed="false" aria-label="Shuffle" title="Shuffle (S)">&#x21c4;</button>
+      <button type="button" id="b-prev" aria-label="Previous" title="Previous (P)">&#x23ee;</button>
+      <button type="button" id="b-play" class="big" aria-label="Play"><span>&#x25b6;</span></button>
+      <button type="button" id="b-next" aria-label="Next" title="Next (N)">&#x23ed;</button>
+      <button type="button" id="b-rep" aria-pressed="false" aria-label="Repeat" title="Repeat">&#x21bb;</button>
+    </div>
+    <div class="dock__scrub"><span id="t-cur">0:00</span><div class="wave" id="wave" role="slider" tabindex="0" aria-label="Seek" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><canvas id="wave-c"></canvas></div><span id="t-dur">0:00</span></div>
+  </div>
+  <div class="dock__side"><button type="button" id="b-mute" aria-label="Mute" title="Mute (M)">&#x1f50a;</button><input type="range" id="vol" min="0" max="1" step="0.01" value="0.85" aria-label="Volume"></div>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script type="module" src="js/soundtrack.js"></script>
+</body>
+</html>

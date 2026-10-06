@@ -1,0 +1,13 @@
+title: Last Orders Shuffle (wave)
+idea: wonky pub-piano and wheezy accordion shuffle
+mood: wave
+bpm: 93
+key: G major
+seed: 700925
+model: ACE-Step 1.5 (acestep-v15-turbo, LM acestep-5Hz-lm-1.7B)
+prompt: Laid back wonky honky-tonk pub piano, wheezy accordion, shuffling brushed drum machine, walking fuzzy bass, clinking glass percussion, slightly out of tune, tipsy and good-humoured, 93 bpm, banjo-like plucks and a wheezy harmonica-like lead, the same groove with a little more drive and bounce, steady loopable arrangement, instrumental, no vocals, no singing, no speech, no drops, no wobble bass, no build-ups, no aggressive drums, no sub bass, light thin low end, bass in the mid range only
+rejected seeds: none
+measured: -16.0 LUFS (gain +0.7 dB), tempo ~94 bpm, 1.8% above 6 kHz, 9% below 60 Hz, 3.5 onsets/s
+checks: all automatic checks passed
+date: 2026-10-05
+licence: MIT model weights; output generated locally on littlebluebox from a text prompt, no samples or reference audio, no third-party rights claimed

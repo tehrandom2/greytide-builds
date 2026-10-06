@@ -1,0 +1,2950 @@
+{
+ "schema": 1,
+ "source": "tehrandom2/greytide",
+ "repo": "tehrandom2/greytide-builds",
+ "site": "https://dev.advancedstudios.net/greytide-builds/",
+ "builds": [
+  {
+   "tag": "dev-b9ebda4",
+   "sha": "b9ebda464c23f0cb514b6f5ee3bed88e0b5b1634",
+   "short": "b9ebda4",
+   "published": "2026-10-06T06:01:51+00:00",
+   "committed": "2026-10-06T01:21:44-04:00",
+   "headline": "unity: couch and bathroom white-out on hardware WebGL: zero-normal double-sided meshes (#420)",
+   "previous": "dev-691ca71",
+   "changes": [
+    {
+     "number": 451,
+     "title": "unity: couch and bathroom white-out on hardware WebGL: zero-normal double-sided meshes (#420)",
+     "mergedAt": "2026-10-06T05:21:45Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/451"
+    },
+    {
+     "number": 445,
+     "title": "tools: test windows never take focus or switch the view (one hidden-workspace rule for play.sh and shot.sh)",
+     "mergedAt": "2026-10-06T05:12:31Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/445"
+    },
+    {
+     "number": 427,
+     "title": "unity: more cheap kills before wave 5 and a softer mini-boss (#412)",
+     "mergedAt": "2026-10-06T04:38:48Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/427"
+    },
+    {
+     "number": 426,
+     "title": "unity: smooth the god-hand's goal while the pointer carries a mini (#409)",
+     "mergedAt": "2026-10-06T04:30:37Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/426"
+    },
+    {
+     "number": 423,
+     "title": "garage: road spots for Lord Gloss Coat follow the re-plugged lead (#408)",
+     "mergedAt": "2026-10-06T04:30:23Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/423"
+    },
+    {
+     "number": 425,
+     "title": "Devlog: first outside playtest and the white-out",
+     "mergedAt": "2026-10-06T04:28:25Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/425"
+    },
+    {
+     "number": 424,
+     "title": "unity: a retarget no longer resets an engaged tower's aim settle (#419)",
+     "mergedAt": "2026-10-06T04:26:33Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/424"
+    },
+    {
+     "number": 422,
+     "title": "unity: aura towers reach the road from most build cells (#411)",
+     "mergedAt": "2026-10-06T04:02:16Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/422"
+    },
+    {
+     "number": 421,
+     "title": "unity: tower pick-up and put-down under 120 ms (#410)",
+     "mergedAt": "2026-10-06T04:01:42Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/421"
+    },
+    {
+     "number": 418,
+     "title": "unity: couch: cap the crumb-gap mouths' glow (#405)",
+     "mergedAt": "2026-10-06T03:54:25Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/418"
+    },
+    {
+     "number": 404,
+     "title": "blog: correct the bathroom fog line in the newest post (#234)",
+     "mergedAt": "2026-10-05T22:29:14Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/404"
+    },
+    {
+     "number": 403,
+     "title": "blog: fix the newest post's image links and three stale statements (#234)",
+     "mergedAt": "2026-10-05T22:28:49Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/403"
+    },
+    {
+     "number": 402,
+     "title": "Devlog post: the camera sees a strip",
+     "mergedAt": "2026-10-05T22:28:08Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/402"
+    },
+    {
+     "number": 401,
+     "title": "Devlog post: balance passes",
+     "mergedAt": "2026-10-05T19:27:53Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/401"
+    }
+   ],
+   "moreChanges": 0,
+   "commit_url": "https://github.com/tehrandom2/greytide/commit/b9ebda464c23f0cb514b6f5ee3bed88e0b5b1634",
+   "assets": [
+    {
+     "platform": "win",
+     "label": "Windows",
+     "name": "greytide-win64.zip",
+     "size": 220854518,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-b9ebda4/greytide-win64.zip",
+     "sha256": "252fa48a4d1c49d2463aaeb91f1f5f89305a961badaac174243ebcca6a12adb5"
+    },
+    {
+     "platform": "linux",
+     "label": "Linux",
+     "name": "greytide-linux64.zip",
+     "size": 219209452,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-b9ebda4/greytide-linux64.zip",
+     "sha256": "f43cb28dab3213d7d28071fe441c95038171c676247a3772cbb092b1236eaf1d"
+    },
+    {
+     "platform": "web",
+     "label": "Web build (zip)",
+     "name": "greytide-web.zip",
+     "size": 197922331,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-b9ebda4/greytide-web.zip",
+     "sha256": "864757e03685854037f9979fb7f2549d6248d81c0e61788cb3f2024d4e83abf4"
+    }
+   ],
+   "shots": [
+    {
+     "path": "shots/dev-b9ebda4/issue-420-bathroom-gpu-after.jpg",
+     "issue": 420,
+     "caption": "bathroom gpu after"
+    },
+    {
+     "path": "shots/dev-b9ebda4/issue-420-bathroom-gpu-before.jpg",
+     "issue": 420,
+     "caption": "bathroom gpu before"
+    },
+    {
+     "path": "shots/dev-b9ebda4/issue-419-s2.png",
+     "issue": 419,
+     "caption": "s2"
+    },
+    {
+     "path": "shots/dev-b9ebda4/issue-419-s3.png",
+     "issue": 419,
+     "caption": "s3"
+    },
+    {
+     "path": "shots/dev-b9ebda4/issue-412-wave4-crowd.jpg",
+     "issue": 412,
+     "caption": "wave4 crowd"
+    },
+    {
+     "path": "shots/dev-b9ebda4/issue-412-wave4-mid.jpg",
+     "issue": 412,
+     "caption": "wave4 mid"
+    },
+    {
+     "path": "shots/dev-b9ebda4/issue-411-bed-overview.jpg",
+     "issue": 411,
+     "caption": "bed overview"
+    },
+    {
+     "path": "shots/dev-b9ebda4/issue-411-lightbox-eight-tiles.jpg",
+     "issue": 411,
+     "caption": "lightbox eight tiles"
+    },
+    {
+     "path": "shots/dev-b9ebda4/issue-410-after-tray-and-table.jpg",
+     "issue": 410,
+     "caption": "after tray and table"
+    },
+    {
+     "path": "shots/dev-b9ebda4/issue-410-pickup-carry.jpg",
+     "issue": 410,
+     "caption": "pickup carry"
+    },
+    {
+     "path": "shots/dev-b9ebda4/issue-409-native-carry.jpg",
+     "issue": 409,
+     "caption": "native carry"
+    },
+    {
+     "path": "shots/dev-b9ebda4/issue-409-web-carry.jpg",
+     "issue": 409,
+     "caption": "web carry"
+    }
+   ],
+   "playable": true
+  },
+  {
+   "tag": "dev-691ca71",
+   "sha": "691ca71d65207203d7c70c48ca11273757e12de8",
+   "short": "691ca71",
+   "published": "2026-10-05T19:37:40+00:00",
+   "committed": "2026-10-05T15:12:30-04:00",
+   "headline": "unity: run pacing for every board (#395)",
+   "previous": "dev-9933966",
+   "changes": [
+    {
+     "number": 400,
+     "title": "unity: run pacing for every board (#395)",
+     "mergedAt": "2026-10-05T19:12:31Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/400"
+    },
+    {
+     "number": 399,
+     "title": "unity: bed and workbench balance via stand-alone horde speed (#398)",
+     "mergedAt": "2026-10-05T17:57:51Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/399"
+    }
+   ],
+   "moreChanges": 0,
+   "commit_url": "https://github.com/tehrandom2/greytide/commit/691ca71d65207203d7c70c48ca11273757e12de8",
+   "assets": [
+    {
+     "platform": "win",
+     "label": "Windows",
+     "name": "greytide-win64.zip",
+     "size": 220851209,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-691ca71/greytide-win64.zip",
+     "sha256": "c457cb36cb7d6e2eed9a8d98233713956e75a814a5779963f95b3f6eb2062ff4"
+    },
+    {
+     "platform": "linux",
+     "label": "Linux",
+     "name": "greytide-linux64.zip",
+     "size": 219206147,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-691ca71/greytide-linux64.zip",
+     "sha256": "bccd78dce25e5d333b6f6da34cfe4e1a1d5d1d43511a4ea4f3a220f1c13c6eb1"
+    },
+    {
+     "platform": "web",
+     "label": "Web build (zip)",
+     "name": "greytide-web.zip",
+     "size": 197918269,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-691ca71/greytide-web.zip",
+     "sha256": "50eab7bb23b04928be1b8f169daaf79546854b473ee9e5516fa744cfca6458b2"
+    }
+   ],
+   "shots": [
+    {
+     "path": "shots/dev-691ca71/issue-398-bed-mid.jpg",
+     "issue": 398,
+     "caption": "bed mid"
+    },
+    {
+     "path": "shots/dev-691ca71/issue-398-workbench-mid.jpg",
+     "issue": 398,
+     "caption": "workbench mid"
+    },
+    {
+     "path": "shots/dev-691ca71/issue-395-bathroom.jpg",
+     "issue": 395,
+     "caption": "bathroom"
+    },
+    {
+     "path": "shots/dev-691ca71/issue-395-garage.jpg",
+     "issue": 395,
+     "caption": "garage"
+    }
+   ],
+   "playable": false
+  },
+  {
+   "tag": "dev-9933966",
+   "sha": "99339665a323ce96b02b3b33023d54186702b051",
+   "short": "9933966",
+   "published": "2026-10-05T16:57:16+00:00",
+   "committed": "2026-10-05T12:31:33-04:00",
+   "headline": "unity: balance on three-run means, picnic wins (#258)",
+   "previous": "dev-e94c721",
+   "changes": [
+    {
+     "number": 397,
+     "title": "unity: balance on three-run means, picnic wins (#258)",
+     "mergedAt": "2026-10-05T16:31:33Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/397"
+    },
+    {
+     "number": 396,
+     "title": "devlog: the card engine and the cards written on it (#234)",
+     "mergedAt": "2026-10-05T16:28:03Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/396"
+    },
+    {
+     "number": 394,
+     "title": "unity: run pacing per board, whole run 37 min, lazy Susan rides back, LF endings (#139)",
+     "mergedAt": "2026-10-05T14:23:14Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/394"
+    },
+    {
+     "number": 393,
+     "title": "unity: per-table balance retune, picnic wave sizes, stall count on the table-end line (#258)",
+     "mergedAt": "2026-10-05T13:38:56Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/393"
+    },
+    {
+     "number": 392,
+     "title": "Devlog: the overnight QA pass won every table",
+     "mergedAt": "2026-10-05T13:27:51Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/392"
+    },
+    {
+     "number": 391,
+     "title": "unity: TableBot builds the table and drafted towers (#380)",
+     "mergedAt": "2026-10-05T13:09:01Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/391"
+    }
+   ],
+   "moreChanges": 0,
+   "commit_url": "https://github.com/tehrandom2/greytide/commit/99339665a323ce96b02b3b33023d54186702b051",
+   "assets": [
+    {
+     "platform": "win",
+     "label": "Windows",
+     "name": "greytide-win64.zip",
+     "size": 220850906,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-9933966/greytide-win64.zip",
+     "sha256": "a41c0225f594ecb733824afafd5230708f7db276d5d6a5f06ad8cc4e46e61d2c"
+    },
+    {
+     "platform": "linux",
+     "label": "Linux",
+     "name": "greytide-linux64.zip",
+     "size": 219205827,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-9933966/greytide-linux64.zip",
+     "sha256": "eb5c00a61851b6698a5d504bc14ab6ff20c3a7e87e0705c1dbd2247fe43dc4df"
+    },
+    {
+     "platform": "web",
+     "label": "Web build (zip)",
+     "name": "greytide-web.zip",
+     "size": 197916139,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-9933966/greytide-web.zip",
+     "sha256": "61ea279be1ccbce01902d5f39a21be2329c6f0560cf26a686a5eb7713f7f1150"
+    }
+   ],
+   "shots": [
+    {
+     "path": "shots/dev-9933966/issue-258-couch-wave.jpg",
+     "issue": 258,
+     "caption": "couch wave"
+    },
+    {
+     "path": "shots/dev-9933966/issue-258-gamestore.jpg",
+     "issue": 258,
+     "caption": "gamestore"
+    },
+    {
+     "path": "shots/dev-9933966/issue-139-bed.jpg",
+     "issue": 139,
+     "caption": "bed"
+    },
+    {
+     "path": "shots/dev-9933966/issue-139-kitchen.jpg",
+     "issue": 139,
+     "caption": "kitchen"
+    }
+   ],
+   "playable": false
+  },
+  {
+   "tag": "dev-e94c721",
+   "sha": "e94c7213857f5e77a2e9bfef84878534bdbcc981",
+   "short": "e94c721",
+   "published": "2026-10-05T13:06:58+00:00",
+   "committed": "2026-10-05T08:33:32-04:00",
+   "headline": "unity: no wave may hang: patience, queue time is not stall time, guard scales with road (#344)",
+   "previous": "dev-e8c3e84",
+   "changes": [
+    {
+     "number": 389,
+     "title": "unity: no wave may hang: patience, queue time is not stall time, guard scales with road (#344)",
+     "mergedAt": "2026-10-05T12:31:03Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/389"
+    },
+    {
+     "number": 388,
+     "title": "unity: tablecheck: sill whistle and picnic bell inside the default view (#382)",
+     "mergedAt": "2026-10-05T12:14:04Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/388"
+    },
+    {
+     "number": 387,
+     "title": "unity: attic boxes and sill glass wall no longer hide the road (#385)",
+     "mergedAt": "2026-10-05T11:52:29Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/387"
+    },
+    {
+     "number": 386,
+     "title": "unity: overnight QA report: eleven tables, a run end to end, defects filed (#356)",
+     "mergedAt": "2026-10-05T11:33:18Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/386"
+    },
+    {
+     "number": 379,
+     "title": "unity: table towers: the band practice garage (#370)",
+     "mergedAt": "2026-10-05T11:21:38Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/379"
+    },
+    {
+     "number": 378,
+     "title": "unity: showpiece pass: the couch (#273)",
+     "mergedAt": "2026-10-05T11:14:15Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/378"
+    },
+    {
+     "number": 377,
+     "title": "unity: music for the picnic and the garage, five build and five wave tracks each (#372)",
+     "mergedAt": "2026-10-05T10:56:26Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/377"
+    },
+    {
+     "number": 376,
+     "title": "unity: cards: engine and host hooks for float, lob, combos, carry-over, Blight expiry, neighbour count, support strength, enemy kind (#339)",
+     "mergedAt": "2026-10-05T10:56:13Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/376"
+    }
+   ],
+   "moreChanges": 0,
+   "commit_url": "https://github.com/tehrandom2/greytide/commit/e94c7213857f5e77a2e9bfef84878534bdbcc981",
+   "assets": [
+    {
+     "platform": "win",
+     "label": "Windows",
+     "name": "greytide-win64.zip",
+     "size": 220849554,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-e94c721/greytide-win64.zip",
+     "sha256": "4f3973beeb3a57b9bfbdb2f509575aa892cb940b8d349da455dce980e41405fd"
+    },
+    {
+     "platform": "linux",
+     "label": "Linux",
+     "name": "greytide-linux64.zip",
+     "size": 219204488,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-e94c721/greytide-linux64.zip",
+     "sha256": "bc6c4d13b4e1f9162d38c4ab71d316a0f1f105d0093e1193a54a5c3108171f27"
+    },
+    {
+     "platform": "web",
+     "label": "Web build (zip)",
+     "name": "greytide-web.zip",
+     "size": 197917422,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-e94c721/greytide-web.zip",
+     "sha256": "820aef5a544790efcc664d37af2d9d8b2734239eb226dfedd77e7b5fbeafbadb"
+    }
+   ],
+   "shots": [
+    {
+     "path": "shots/dev-e94c721/issue-385-attic-after.jpg",
+     "issue": 385,
+     "caption": "attic after"
+    },
+    {
+     "path": "shots/dev-e94c721/issue-385-attic-before.jpg",
+     "issue": 385,
+     "caption": "attic before"
+    },
+    {
+     "path": "shots/dev-e94c721/issue-382-picnic.jpg",
+     "issue": 382,
+     "caption": "picnic"
+    },
+    {
+     "path": "shots/dev-e94c721/issue-382-sill-before.jpg",
+     "issue": 382,
+     "caption": "sill before"
+    },
+    {
+     "path": "shots/dev-e94c721/issue-372-music-bench-garage.png",
+     "issue": 372,
+     "caption": "music bench garage"
+    },
+    {
+     "path": "shots/dev-e94c721/issue-372-music-bench-picnic.png",
+     "issue": 372,
+     "caption": "music bench picnic"
+    },
+    {
+     "path": "shots/dev-e94c721/issue-370-garage-four-towers.jpg",
+     "issue": 370,
+     "caption": "garage four towers"
+    },
+    {
+     "path": "shots/dev-e94c721/issue-370-kick-drum-beat.jpg",
+     "issue": 370,
+     "caption": "kick drum beat"
+    },
+    {
+     "path": "shots/dev-e94c721/issue-356-attic.jpg",
+     "issue": 356,
+     "caption": "attic"
+    },
+    {
+     "path": "shots/dev-e94c721/issue-356-desk.jpg",
+     "issue": 356,
+     "caption": "desk"
+    },
+    {
+     "path": "shots/dev-e94c721/issue-339-float-bases-in-the-air.jpg",
+     "issue": 339,
+     "caption": "float bases in the air"
+    },
+    {
+     "path": "shots/dev-e94c721/issue-339-lob-over-the-edge.jpg",
+     "issue": 339,
+     "caption": "lob over the edge"
+    }
+   ],
+   "playable": false
+  },
+  {
+   "tag": "dev-e8c3e84",
+   "sha": "e8c3e84cbed9e2314d50c03ba825d2c63417c746",
+   "short": "e8c3e84",
+   "published": "2026-10-05T11:20:30+00:00",
+   "committed": "2026-10-05T06:54:36-04:00",
+   "headline": "unity: publish: one copy of the music on the site, size guard, picnic fallback (#368)",
+   "previous": "dev-9599ae0",
+   "changes": [
+    {
+     "number": 375,
+     "title": "unity: publish: one copy of the music on the site, size guard, picnic fallback (#368)",
+     "mergedAt": "2026-10-05T10:54:37Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/375"
+    },
+    {
+     "number": 374,
+     "title": "unity: desk: the teaching road, a short passing place that rejoins the main road (#354)",
+     "mergedAt": "2026-10-05T10:49:56Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/374"
+    },
+    {
+     "number": 373,
+     "title": "unity: let a table choose each walker's road (#252)",
+     "mergedAt": "2026-10-05T10:45:55Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/373"
+    },
+    {
+     "number": 371,
+     "title": "unity: towercheck Hold item accepts the slow floor (#361)",
+     "mergedAt": "2026-10-05T10:39:10Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/371"
+    },
+    {
+     "number": 369,
+     "title": "unity: workbench showpiece pass: conveyor road, magnifier lamp, live instruments, story beats (#275)",
+     "mergedAt": "2026-10-05T10:38:23Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/369"
+    },
+    {
+     "number": 367,
+     "title": "unity: new table: the band practice garage (#280)",
+     "mergedAt": "2026-10-05T10:35:44Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/367"
+    },
+    {
+     "number": 364,
+     "title": "unity: the draft: take two of each table's four towers; base pool of seven (#227)",
+     "mergedAt": "2026-10-05T10:29:48Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/364"
+    },
+    {
+     "number": 366,
+     "title": "blog: correct the newest post's time (#234)",
+     "mergedAt": "2026-10-05T10:28:48Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/366"
+    },
+    {
+     "number": 365,
+     "title": "devlog: The couch only ran out of memory in the browser (#234)",
+     "mergedAt": "2026-10-05T10:27:49Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/365"
+    },
+    {
+     "number": 363,
+     "title": "unity: music for all ten tables, five build and five wave tracks each (#263)",
+     "mergedAt": "2026-10-05T10:27:33Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/363"
+    },
+    {
+     "number": 362,
+     "title": "unity: tower registry: per-slot kill counts, diagonal neighbours, copy credit (#323)",
+     "mergedAt": "2026-10-05T10:26:02Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/362"
+    },
+    {
+     "number": 360,
+     "title": "unity: free desk prop textures and 2x2 GUI textures across table switches (#319)",
+     "mergedAt": "2026-10-05T10:25:43Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/360"
+    },
+    {
+     "number": 359,
+     "title": "unity: README rule for scoreboard screen rotation (#255)",
+     "mergedAt": "2026-10-05T10:25:07Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/359"
+    },
+    {
+     "number": 357,
+     "title": "unity: table hook BlocksSight; bathroom fog cuts sight only past four tiles (#251)",
+     "mergedAt": "2026-10-05T10:22:47Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/357"
+    },
+    {
+     "number": 358,
+     "title": "unity: the bed showpiece: the valley and the switch, cats at rest, a duvet that behaves, the story of the waves (#278)",
+     "mergedAt": "2026-10-05T10:22:18Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/358"
+    },
+    {
+     "number": 353,
+     "title": "unity: showpiece pass: the pub table, roundabout routes, story beats, signposts that leave (#276)",
+     "mergedAt": "2026-10-05T10:18:09Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/353"
+    },
+    {
+     "number": 355,
+     "title": "unity: desk showpiece pass (#277)",
+     "mergedAt": "2026-10-05T10:15:05Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/355"
+    },
+    {
+     "number": 352,
+     "title": "unity: boss health displays for the other nine tables (#325)",
+     "mergedAt": "2026-10-05T10:13:50Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/352"
+    },
+    {
+     "number": 351,
+     "title": "unity: lent towers that kill through TowerApi.Kill / Remove pay the holder (#301)",
+     "mergedAt": "2026-10-05T10:10:36Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/351"
+    },
+    {
+     "number": 350,
+     "title": "unity: bathroom showpiece pass: spiral road, water, story beats, room at one scale (#272)",
+     "mergedAt": "2026-10-05T10:09:52Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/350"
+    },
+    {
+     "number": 349,
+     "title": "unity: cards: seven hooks and five cards (#331)",
+     "mergedAt": "2026-10-05T10:03:36Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/349"
+    },
+    {
+     "number": 348,
+     "title": "unity: combos: paired affinities make named effects, combo book, links replaced (#228)",
+     "mergedAt": "2026-10-05T10:01:01Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/348"
+    },
+    {
+     "number": 347,
+     "title": "unity: cards engine: zone markers, armour vs Arcane share in SimWorld, status durations, glue as Stuck (#337)",
+     "mergedAt": "2026-10-05T09:54:02Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/347"
+    },
+    {
+     "number": 346,
+     "title": "unity: cards: triggers, counters and repeats, conversion: 19 new cards (#282)",
+     "mergedAt": "2026-10-05T09:51:41Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/346"
+    },
+    {
+     "number": 345,
+     "title": "unity: showpiece pass: the kitchen table, scale and sense, the hub route (#271)",
+     "mergedAt": "2026-10-05T09:47:17Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/345"
+    }
+   ],
+   "moreChanges": 0,
+   "commit_url": "https://github.com/tehrandom2/greytide/commit/e8c3e84cbed9e2314d50c03ba825d2c63417c746",
+   "assets": [
+    {
+     "platform": "win",
+     "label": "Windows",
+     "name": "greytide-win64.zip",
+     "size": 191394726,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-e8c3e84/greytide-win64.zip",
+     "sha256": "035386aa0aeab282b8520b454e0e838c6c466792c0aeba42526fed6758bd0e54"
+    },
+    {
+     "platform": "linux",
+     "label": "Linux",
+     "name": "greytide-linux64.zip",
+     "size": 189749514,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-e8c3e84/greytide-linux64.zip",
+     "sha256": "6746eb11a2e393fdee13de1a44067b7b99e943bde6f2ac817beba74a6b6c96f6"
+    },
+    {
+     "platform": "web",
+     "label": "Web build (zip)",
+     "name": "greytide-web.zip",
+     "size": 168437687,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-e8c3e84/greytide-web.zip",
+     "sha256": "a2d645ea97fba39a718f7660b62604b9c04be946e88da8a64e48e0aaf91ef025"
+    }
+   ],
+   "shots": [
+    {
+     "path": "shots/dev-e8c3e84/issue-368-picnic-music-fallback-run.png",
+     "issue": 368,
+     "caption": "picnic music fallback run"
+    },
+    {
+     "path": "shots/dev-e8c3e84/issue-368-soundtrack-page-from-play-files.jpg",
+     "issue": 368,
+     "caption": "soundtrack page from play files"
+    },
+    {
+     "path": "shots/dev-e8c3e84/issue-354-desk-default.png",
+     "issue": 354,
+     "caption": "desk default"
+    },
+    {
+     "path": "shots/dev-e8c3e84/issue-354-desk-passing-place.png",
+     "issue": 354,
+     "caption": "desk passing place"
+    },
+    {
+     "path": "shots/dev-e8c3e84/issue-337-contrail-trail.jpg",
+     "issue": 337,
+     "caption": "contrail trail"
+    },
+    {
+     "path": "shots/dev-e8c3e84/issue-337-warm-seat-ring.jpg",
+     "issue": 337,
+     "caption": "warm seat ring"
+    },
+    {
+     "path": "shots/dev-e8c3e84/issue-331-dropped-bits-on-the-desk.jpg",
+     "issue": 331,
+     "caption": "dropped bits on the desk"
+    },
+    {
+     "path": "shots/dev-e8c3e84/issue-331-red-primer-enraged-grunts-glow.jpg",
+     "issue": 331,
+     "caption": "red primer enraged grunts glow"
+    },
+    {
+     "path": "shots/dev-e8c3e84/issue-325-bossdisplays-1.jpg",
+     "issue": 325,
+     "caption": "bossdisplays 1"
+    },
+    {
+     "path": "shots/dev-e8c3e84/issue-325-bossdisplays-2.jpg",
+     "issue": 325,
+     "caption": "bossdisplays 2"
+    },
+    {
+     "path": "shots/dev-e8c3e84/issue-323-chaser-per-tower-kills.jpg",
+     "issue": 323,
+     "caption": "chaser per tower kills"
+    },
+    {
+     "path": "shots/dev-e8c3e84/issue-323-tape-diagonal.jpg",
+     "issue": 323,
+     "caption": "tape diagonal"
+    }
+   ],
+   "playable": false
+  },
+  {
+   "tag": "dev-9599ae0",
+   "sha": "9599ae09b2496ff85998459ed30ada320cbbdb51",
+   "short": "9599ae0",
+   "published": "2026-10-05T10:13:38+00:00",
+   "committed": "2026-10-05T05:45:49-04:00",
+   "headline": "unity: table towers: the back-yard picnic (#336)",
+   "previous": "dev-6ace016",
+   "changes": [
+    {
+     "number": 343,
+     "title": "unity: table towers: the back-yard picnic (#336)",
+     "mergedAt": "2026-10-05T09:45:50Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/343"
+    },
+    {
+     "number": 342,
+     "title": "unity: card engine hooks for pulls, lifting and tower swaps; Peer Pressure, Tweezers, Swap Meet (#328)",
+     "mergedAt": "2026-10-05T09:42:06Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/342"
+    },
+    {
+     "number": 341,
+     "title": "unity: table towers: the couch (#295)",
+     "mergedAt": "2026-10-05T09:27:17Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/341"
+    },
+    {
+     "number": 340,
+     "title": "unity: cards: evolutions Superconductor, Hailstorm, Contagion, Turkey, Round Table (#286, part 3)",
+     "mergedAt": "2026-10-05T09:23:52Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/340"
+    },
+    {
+     "number": 329,
+     "title": "unity: the couch no longer runs the web player out of memory; table switching frees the old table (#264)",
+     "mergedAt": "2026-10-05T09:11:03Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/329"
+    },
+    {
+     "number": 338,
+     "title": "unity: cards: family 10 scalers, six new cards; summary of #283 (part 3)",
+     "mergedAt": "2026-10-05T09:10:43Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/338"
+    },
+    {
+     "number": 335,
+     "title": "unity: cards: position and neighbours, constraints and costs, economy and risk (families 8, 11, 12) (#285)",
+     "mergedAt": "2026-10-05T08:57:36Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/335"
+    },
+    {
+     "number": 334,
+     "title": "unity: cards: keystones, Bare Knuckle, Nailed Down, Colourfast, Slow Cure, Hands On, Cold Shoulder (#286, part 2)",
+     "mergedAt": "2026-10-05T08:54:55Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/334"
+    },
+    {
+     "number": 333,
+     "title": "unity: new table: the back-yard picnic (#279)",
+     "mergedAt": "2026-10-05T08:54:33Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/333"
+    },
+    {
+     "number": 332,
+     "title": "unity: the four towers of the pub table (#299)",
+     "mergedAt": "2026-10-05T08:53:53Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/332"
+    },
+    {
+     "number": 330,
+     "title": "unity: cards: family 5 status payoffs, seven new cards (#283, part 2)",
+     "mergedAt": "2026-10-05T08:50:13Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/330"
+    },
+    {
+     "number": 327,
+     "title": "unity: cards: ragdolls and juggling, edges and falls, the hand (families 6, 7, 9) (#284)",
+     "mergedAt": "2026-10-05T08:47:34Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/327"
+    },
+    {
+     "number": 326,
+     "title": "unity: boss health bars: top label, bar over the boss, table hook, desk monitor panel (#261, part 2)",
+     "mergedAt": "2026-10-05T08:46:32Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/326"
+    }
+   ],
+   "moreChanges": 0,
+   "commit_url": "https://github.com/tehrandom2/greytide/commit/9599ae09b2496ff85998459ed30ada320cbbdb51",
+   "assets": [
+    {
+     "platform": "win",
+     "label": "Windows",
+     "name": "greytide-win64.zip",
+     "size": 92529385,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-9599ae0/greytide-win64.zip",
+     "sha256": "264e2740c9f620f74d5a5a51b3481ed81403001cbf129eaded4609ce826dab20"
+    },
+    {
+     "platform": "linux",
+     "label": "Linux",
+     "name": "greytide-linux64.zip",
+     "size": 90883689,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-9599ae0/greytide-linux64.zip",
+     "sha256": "7c6b7b1ce7baa3c2c13704b004fce52e62583c7fbab797a7ab6c538d499c6804"
+    },
+    {
+     "platform": "web",
+     "label": "Web build (zip)",
+     "name": "greytide-web.zip",
+     "size": 69437510,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-9599ae0/greytide-web.zip",
+     "sha256": "35da013ff03a0b10ca2203ec0b983e82d74de8dedcebbb20c2da76521494e69c"
+    }
+   ],
+   "shots": [
+    {
+     "path": "shots/dev-9599ae0/issue-336-four-close.jpg",
+     "issue": 336,
+     "caption": "four close"
+    },
+    {
+     "path": "shots/dev-9599ae0/issue-336-swatter-windup-smack.jpg",
+     "issue": 336,
+     "caption": "swatter windup smack"
+    },
+    {
+     "path": "shots/dev-9599ae0/issue-328-peer-pressure.jpg",
+     "issue": 328,
+     "caption": "peer pressure"
+    },
+    {
+     "path": "shots/dev-9599ae0/issue-328-swap-meet.jpg",
+     "issue": 328,
+     "caption": "swap meet"
+    },
+    {
+     "path": "shots/dev-9599ae0/issue-299-1-tray-seven-plus-four.jpg",
+     "issue": 299,
+     "caption": "1 tray seven plus four"
+    },
+    {
+     "path": "shots/dev-9599ae0/issue-299-2-four-beside-the-base-seven.jpg",
+     "issue": 299,
+     "caption": "2 four beside the base seven"
+    },
+    {
+     "path": "shots/dev-9599ae0/issue-295-couch-lineup.jpg",
+     "issue": 295,
+     "caption": "couch lineup"
+    },
+    {
+     "path": "shots/dev-9599ae0/issue-295-couch-scenes.jpg",
+     "issue": 295,
+     "caption": "couch scenes"
+    },
+    {
+     "path": "shots/dev-9599ae0/issue-286-four-keystone-towers-on-the-desk.jpg",
+     "issue": 286,
+     "caption": "four keystone towers on the desk"
+    },
+    {
+     "path": "shots/dev-9599ae0/issue-286-hailstorm-five-small-mines.jpg",
+     "issue": 286,
+     "caption": "hailstorm five small mines"
+    },
+    {
+     "path": "shots/dev-9599ae0/issue-285-constraints-one-colour-loaded-brush-fixation.jpg",
+     "issue": 285,
+     "caption": "constraints one colour loaded brush fixation"
+    },
+    {
+     "path": "shots/dev-9599ae0/issue-285-economy-bounty-poster-waste-not.jpg",
+     "issue": 285,
+     "caption": "economy bounty poster waste not"
+    }
+   ],
+   "playable": false
+  },
+  {
+   "tag": "dev-6ace016",
+   "sha": "6ace0164cf6af44f6a9a61b85623584c4691c708",
+   "short": "6ace016",
+   "published": "2026-10-05T09:09:46+00:00",
+   "committed": "2026-10-05T04:43:03-04:00",
+   "headline": "unity: table towers: the window sill (#296)",
+   "previous": "dev-fb794e5",
+   "changes": [
+    {
+     "number": 322,
+     "title": "unity: table towers: the window sill (#296)",
+     "mergedAt": "2026-10-05T08:43:04Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/322"
+    },
+    {
+     "number": 321,
+     "title": "unity: table towers: the game-store demo table (#294)",
+     "mergedAt": "2026-10-05T08:42:53Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/321"
+    },
+    {
+     "number": 320,
+     "title": "unity: kitchen table towers: Pepper Mill, Kettle Knight, Sir Cling Film, Toaster Twins (#289)",
+     "mergedAt": "2026-10-05T08:41:32Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/320"
+    },
+    {
+     "number": 318,
+     "title": "unity: the bed's four towers (#290)",
+     "mergedAt": "2026-10-05T08:36:39Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/318"
+    },
+    {
+     "number": 317,
+     "title": "unity: cards: run-long build-arounds, Grudge Book, Slow Starter, Full Spectrum (#286, part 1)",
+     "mergedAt": "2026-10-05T08:36:19Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/317"
+    },
+    {
+     "number": 316,
+     "title": "unity: the four towers of the workbench (#298)",
+     "mergedAt": "2026-10-05T08:32:55Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/316"
+    },
+    {
+     "number": 314,
+     "title": "unity: cards: family 4 delivery rewrites, eight new cards (#283, part 1)",
+     "mergedAt": "2026-10-05T08:32:43Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/314"
+    },
+    {
+     "number": 313,
+     "title": "unity: game-store showpiece: story beats, the guide leaves, dice bowl, crossroads in view (#270)",
+     "mergedAt": "2026-10-05T08:24:00Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/313"
+    },
+    {
+     "number": 312,
+     "title": "unity: the four bathroom towers: Plunger, Captain Loofah, Rubber Duck, Shower Head (#291)",
+     "mergedAt": "2026-10-05T08:22:31Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/312"
+    },
+    {
+     "number": 311,
+     "title": "unity: the attic's four towers: Moth Squadron, The Bare Bulb, The Christmas Box, Dust Sheet Ghost (#297)",
+     "mergedAt": "2026-10-05T08:18:47Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/311"
+    },
+    {
+     "number": 310,
+     "title": "unity: the bed's cats Beatrice and Zeina: less often, less helpful, their own voices (#267)",
+     "mergedAt": "2026-10-05T08:18:01Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/310"
+    },
+    {
+     "number": 309,
+     "title": "unity: no wave can stall: hit floor, shove limits, slow floors, frozen-speed fix, guard (#261, part 1)",
+     "mergedAt": "2026-10-05T08:16:57Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/309"
+    },
+    {
+     "number": 308,
+     "title": "unity: multiplayer phase 2, item 4: carry a borrowed tower home to the holder's own table (#266)",
+     "mergedAt": "2026-10-05T08:10:35Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/308"
+    },
+    {
+     "number": 307,
+     "title": "unity: attic showpiece pass (#269)",
+     "mergedAt": "2026-10-05T08:08:16Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/307"
+    },
+    {
+     "number": 306,
+     "title": "unity: card engine: triggers with loop guards, weight, packs, offers, cardcheck, thirty worked cards (#281)",
+     "mergedAt": "2026-10-05T08:03:44Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/306"
+    },
+    {
+     "number": 305,
+     "title": "unity: link arrows on the dive card table, re-link on the tower sheet, no more IMGUI inspect panel (#190)",
+     "mergedAt": "2026-10-05T08:03:25Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/305"
+    },
+    {
+     "number": 304,
+     "title": "unity: soundtrack round two: per-table rotating music loaded on demand, dubstep out, first tables (#263)",
+     "mergedAt": "2026-10-05T07:44:52Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/304"
+    },
+    {
+     "number": 300,
+     "title": "unity: multiplayer phase 2: borrow a friend's tower, kills pay the holder, snap back, the slap (#266)",
+     "mergedAt": "2026-10-05T07:42:01Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/300"
+    },
+    {
+     "number": 293,
+     "title": "devlog: Two cats went in, the owner played, and thirty-five minutes later there were twenty-five new tasks (#234)",
+     "mergedAt": "2026-10-05T07:31:32Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/293"
+    },
+    {
+     "number": 288,
+     "title": "unity: make towers pluggable: one folder per tower, registry, template, towercheck (#226)",
+     "mergedAt": "2026-10-05T07:16:25Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/288"
+    },
+    {
+     "number": 287,
+     "title": "unity: start screen for ten tables, Table button, template display, registry gaps, run modifiers reaching tables (#262)",
+     "mergedAt": "2026-10-05T06:43:36Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/287"
+    },
+    {
+     "number": 265,
+     "title": "unity: houses in a run, tray labels in the neighbours view (#198)",
+     "mergedAt": "2026-10-05T06:18:34Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/265"
+    }
+   ],
+   "moreChanges": 0,
+   "commit_url": "https://github.com/tehrandom2/greytide/commit/6ace0164cf6af44f6a9a61b85623584c4691c708",
+   "assets": [
+    {
+     "platform": "win",
+     "label": "Windows",
+     "name": "greytide-win64.zip",
+     "size": 92410088,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-6ace016/greytide-win64.zip",
+     "sha256": "19ef98dc0714d56d7e78d3b63d4edc517f0c2aa2ea4a1eb63cb7a7d0481be701"
+    },
+    {
+     "platform": "linux",
+     "label": "Linux",
+     "name": "greytide-linux64.zip",
+     "size": 90764128,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-6ace016/greytide-linux64.zip",
+     "sha256": "63773f2821ef2808bd107844be03d840cee4b83b86bd08c6958c261ecd16af5c"
+    },
+    {
+     "platform": "web",
+     "label": "Web build (zip)",
+     "name": "greytide-web.zip",
+     "size": 69238771,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-6ace016/greytide-web.zip",
+     "sha256": "aa77be98bc4132044c87f87f8b04419271007e5efb2b75921571d73c930fbcea"
+    }
+   ],
+   "shots": [
+    {
+     "path": "shots/dev-6ace016/issue-298-four-towers.jpg",
+     "issue": 298,
+     "caption": "four towers"
+    },
+    {
+     "path": "shots/dev-6ace016/issue-298-level-slope.jpg",
+     "issue": 298,
+     "caption": "level slope"
+    },
+    {
+     "path": "shots/dev-6ace016/issue-297-attic-box-chain.jpg",
+     "issue": 297,
+     "caption": "attic box chain"
+    },
+    {
+     "path": "shots/dev-6ace016/issue-297-attic-four-close.jpg",
+     "issue": 297,
+     "caption": "attic four close"
+    },
+    {
+     "path": "shots/dev-6ace016/issue-296-four-beside-mage-ballista.jpg",
+     "issue": 296,
+     "caption": "four beside mage ballista"
+    },
+    {
+     "path": "shots/dev-6ace016/issue-296-sun-catcher-split.jpg",
+     "issue": 296,
+     "caption": "sun catcher split"
+    },
+    {
+     "path": "shots/dev-6ace016/issue-294-four-minis.jpg",
+     "issue": 294,
+     "caption": "four minis"
+    },
+    {
+     "path": "shots/dev-6ace016/issue-294-scenes-lawyer-dice-chaser-tape.jpg",
+     "issue": 294,
+     "caption": "scenes lawyer dice chaser tape"
+    },
+    {
+     "path": "shots/dev-6ace016/issue-291-bathroom-tray.jpg",
+     "issue": 291,
+     "caption": "bathroom tray"
+    },
+    {
+     "path": "shots/dev-6ace016/issue-291-duck-patrol.jpg",
+     "issue": 291,
+     "caption": "duck patrol"
+    },
+    {
+     "path": "shots/dev-6ace016/issue-290-bed-effects.jpg",
+     "issue": 290,
+     "caption": "bed effects"
+    },
+    {
+     "path": "shots/dev-6ace016/issue-290-bed-four-closeup.jpg",
+     "issue": 290,
+     "caption": "bed four closeup"
+    }
+   ],
+   "playable": false
+  },
+  {
+   "tag": "dev-fb794e5",
+   "sha": "fb794e5b23dbe9792dca5f367dd0967f23bc3027",
+   "short": "fb794e5",
+   "published": "2026-10-05T05:08:21+00:00",
+   "committed": "2026-10-05T00:59:43-04:00",
+   "headline": "unity: the bed's two cats, the big one and the red one (#177)",
+   "previous": "dev-cc05372",
+   "changes": [
+    {
+     "number": 260,
+     "title": "unity: the bed's two cats, the big one and the red one (#177)",
+     "mergedAt": "2026-10-05T04:59:43Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/260"
+    },
+    {
+     "number": 259,
+     "title": "devlog: Ten tables ship and none of the new ones is balanced: the workers were told to stop tuning and merge (#234)",
+     "mergedAt": "2026-10-05T04:29:33Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/259"
+    }
+   ],
+   "moreChanges": 0,
+   "commit_url": "https://github.com/tehrandom2/greytide/commit/fb794e5b23dbe9792dca5f367dd0967f23bc3027",
+   "assets": [
+    {
+     "platform": "win",
+     "label": "Windows",
+     "name": "greytide-win64.zip",
+     "size": 48548140,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-fb794e5/greytide-win64.zip",
+     "sha256": "ae15b26554fcdd6adeb986eaa864533d36e2f6dc9ceb34082c69b2a3a8bd6734"
+    },
+    {
+     "platform": "linux",
+     "label": "Linux",
+     "name": "greytide-linux64.zip",
+     "size": 46902098,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-fb794e5/greytide-linux64.zip",
+     "sha256": "06877ebd04547966ea1f91c567c490fc8b4849022075eb72d855e8b11cfd8e75"
+    },
+    {
+     "platform": "web",
+     "label": "Web build (zip)",
+     "name": "greytide-web.zip",
+     "size": 32835393,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-fb794e5/greytide-web.zip",
+     "sha256": "efaaab78dcfc74ed4b2a1bb954efbcec86bb68bfc2df1fbfd599ccd566edb478"
+    }
+   ],
+   "shots": [
+    {
+     "path": "shots/dev-fb794e5/issue-177-big-one-windup.png",
+     "issue": 177,
+     "caption": "big one windup"
+    },
+    {
+     "path": "shots/dev-fb794e5/issue-177-both-cats-models.png",
+     "issue": 177,
+     "caption": "both cats models"
+    }
+   ],
+   "playable": false
+  },
+  {
+   "tag": "dev-cc05372",
+   "sha": "cc05372d2c47a4451efe8e5bad714eb6fa2128cf",
+   "short": "cc05372",
+   "published": "2026-10-05T03:01:18+00:00",
+   "committed": "2026-10-04T22:38:40-04:00",
+   "headline": "unity: new table: the window sill (#222)",
+   "previous": "dev-2d19a88",
+   "changes": [
+    {
+     "number": 257,
+     "title": "unity: new table: the window sill (#222)",
+     "mergedAt": "2026-10-05T02:38:40Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/257"
+    },
+    {
+     "number": 256,
+     "title": "unity: new table: the bathroom floor (#219)",
+     "mergedAt": "2026-10-05T02:35:31Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/256"
+    },
+    {
+     "number": 250,
+     "title": "unity: new table: the pub table (#225)",
+     "mergedAt": "2026-10-05T02:20:33Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/250"
+    }
+   ],
+   "moreChanges": 0,
+   "commit_url": "https://github.com/tehrandom2/greytide/commit/cc05372d2c47a4451efe8e5bad714eb6fa2128cf",
+   "assets": [
+    {
+     "platform": "win",
+     "label": "Windows",
+     "name": "greytide-win64.zip",
+     "size": 48533601,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-cc05372/greytide-win64.zip",
+     "sha256": "a3aed0e173fb127a126d043e027a796843731fddf9fbc77d6139446b5a5e2d7a"
+    },
+    {
+     "platform": "linux",
+     "label": "Linux",
+     "name": "greytide-linux64.zip",
+     "size": 46887605,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-cc05372/greytide-linux64.zip",
+     "sha256": "3cd256a05a7d94b8419bf2b8692a0cd053b712cf0abb54070d1dbf7ddc8d816f"
+    },
+    {
+     "platform": "web",
+     "label": "Web build (zip)",
+     "name": "greytide-web.zip",
+     "size": 32827645,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-cc05372/greytide-web.zip",
+     "sha256": "e1f5f9663d9fe227955475d537cbff8d31b457750fa4a272ea5fe028f31e98d7"
+    }
+   ],
+   "shots": [
+    {
+     "path": "shots/dev-cc05372/issue-225-pub-1.jpg",
+     "issue": 225,
+     "caption": "pub 1"
+    },
+    {
+     "path": "shots/dev-cc05372/issue-225-pub-2.jpg",
+     "issue": 225,
+     "caption": "pub 2"
+    },
+    {
+     "path": "shots/dev-cc05372/issue-222-before-wave-1.jpg",
+     "issue": 222,
+     "caption": "before wave 1"
+    },
+    {
+     "path": "shots/dev-cc05372/issue-222-fire-test.jpg",
+     "issue": 222,
+     "caption": "fire test"
+    },
+    {
+     "path": "shots/dev-cc05372/issue-219-bathroom-default.jpg",
+     "issue": 219,
+     "caption": "bathroom default"
+    },
+    {
+     "path": "shots/dev-cc05372/issue-219-bathroom-drain-and-gates.jpg",
+     "issue": 219,
+     "caption": "bathroom drain and gates"
+    }
+   ],
+   "playable": false
+  },
+  {
+   "tag": "dev-2d19a88",
+   "sha": "2d19a883b233bf05daea67fa0eafdf3ee48167e9",
+   "short": "2d19a88",
+   "published": "2026-10-05T01:58:31+00:00",
+   "committed": "2026-10-04T21:36:46-04:00",
+   "headline": "unity: the workbench table (#224)",
+   "previous": "dev-da78fec",
+   "changes": [
+    {
+     "number": 248,
+     "title": "unity: the workbench table (#224)",
+     "mergedAt": "2026-10-05T01:36:47Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/248"
+    },
+    {
+     "number": 246,
+     "title": "devlog: Seven tables at once: two are in, five are still being built, and the work log stopped two of its own writers (#234)",
+     "mergedAt": "2026-10-05T01:29:45Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/246"
+    },
+    {
+     "number": 245,
+     "title": "unity: new table: the couch (#221)",
+     "mergedAt": "2026-10-05T01:29:43Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/245"
+    },
+    {
+     "number": 244,
+     "title": "unity: new table: the game-store demo table (#220)",
+     "mergedAt": "2026-10-05T00:50:45Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/244"
+    },
+    {
+     "number": 240,
+     "title": "unity: new table: the attic (#223)",
+     "mergedAt": "2026-10-05T00:22:56Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/240"
+    },
+    {
+     "number": 239,
+     "title": "unity: pluggable tables: registry, template, tablecheck (#218)",
+     "mergedAt": "2026-10-04T23:29:26Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/239"
+    },
+    {
+     "number": 238,
+     "title": "unity: silent test launches by default, play.sh test windows (#230)",
+     "mergedAt": "2026-10-04T23:10:36Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/238"
+    },
+    {
+     "number": 237,
+     "title": "site: devlog blog rendered from Markdown, publish.py --site-only (#233)",
+     "mergedAt": "2026-10-04T23:07:26Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/237"
+    },
+    {
+     "number": 235,
+     "title": "devlog: Three days in: the builders cannot hear the game, and the bots never needed to see the cards (#234)",
+     "mergedAt": "2026-10-04T23:03:38Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/235"
+    }
+   ],
+   "moreChanges": 0,
+   "commit_url": "https://github.com/tehrandom2/greytide/commit/2d19a883b233bf05daea67fa0eafdf3ee48167e9",
+   "assets": [
+    {
+     "platform": "win",
+     "label": "Windows",
+     "name": "greytide-win64.zip",
+     "size": 48481050,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-2d19a88/greytide-win64.zip",
+     "sha256": "4119331bcab0a890c796fedee299f86af1b8ca9fb0899243ef45ce1f7f4522d3"
+    },
+    {
+     "platform": "linux",
+     "label": "Linux",
+     "name": "greytide-linux64.zip",
+     "size": 46835059,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-2d19a88/greytide-linux64.zip",
+     "sha256": "43e6b8ecb2900ae80be9010ed0637768feaab0e039ccea415e42fc3fd0131034"
+    },
+    {
+     "platform": "web",
+     "label": "Web build (zip)",
+     "name": "greytide-web.zip",
+     "size": 32748749,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-2d19a88/greytide-web.zip",
+     "sha256": "e52ce687f2671623d530da221416e434a9bdd251fecd841eb6c94792ad1367ac"
+    }
+   ],
+   "shots": [
+    {
+     "path": "shots/dev-2d19a88/issue-233-builds-page-devlog-1440.jpg",
+     "issue": 233,
+     "caption": "builds page devlog 1440"
+    },
+    {
+     "path": "shots/dev-2d19a88/issue-233-devlog-list-390.jpg",
+     "issue": 233,
+     "caption": "devlog list 390"
+    },
+    {
+     "path": "shots/dev-2d19a88/issue-230-during-play-window.jpg",
+     "issue": 230,
+     "caption": "during play window"
+    },
+    {
+     "path": "shots/dev-2d19a88/issue-230-silent-default.jpg",
+     "issue": 230,
+     "caption": "silent default"
+    },
+    {
+     "path": "shots/dev-2d19a88/issue-224-default-before-wave1.jpg",
+     "issue": 224,
+     "caption": "default before wave1"
+    },
+    {
+     "path": "shots/dev-2d19a88/issue-224-iron-closeup.jpg",
+     "issue": 224,
+     "caption": "iron closeup"
+    },
+    {
+     "path": "shots/dev-2d19a88/issue-223-attic-1-before-wave-1.jpg",
+     "issue": 223,
+     "caption": "attic 1 before wave 1"
+    },
+    {
+     "path": "shots/dev-2d19a88/issue-223-attic-2-mid-wave.jpg",
+     "issue": 223,
+     "caption": "attic 2 mid wave"
+    },
+    {
+     "path": "shots/dev-2d19a88/issue-221-before-wave.jpg",
+     "issue": 221,
+     "caption": "before wave"
+    },
+    {
+     "path": "shots/dev-2d19a88/issue-221-mid-wave.jpg",
+     "issue": 221,
+     "caption": "mid wave"
+    },
+    {
+     "path": "shots/dev-2d19a88/issue-220-after-the-d20.jpg",
+     "issue": 220,
+     "caption": "after the d20"
+    },
+    {
+     "path": "shots/dev-2d19a88/issue-220-before-wave-1.jpg",
+     "issue": 220,
+     "caption": "before wave 1"
+    }
+   ],
+   "playable": false
+  },
+  {
+   "tag": "dev-da78fec",
+   "sha": "da78fec5b5fb2eaa3beb9587963a90f09b8d21c6",
+   "short": "da78fec",
+   "published": "2026-10-04T22:25:13+00:00",
+   "committed": "2026-10-04T18:17:20-04:00",
+   "headline": "unity: step-down view: wider default and four wheel steps (#214)",
+   "previous": "dev-ad8bba4",
+   "changes": [
+    {
+     "number": 215,
+     "title": "unity: step-down view: wider default and four wheel steps (#214)",
+     "mergedAt": "2026-10-04T22:17:20Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/215"
+    }
+   ],
+   "moreChanges": 0,
+   "commit_url": "https://github.com/tehrandom2/greytide/commit/da78fec5b5fb2eaa3beb9587963a90f09b8d21c6",
+   "assets": [
+    {
+     "platform": "win",
+     "label": "Windows",
+     "name": "greytide-win64.zip",
+     "size": 48394768,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-da78fec/greytide-win64.zip",
+     "sha256": "61be9caa4623daac1d914dbc746427f4963c7219ee999c04efda41c4e466ddb0"
+    },
+    {
+     "platform": "linux",
+     "label": "Linux",
+     "name": "greytide-linux64.zip",
+     "size": 46748683,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-da78fec/greytide-linux64.zip",
+     "sha256": "e180c01a80a11902967698cec4c77003c616702a7caff19500528706bbd90910"
+    },
+    {
+     "platform": "web",
+     "label": "Web build (zip)",
+     "name": "greytide-web.zip",
+     "size": 32629476,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-da78fec/greytide-web.zip",
+     "sha256": "48c6d4602c5c92e703eee015cc70e35d8f6ef35a194156ef06081d7451086576"
+    }
+   ],
+   "shots": [
+    {
+     "path": "shots/dev-da78fec/issue-214-steps-bed.jpg",
+     "issue": 214,
+     "caption": "steps bed"
+    },
+    {
+     "path": "shots/dev-da78fec/issue-214-steps-desk.jpg",
+     "issue": 214,
+     "caption": "steps desk"
+    }
+   ],
+   "playable": false
+  },
+  {
+   "tag": "dev-ad8bba4",
+   "sha": "ad8bba453f65b41b5d7c8c7366bae0ec54278f24",
+   "short": "ad8bba4",
+   "published": "2026-10-04T21:36:06+00:00",
+   "committed": "2026-10-04T17:30:34-04:00",
+   "headline": "unity: dive view over the tower's shoulder, further back, with a view check (#212)",
+   "previous": "dev-52234f9",
+   "changes": [
+    {
+     "number": 213,
+     "title": "unity: dive view over the tower's shoulder, further back, with a view check (#212)",
+     "mergedAt": "2026-10-04T21:30:34Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/213"
+    },
+    {
+     "number": 211,
+     "title": "unity: per-board difficulty for the tougher later waves (#201, part 2)",
+     "mergedAt": "2026-10-04T20:03:11Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/211"
+    }
+   ],
+   "moreChanges": 0,
+   "commit_url": "https://github.com/tehrandom2/greytide/commit/ad8bba453f65b41b5d7c8c7366bae0ec54278f24",
+   "assets": [
+    {
+     "platform": "win",
+     "label": "Windows",
+     "name": "greytide-win64.zip",
+     "size": 48393410,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-ad8bba4/greytide-win64.zip",
+     "sha256": "47843cbddc7beb445ca2211bb41e58db5101b227e7085dad9b23e9e93fc68033"
+    },
+    {
+     "platform": "linux",
+     "label": "Linux",
+     "name": "greytide-linux64.zip",
+     "size": 46747317,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-ad8bba4/greytide-linux64.zip",
+     "sha256": "6beeedd9d88c01322b281a2a346f777bdb924ca52efd30959769889e34672dd2"
+    },
+    {
+     "platform": "web",
+     "label": "Web build (zip)",
+     "name": "greytide-web.zip",
+     "size": 32625536,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-ad8bba4/greytide-web.zip",
+     "sha256": "54819b65ba886a073bc052db3670347bd690ebd8933d16539f49ceef5a650c90"
+    }
+   ],
+   "shots": [
+    {
+     "path": "shots/dev-ad8bba4/issue-212-after-bed.jpg",
+     "issue": 212,
+     "caption": "after bed"
+    },
+    {
+     "path": "shots/dev-ad8bba4/issue-212-after-kitchen.jpg",
+     "issue": 212,
+     "caption": "after kitchen"
+    }
+   ],
+   "playable": false
+  },
+  {
+   "tag": "dev-52234f9",
+   "sha": "52234f98b36100ff3325caf30ee622bd21202b24",
+   "short": "52234f9",
+   "published": "2026-10-04T19:11:47+00:00",
+   "committed": "2026-10-04T15:01:47-04:00",
+   "headline": "unity: glue cannot hold a lane, bed gets build cells, tougher later waves (#201, part 1)",
+   "previous": "dev-394bf40",
+   "changes": [
+    {
+     "number": 210,
+     "title": "unity: glue cannot hold a lane, bed gets build cells, tougher later waves (#201, part 1)",
+     "mergedAt": "2026-10-04T19:01:48Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/210"
+    },
+    {
+     "number": 209,
+     "title": "unity: start screen as a place: kit box, random table postcards, card mode, Play/Run/friends (#203)",
+     "mergedAt": "2026-10-04T18:52:08Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/209"
+    },
+    {
+     "number": 208,
+     "title": "unity: table guide part 2: sticky-note explainers and the first-minute nudge (#202)",
+     "mergedAt": "2026-10-04T18:46:09Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/208"
+    },
+    {
+     "number": 207,
+     "title": "unity: table guide part 1: entrance, shelf, route arrows, signposts (#202)",
+     "mergedAt": "2026-10-04T18:22:40Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/207"
+    },
+    {
+     "number": 206,
+     "title": "unity: shrink-down view: readable cards, prompts as objects (#199 part 2)",
+     "mergedAt": "2026-10-04T18:20:13Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/206"
+    },
+    {
+     "number": 205,
+     "title": "unity: shrink-down view: sight lines, past picks board, framing, dive default (#199 part 1)",
+     "mergedAt": "2026-10-04T18:04:19Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/205"
+    },
+    {
+     "number": 204,
+     "title": "unity: tray hand fingertips fixed (skin weights), true left hand, hold pose (#200)",
+     "mergedAt": "2026-10-04T18:00:43Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/204"
+    }
+   ],
+   "moreChanges": 0,
+   "commit_url": "https://github.com/tehrandom2/greytide/commit/52234f98b36100ff3325caf30ee622bd21202b24",
+   "assets": [
+    {
+     "platform": "win",
+     "label": "Windows",
+     "name": "greytide-win64.zip",
+     "size": 48390925,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-52234f9/greytide-win64.zip",
+     "sha256": "c50a43bc02aa78a9757a1df72ae38964334d7d737c08e2953ec8276166b73950"
+    },
+    {
+     "platform": "linux",
+     "label": "Linux",
+     "name": "greytide-linux64.zip",
+     "size": 46744830,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-52234f9/greytide-linux64.zip",
+     "sha256": "eb710959a9babde9d8bf3fb3759f4bd18f6ca17bf44ddffbd7681ef5c7ca9d1a"
+    },
+    {
+     "platform": "web",
+     "label": "Web build (zip)",
+     "name": "greytide-web.zip",
+     "size": 32622797,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-52234f9/greytide-web.zip",
+     "sha256": "5ccd0db66f19e687355e1ce45706ef4e0492069c05c5cd55b86e576c28de7a95"
+    }
+   ],
+   "shots": [
+    {
+     "path": "shots/dev-52234f9/issue-203-start-launch-bed-quickpick-saved.png",
+     "issue": 203,
+     "caption": "start launch bed quickpick saved"
+    },
+    {
+     "path": "shots/dev-52234f9/issue-203-start-launch-desk.png",
+     "issue": 203,
+     "caption": "start launch desk"
+    },
+    {
+     "path": "shots/dev-52234f9/issue-202-guide-bed.png",
+     "issue": 202,
+     "caption": "guide bed"
+    },
+    {
+     "path": "shots/dev-52234f9/issue-202-guide-c.png",
+     "issue": 202,
+     "caption": "guide c"
+    },
+    {
+     "path": "shots/dev-52234f9/issue-201-bed-top-after.png",
+     "issue": 201,
+     "caption": "bed top after"
+    },
+    {
+     "path": "shots/dev-52234f9/issue-200-god-hand-pinch-after.jpg",
+     "issue": 200,
+     "caption": "god hand pinch after"
+    },
+    {
+     "path": "shots/dev-52234f9/issue-200-tray-hand-after.jpg",
+     "issue": 200,
+     "caption": "tray hand after"
+    },
+    {
+     "path": "shots/dev-52234f9/issue-199-after-hemmed-in.jpg",
+     "issue": 199,
+     "caption": "after hemmed in"
+    },
+    {
+     "path": "shots/dev-52234f9/issue-199-after-owner-case.jpg",
+     "issue": 199,
+     "caption": "after owner case"
+    }
+   ],
+   "playable": false
+  },
+  {
+   "tag": "dev-394bf40",
+   "sha": "394bf4087ff6b8953fda5fb5dab80640d3a68933",
+   "short": "394bf40",
+   "published": "2026-10-04T08:18:17+00:00",
+   "committed": "2026-10-04T04:10:10-04:00",
+   "headline": "unity: multiplayer phase 1: street map, houses, neighbours' tables live (#195)",
+   "previous": "dev-b0099c0",
+   "changes": [
+    {
+     "number": 197,
+     "title": "unity: multiplayer phase 1: street map, houses, neighbours' tables live (#195)",
+     "mergedAt": "2026-10-04T08:10:10Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/197"
+    },
+    {
+     "number": 196,
+     "title": "relay: Cloudflare Worker with three live lobbies, deployed (#194)",
+     "mergedAt": "2026-10-04T07:34:24Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/196"
+    }
+   ],
+   "moreChanges": 0,
+   "commit_url": "https://github.com/tehrandom2/greytide/commit/394bf4087ff6b8953fda5fb5dab80640d3a68933",
+   "assets": [
+    {
+     "platform": "win",
+     "label": "Windows",
+     "name": "greytide-win64.zip",
+     "size": 48353955,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-394bf40/greytide-win64.zip",
+     "sha256": "98029e757121923c3f196686630d2c50d2d9dde862d2c210a09f26a0ebcf1bfd"
+    },
+    {
+     "platform": "linux",
+     "label": "Linux",
+     "name": "greytide-linux64.zip",
+     "size": 46707823,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-394bf40/greytide-linux64.zip",
+     "sha256": "b55815bd34867c53c9a770b9a9894ad28a612e0d39eab1dcb066c55f8c7b2e84"
+    },
+    {
+     "platform": "web",
+     "label": "Web build (zip)",
+     "name": "greytide-web.zip",
+     "size": 32561919,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-394bf40/greytide-web.zip",
+     "sha256": "96919eb32c01714ca608f018db3c5bce2f08e3b75544f28013e54a56af2ee195"
+    }
+   ],
+   "shots": [
+    {
+     "path": "shots/dev-394bf40/issue-195-neighbour-turned.jpg",
+     "issue": 195,
+     "caption": "neighbour turned"
+    },
+    {
+     "path": "shots/dev-394bf40/issue-195-neighbours-row.jpg",
+     "issue": 195,
+     "caption": "neighbours row"
+    }
+   ],
+   "playable": false
+  },
+  {
+   "tag": "dev-b0099c0",
+   "sha": "b0099c08bf0254cac97cbfd14fab9a298953a468",
+   "short": "b0099c0",
+   "published": "2026-10-04T03:02:29+00:00",
+   "committed": "2026-10-03T22:56:47-04:00",
+   "headline": "unity: tower ranges reach the road, with a coverage report (#184)",
+   "previous": "dev-c4c9a01",
+   "changes": [
+    {
+     "number": 192,
+     "title": "unity: tower ranges reach the road, with a coverage report (#184)",
+     "mergedAt": "2026-10-04T02:56:47Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/192"
+    }
+   ],
+   "moreChanges": 0,
+   "commit_url": "https://github.com/tehrandom2/greytide/commit/b0099c08bf0254cac97cbfd14fab9a298953a468",
+   "assets": [
+    {
+     "platform": "win",
+     "label": "Windows",
+     "name": "greytide-win64.zip",
+     "size": 48332934,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-b0099c0/greytide-win64.zip",
+     "sha256": "60977e965d5305f36c067aede9ccc9f0e7fd02ac780b9fb9a1e541d2afe8bdeb"
+    },
+    {
+     "platform": "linux",
+     "label": "Linux",
+     "name": "greytide-linux64.zip",
+     "size": 46686803,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-b0099c0/greytide-linux64.zip",
+     "sha256": "6cbd592210e2b097719ee70703636dc95021edc1cbdce00336a2fdb3631e3be4"
+    },
+    {
+     "platform": "web",
+     "label": "Web build (zip)",
+     "name": "greytide-web.zip",
+     "size": 32479516,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-b0099c0/greytide-web.zip",
+     "sha256": "0714774008de569d7dbfd08d8a84602d228287fd4a6a145e1a9de2b07db7aba7"
+    }
+   ],
+   "shots": [
+    {
+     "path": "shots/dev-b0099c0/issue-184-airbrush-desk.jpg",
+     "issue": 184,
+     "caption": "airbrush desk"
+    }
+   ],
+   "playable": false
+  },
+  {
+   "tag": "dev-c4c9a01",
+   "sha": "c4c9a019ed13b16de8a3299ceb9809311b22b793",
+   "short": "c4c9a01",
+   "published": "2026-10-04T02:42:30+00:00",
+   "committed": "2026-10-03T22:20:55-04:00",
+   "headline": "unity: multiplayer phase 0: Net library, table tap, ghost table and loopback demo (#188)",
+   "previous": "dev-4efde41",
+   "changes": [
+    {
+     "number": 191,
+     "title": "unity: multiplayer phase 0: Net library, table tap, ghost table and loopback demo (#188)",
+     "mergedAt": "2026-10-04T02:20:55Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/191"
+    },
+    {
+     "number": 189,
+     "title": "unity: second playtest: sell plate, cards-waiting fan, tables only when visited, click any tower, Gloss Coat in the road (#183)",
+     "mergedAt": "2026-10-04T02:15:37Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/189"
+    },
+    {
+     "number": 185,
+     "title": "unity: hint goes after first hover, themed dev-menu button, card-mode switch (#182)",
+     "mergedAt": "2026-10-04T01:05:08Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/185"
+    }
+   ],
+   "moreChanges": 0,
+   "commit_url": "https://github.com/tehrandom2/greytide/commit/c4c9a019ed13b16de8a3299ceb9809311b22b793",
+   "assets": [
+    {
+     "platform": "win",
+     "label": "Windows",
+     "name": "greytide-win64.zip",
+     "size": 48330934,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-c4c9a01/greytide-win64.zip",
+     "sha256": "48959aade281d542c3a393e6878bed4846f8d7a9707aa45e2b35e43e27e73a65"
+    },
+    {
+     "platform": "linux",
+     "label": "Linux",
+     "name": "greytide-linux64.zip",
+     "size": 46684818,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-c4c9a01/greytide-linux64.zip",
+     "sha256": "1b2702e6b664954c2fa839c7068b977a8ce1340c9b6ed7e9a40385442e680e7b"
+    },
+    {
+     "platform": "web",
+     "label": "Web build (zip)",
+     "name": "greytide-web.zip",
+     "size": 32498882,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-c4c9a01/greytide-web.zip",
+     "sha256": "719e5a498e764effb6b95eb93228ba3335c5af7fea8de1f088f9d2b69ce22929"
+    }
+   ],
+   "shots": [
+    {
+     "path": "shots/dev-c4c9a01/issue-188-net-ghost-closeup.jpg",
+     "issue": 188,
+     "caption": "net ghost closeup"
+    },
+    {
+     "path": "shots/dev-c4c9a01/issue-188-net-real-and-one-ghost.jpg",
+     "issue": 188,
+     "caption": "net real and one ghost"
+    },
+    {
+     "path": "shots/dev-c4c9a01/issue-183-cards-waiting-markers.jpg",
+     "issue": 183,
+     "caption": "cards waiting markers"
+    },
+    {
+     "path": "shots/dev-c4c9a01/issue-183-sell-slot-lit.jpg",
+     "issue": 183,
+     "caption": "sell slot lit"
+    },
+    {
+     "path": "shots/dev-c4c9a01/issue-182-button-three-tables.jpg",
+     "issue": 182,
+     "caption": "button three tables"
+    },
+    {
+     "path": "shots/dev-c4c9a01/issue-182-desk-menu-open-pressed.jpg",
+     "issue": 182,
+     "caption": "desk menu open pressed"
+    }
+   ],
+   "playable": false
+  },
+  {
+   "tag": "dev-4efde41",
+   "sha": "4efde419e7e8643ddfae3628ced423882bcabf3f",
+   "short": "4efde41",
+   "published": "2026-10-04T00:15:46+00:00",
+   "committed": "2026-10-03T20:06:34-04:00",
+   "headline": "unity: hover tags on the tray's towers (#179)",
+   "previous": "dev-994cb1d",
+   "changes": [
+    {
+     "number": 181,
+     "title": "unity: hover tags on the tray's towers (#179)",
+     "mergedAt": "2026-10-04T00:06:34Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/181"
+    },
+    {
+     "number": 180,
+     "title": "unity: web build fills the browser window, with a fullscreen control (#178)",
+     "mergedAt": "2026-10-03T23:50:53Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/180"
+    }
+   ],
+   "moreChanges": 0,
+   "commit_url": "https://github.com/tehrandom2/greytide/commit/4efde419e7e8643ddfae3628ced423882bcabf3f",
+   "assets": [
+    {
+     "platform": "win",
+     "label": "Windows",
+     "name": "greytide-win64.zip",
+     "size": 48287252,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-4efde41/greytide-win64.zip",
+     "sha256": "41b2e67c96af245d8318113a34a1f9cdc5161f94e387db5923477e004baf3fbb"
+    },
+    {
+     "platform": "linux",
+     "label": "Linux",
+     "name": "greytide-linux64.zip",
+     "size": 46641090,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-4efde41/greytide-linux64.zip",
+     "sha256": "658d162e3baea7b3e8a3eb05cf476dddf940fa8b320228f5e449022e50214fec"
+    },
+    {
+     "platform": "web",
+     "label": "Web build (zip)",
+     "name": "greytide-web.zip",
+     "size": 32388053,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-4efde41/greytide-web.zip",
+     "sha256": "af24657ca25b4b829d29a92169564a6d77b7ef72d873626f61bf9e539bdb6275"
+    }
+   ],
+   "shots": [
+    {
+     "path": "shots/dev-4efde41/issue-179-tag-locked-cutout-1080p.png",
+     "issue": 179,
+     "caption": "tag locked cutout 1080p"
+    },
+    {
+     "path": "shots/dev-4efde41/issue-179-tag-middle-1080p.png",
+     "issue": 179,
+     "caption": "tag middle 1080p"
+    },
+    {
+     "path": "shots/dev-4efde41/issue-178-after-live-resize-1700x900.png",
+     "issue": 178,
+     "caption": "after live resize 1700x900"
+    },
+    {
+     "path": "shots/dev-4efde41/issue-178-tall-1080x1350.png",
+     "issue": 178,
+     "caption": "tall 1080x1350"
+    }
+   ],
+   "playable": false
+  },
+  {
+   "tag": "dev-994cb1d",
+   "sha": "994cb1d078e1a32cb210f7ebcef2a9d9ac2cdb34",
+   "short": "994cb1d",
+   "published": "2026-10-03T23:22:34+00:00",
+   "committed": "2026-10-03T19:14:50-04:00",
+   "headline": "unity: a quick control to choose the starting table (#175)",
+   "previous": "dev-ecb024f",
+   "changes": [
+    {
+     "number": 176,
+     "title": "unity: a quick control to choose the starting table (#175)",
+     "mergedAt": "2026-10-03T23:14:50Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/176"
+    },
+    {
+     "number": 174,
+     "title": "unity: soundtrack notes path is lower-case, so publishing works on Linux (#173)",
+     "mergedAt": "2026-10-03T23:02:15Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/174"
+    },
+    {
+     "number": 172,
+     "title": "unity: card dive prototype, pick cards at the tower's table (-cards dive) (#171)",
+     "mergedAt": "2026-10-03T23:01:36Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/172"
+    },
+    {
+     "number": 170,
+     "title": "unity: dealt cards held with the tray, always visible (#169)",
+     "mergedAt": "2026-10-03T22:28:50Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/170"
+    },
+    {
+     "number": 168,
+     "title": "unity: declutter the screen, developer controls behind F1 (#162)",
+     "mergedAt": "2026-10-03T21:29:02Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/168"
+    },
+    {
+     "number": 167,
+     "title": "unity: blur levels off/light/full, light by default (#161)",
+     "mergedAt": "2026-10-03T21:23:26Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/167"
+    },
+    {
+     "number": 159,
+     "title": "unity: the tower tray is held by a second god-hand, always sharp (#158)",
+     "mergedAt": "2026-10-03T20:50:30Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/159"
+    },
+    {
+     "number": 157,
+     "title": "unity: first playtest bugs: offer prompt, lives reaction, orbit (#156)",
+     "mergedAt": "2026-10-03T20:18:56Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/157"
+    },
+    {
+     "number": 155,
+     "title": "unity: music/effects switches, music volume, calmer default mix (#152)",
+     "mergedAt": "2026-10-03T20:03:31Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/155"
+    },
+    {
+     "number": 154,
+     "title": "unity: subtle line-of-sight preview, V cycles levels (#153)",
+     "mergedAt": "2026-10-03T20:01:22Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/154"
+    },
+    {
+     "number": 151,
+     "title": "unity: sound theme 'well' (The table is an instrument) (#147)",
+     "mergedAt": "2026-10-03T19:28:29Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/151"
+    },
+    {
+     "number": 150,
+     "title": "unity: sound theme 'slap' (Rubber glove), all 58 sounds (#146)",
+     "mergedAt": "2026-10-03T19:21:18Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/150"
+    },
+    {
+     "number": 149,
+     "title": "unity: sound theme 'coin' (#145)",
+     "mergedAt": "2026-10-03T19:15:23Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/149"
+    },
+    {
+     "number": 148,
+     "title": "unity: synth engine for coin/slap/well sound themes (#144)",
+     "mergedAt": "2026-10-03T19:02:31Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/148"
+    },
+    {
+     "number": 143,
+     "title": "unity: sfx audition bench STOP ALL, Space/T replace instead of stacking (#142)",
+     "mergedAt": "2026-10-03T18:40:31Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/143"
+    },
+    {
+     "number": 140,
+     "title": "unity: ToyOverlay allocates less per frame (#106)",
+     "mergedAt": "2026-10-03T16:55:39Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/140"
+    },
+    {
+     "number": 138,
+     "title": "unity: run balance, god-hand postcards, modifiers, kit-gated tray (#132)",
+     "mergedAt": "2026-10-03T16:39:59Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/138"
+    },
+    {
+     "number": 137,
+     "title": "unity: document no-display headless segfault + workaround (#128)",
+     "mergedAt": "2026-10-03T15:40:56Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/137"
+    }
+   ],
+   "moreChanges": 0,
+   "commit_url": "https://github.com/tehrandom2/greytide/commit/994cb1d078e1a32cb210f7ebcef2a9d9ac2cdb34",
+   "assets": [
+    {
+     "platform": "win",
+     "label": "Windows",
+     "name": "greytide-win64.zip",
+     "size": 48281039,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-994cb1d/greytide-win64.zip",
+     "sha256": "43167ad1881877631dccf4268fe8d82660a66c403c7336da09d72cc539f04b37"
+    },
+    {
+     "platform": "linux",
+     "label": "Linux",
+     "name": "greytide-linux64.zip",
+     "size": 46634874,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-994cb1d/greytide-linux64.zip",
+     "sha256": "7b0479d5b353d0cc9e7918dd96fe7304b50964180426b0da2a9bcd1205ac546e"
+    },
+    {
+     "platform": "web",
+     "label": "Web build (zip)",
+     "name": "greytide-web.zip",
+     "size": 32390220,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-994cb1d/greytide-web.zip",
+     "sha256": "61f5bec427002632daa41d497af37d8ef60f5a19659ee53c5b9d35c204951e75"
+    }
+   ],
+   "shots": [
+    {
+     "path": "shots/dev-994cb1d/issue-175-bed.jpg",
+     "issue": 175,
+     "caption": "bed"
+    },
+    {
+     "path": "shots/dev-994cb1d/issue-175-desk.jpg",
+     "issue": 175,
+     "caption": "desk"
+    },
+    {
+     "path": "shots/dev-994cb1d/issue-171-horde-hover.jpg",
+     "issue": 171,
+     "caption": "horde hover"
+    },
+    {
+     "path": "shots/dev-994cb1d/issue-171-kitchen-offer.jpg",
+     "issue": 171,
+     "caption": "kitchen offer"
+    },
+    {
+     "path": "shots/dev-994cb1d/issue-169-f1.jpg",
+     "issue": 169,
+     "caption": "f1"
+    },
+    {
+     "path": "shots/dev-994cb1d/issue-169-f2.jpg",
+     "issue": 169,
+     "caption": "f2"
+    },
+    {
+     "path": "shots/dev-994cb1d/issue-162-d-1.jpg",
+     "issue": 162,
+     "caption": "d 1"
+    },
+    {
+     "path": "shots/dev-994cb1d/issue-162-d-2.jpg",
+     "issue": 162,
+     "caption": "d 2"
+    },
+    {
+     "path": "shots/dev-994cb1d/issue-161-bed-full-left-light-right.jpg",
+     "issue": 161,
+     "caption": "bed full left light right"
+    },
+    {
+     "path": "shots/dev-994cb1d/issue-161-desk-full-left-light-right.jpg",
+     "issue": 161,
+     "caption": "desk full left light right"
+    },
+    {
+     "path": "shots/dev-994cb1d/issue-158-z1.jpg",
+     "issue": 158,
+     "caption": "z1"
+    },
+    {
+     "path": "shots/dev-994cb1d/issue-158-z2.jpg",
+     "issue": 158,
+     "caption": "z2"
+    }
+   ],
+   "playable": false
+  },
+  {
+   "tag": "dev-ecb024f",
+   "sha": "ecb024f36c3b9b7855f18601f94b6cd61c2c5876",
+   "short": "ecb024f",
+   "published": "2026-10-03T14:04:02+00:00",
+   "committed": "2026-10-03T09:57:38-04:00",
+   "headline": "unity: towers 7-11 in the case, hand-carried cards and links, respec jar, ascension glow, retuned balance (#127)",
+   "previous": "dev-f501bdb",
+   "changes": [
+    {
+     "number": 134,
+     "title": "unity: towers 7-11 in the case, hand-carried cards and links, respec jar, ascension glow, retuned balance (#127)",
+     "mergedAt": "2026-10-03T13:57:39Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/134"
+    }
+   ],
+   "moreChanges": 0,
+   "commit_url": "https://github.com/tehrandom2/greytide/commit/ecb024f36c3b9b7855f18601f94b6cd61c2c5876",
+   "assets": [
+    {
+     "platform": "win",
+     "label": "Windows",
+     "name": "greytide-win64.zip",
+     "size": 49137849,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-ecb024f/greytide-win64.zip",
+     "sha256": "00a1ab84e2defadaa6495d4cc21415ea8362f30d97c9a4e2315f7b37db0cc631"
+    },
+    {
+     "platform": "linux",
+     "label": "Linux",
+     "name": "greytide-linux64.zip",
+     "size": 47280308,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-ecb024f/greytide-linux64.zip",
+     "sha256": "bf287eee7a6593630e664b15c104fd7eb426abdd792204e6032bbfc2b5898441"
+    },
+    {
+     "platform": "web",
+     "label": "Web build (zip)",
+     "name": "greytide-web.zip",
+     "size": 32183042,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-ecb024f/greytide-web.zip",
+     "sha256": "0c7984f1488cfc11f93cc91bcf687925d88f9578049eb720eceb746e74aba609"
+    }
+   ],
+   "shots": [
+    {
+     "path": "shots/dev-ecb024f/issue-127-full-table-eleven-towers.jpg",
+     "issue": 127,
+     "caption": "full table eleven towers"
+    },
+    {
+     "path": "shots/dev-ecb024f/issue-127-god-hand-carries-card-to-link.jpg",
+     "issue": 127,
+     "caption": "god hand carries card to link"
+    }
+   ],
+   "playable": false
+  },
+  {
+   "tag": "dev-f501bdb",
+   "sha": "f501bdb6f952a2c28004fb6ae29811b05cb1e25e",
+   "short": "f501bdb",
+   "published": "2026-10-03T13:26:19+00:00",
+   "committed": "2026-10-03T09:16:44-04:00",
+   "headline": "unity: a playable three-table run (fork, carry-over, Pile, results) (#97)",
+   "previous": "dev-67c3914",
+   "changes": [
+    {
+     "number": 131,
+     "title": "unity: a playable three-table run (fork, carry-over, Pile, results) (#97)",
+     "mergedAt": "2026-10-03T13:16:45Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/131"
+    }
+   ],
+   "moreChanges": 0,
+   "commit_url": "https://github.com/tehrandom2/greytide/commit/f501bdb6f952a2c28004fb6ae29811b05cb1e25e",
+   "assets": [
+    {
+     "platform": "win",
+     "label": "Windows",
+     "name": "greytide-win64.zip",
+     "size": 49129317,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-f501bdb/greytide-win64.zip",
+     "sha256": "c0f0c02348cd65a9ef04efa58a0b6c48de6441f12cb294e811452d2d9d7d30bd"
+    },
+    {
+     "platform": "linux",
+     "label": "Linux",
+     "name": "greytide-linux64.zip",
+     "size": 47271764,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-f501bdb/greytide-linux64.zip",
+     "sha256": "b6e10fc70185020ef6eba4b159f3e09b14048c140190c81bb94c0ae7966779eb"
+    },
+    {
+     "platform": "web",
+     "label": "Web build (zip)",
+     "name": "greytide-web.zip",
+     "size": 32175022,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-f501bdb/greytide-web.zip",
+     "sha256": "517e2744679a3efa04926de9da9abd480fa6de8ac3c68faeb44a52d0f1db0589"
+    }
+   ],
+   "shots": [
+    {
+     "path": "shots/dev-f501bdb/issue-97-fork.jpg",
+     "issue": 97,
+     "caption": "fork"
+    },
+    {
+     "path": "shots/dev-f501bdb/issue-97-results-lost.jpg",
+     "issue": 97,
+     "caption": "results lost"
+    }
+   ],
+   "playable": false
+  },
+  {
+   "tag": "dev-67c3914",
+   "sha": "67c3914fb6167768770e55ad2301a9deb82240e0",
+   "short": "67c3914",
+   "published": "2026-10-03T11:23:09+00:00",
+   "committed": "2026-10-03T07:11:35-04:00",
+   "headline": "unity: wire cards, the fourth tower and the enemy slice into the table (#62)",
+   "previous": "dev-5599836",
+   "changes": [
+    {
+     "number": 126,
+     "title": "unity: wire cards, the fourth tower and the enemy slice into the table (#62)",
+     "mergedAt": "2026-10-03T11:11:35Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/126"
+    },
+    {
+     "number": 125,
+     "title": "unity: Web stress measurements and Web crowd cap (#107)",
+     "mergedAt": "2026-10-03T10:03:03Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/125"
+    },
+    {
+     "number": 124,
+     "title": "unity: stress demo and crowd performance measurements on board C (#88)",
+     "mergedAt": "2026-10-03T09:27:55Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/124"
+    },
+    {
+     "number": 123,
+     "title": "unity: sounds for towers, enemies, hazards, cards and the run in all four themes (#120)",
+     "mergedAt": "2026-10-03T09:12:57Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/123"
+    },
+    {
+     "number": 122,
+     "title": "unity: towers ten and eleven, Old Varnish and Sister Contrast (the beam towers) (#119)",
+     "mergedAt": "2026-10-03T09:08:22Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/122"
+    },
+    {
+     "number": 121,
+     "title": "unity: end the 1 s frame stalls of hidden Low/Medium players (#105)",
+     "mergedAt": "2026-10-03T09:03:05Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/121"
+    },
+    {
+     "number": 118,
+     "title": "unity: one renderer per rigid glued-on part, cuts renderers per enemy from 8.6 to 3.5 (#108)",
+     "mergedAt": "2026-10-03T08:41:12Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/118"
+    }
+   ],
+   "moreChanges": 0,
+   "commit_url": "https://github.com/tehrandom2/greytide/commit/67c3914fb6167768770e55ad2301a9deb82240e0",
+   "assets": [
+    {
+     "platform": "win",
+     "label": "Windows",
+     "name": "greytide-win64.zip",
+     "size": 49114479,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-67c3914/greytide-win64.zip",
+     "sha256": "9e9f7615d4dbd270d29daae31e0aac6ca0ffd46939b629597e0a4a982e064036"
+    },
+    {
+     "platform": "linux",
+     "label": "Linux",
+     "name": "greytide-linux64.zip",
+     "size": 47256890,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-67c3914/greytide-linux64.zip",
+     "sha256": "62535635801f6c2f239f2d59dd44ddfd68d8f42a8af4d563b4fbda1c26af630a"
+    },
+    {
+     "platform": "web",
+     "label": "Web build (zip)",
+     "name": "greytide-web.zip",
+     "size": 32168964,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-67c3914/greytide-web.zip",
+     "sha256": "8d18814c0a20c39caba756a39653254bce9d1b405f3011ccfa32bc54fe199f7d"
+    }
+   ],
+   "shots": [
+    {
+     "path": "shots/dev-67c3914/issue-120-sfx-cartoon.jpg",
+     "issue": 120,
+     "caption": "sfx cartoon"
+    },
+    {
+     "path": "shots/dev-67c3914/issue-120-sfx-chunky.jpg",
+     "issue": 120,
+     "caption": "sfx chunky"
+    },
+    {
+     "path": "shots/dev-67c3914/issue-119-old-varnish.jpg",
+     "issue": 119,
+     "caption": "old varnish"
+    },
+    {
+     "path": "shots/dev-67c3914/issue-119-sister-contrast.jpg",
+     "issue": 119,
+     "caption": "sister contrast"
+    },
+    {
+     "path": "shots/dev-67c3914/issue-108-shield-break-after.jpg",
+     "issue": 108,
+     "caption": "shield break after"
+    },
+    {
+     "path": "shots/dev-67c3914/issue-108-titan-burst-before-left-after-right.jpg",
+     "issue": 108,
+     "caption": "titan burst before left after right"
+    },
+    {
+     "path": "shots/dev-67c3914/issue-107-web-high-200.jpg",
+     "issue": 107,
+     "caption": "web high 200"
+    },
+    {
+     "path": "shots/dev-67c3914/issue-107-web-low-200.jpg",
+     "issue": 107,
+     "caption": "web low 200"
+    },
+    {
+     "path": "shots/dev-67c3914/issue-105-stress-low-parked.jpg",
+     "issue": 105,
+     "caption": "stress low parked"
+    },
+    {
+     "path": "shots/dev-67c3914/issue-105-stress-medium-parked.jpg",
+     "issue": 105,
+     "caption": "stress medium parked"
+    },
+    {
+     "path": "shots/dev-67c3914/issue-88-n200-high.jpg",
+     "issue": 88,
+     "caption": "n200 high"
+    },
+    {
+     "path": "shots/dev-67c3914/issue-88-n200-low.jpg",
+     "issue": 88,
+     "caption": "n200 low"
+    }
+   ],
+   "playable": false
+  },
+  {
+   "tag": "dev-5599836",
+   "sha": "55998363f166b09369544b0fa2798cc47dca84c7",
+   "short": "5599836",
+   "published": "2026-10-03T08:46:04+00:00",
+   "committed": "2026-10-03T04:39:14-04:00",
+   "headline": "Commit the missing Hazards/README.md.meta",
+   "previous": "dev-2802a8f",
+   "changes": [
+    {
+     "number": 117,
+     "title": "Commit the missing Hazards/README.md.meta",
+     "mergedAt": "2026-10-03T08:39:14Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/117"
+    },
+    {
+     "number": 116,
+     "title": "unity: shot.ps1 passes -shotsize; shots keep the OnGUI overlay (#115)",
+     "mergedAt": "2026-10-03T08:38:04Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/116"
+    },
+    {
+     "number": 114,
+     "title": "unity: kitchen and bed hazards (sticky patches, lazy Susan, steam, the cat, the blanket fold) (#96)",
+     "mergedAt": "2026-10-03T08:31:47Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/114"
+    },
+    {
+     "number": 113,
+     "title": "unity: shot.sh exact-size offscreen captures and Hyprland 0.56 parking (#110, #104)",
+     "mergedAt": "2026-10-03T08:29:47Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/113"
+    },
+    {
+     "number": 112,
+     "title": "unity: Linux release zip keeps the executable bit (#103)",
+     "mergedAt": "2026-10-03T08:24:53Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/112"
+    },
+    {
+     "number": 111,
+     "title": "unity: surroundings for the kitchen table and the bed (#98)",
+     "mergedAt": "2026-10-03T08:22:19Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/111"
+    },
+    {
+     "number": 109,
+     "title": "unity: tower nine, the Airbrush Kid (#100)",
+     "mergedAt": "2026-10-03T08:20:22Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/109"
+    },
+    {
+     "number": 102,
+     "title": "unity: predictable line of sight (#61)",
+     "mergedAt": "2026-10-03T08:01:26Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/102"
+    },
+    {
+     "number": 101,
+     "title": "unity: in-world displays for the kitchen table and the bed (#91)",
+     "mergedAt": "2026-10-03T07:56:23Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/101"
+    },
+    {
+     "number": 99,
+     "title": "unity: towers seven and eight, Captain Lightbox (aura) and the Basing Gnome (#81)",
+     "mergedAt": "2026-10-03T07:53:44Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/99"
+    },
+    {
+     "number": 95,
+     "title": "unity: move the lamp and monitor stand off the board C mat (#90)",
+     "mergedAt": "2026-10-03T07:50:30Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/95"
+    },
+    {
+     "number": 94,
+     "title": "unity: physical cards on the desk, dealt offers picked with the god-hand (#87)",
+     "mergedAt": "2026-10-03T07:49:35Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/94"
+    },
+    {
+     "number": 93,
+     "title": "unity: run tables two and three, kitchen table and bed terrain (#83)",
+     "mergedAt": "2026-10-03T07:49:25Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/93"
+    },
+    {
+     "number": 92,
+     "title": "unity: the game loop (points, waves, lives, building, win and lose) (#53)",
+     "mergedAt": "2026-10-03T07:44:07Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/92"
+    },
+    {
+     "number": 89,
+     "title": "unity: the monitor is a live scoreboard (#54)",
+     "mergedAt": "2026-10-03T07:37:16Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/89"
+    },
+    {
+     "number": 86,
+     "title": "unity: bosses two and three, the Resin Titan and Mega-Kitbash (#78)",
+     "mergedAt": "2026-10-03T07:32:23Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/86"
+    },
+    {
+     "number": 85,
+     "title": "unity: public builds page, releases and soundtrack scaffold (#67)",
+     "mergedAt": "2026-10-03T07:32:01Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/85"
+    },
+    {
+     "number": 84,
+     "title": "unity: a second card pack, 21 cards for the new towers and enemies (#79)",
+     "mergedAt": "2026-10-03T07:31:03Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/84"
+    },
+    {
+     "number": 82,
+     "title": "unity: run rules library (three tables, fork, relics, modifiers, Pile) (#75)",
+     "mergedAt": "2026-10-03T07:29:42Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/82"
+    },
+    {
+     "number": 80,
+     "title": "unity: towers five and six, Brother Superglue and Lord Gloss Coat (#70)",
+     "mergedAt": "2026-10-03T07:22:43Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/80"
+    }
+   ],
+   "moreChanges": 0,
+   "commit_url": "https://github.com/tehrandom2/greytide/commit/55998363f166b09369544b0fa2798cc47dca84c7",
+   "assets": [
+    {
+     "platform": "win",
+     "label": "Windows",
+     "name": "greytide-win64.zip",
+     "size": 48345222,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-5599836/greytide-win64.zip",
+     "sha256": "9f3f7f608af0ae13e8f93c2c4da262da5a1074f38aafa184d38f98a4ca71bced"
+    },
+    {
+     "platform": "linux",
+     "label": "Linux",
+     "name": "greytide-linux64.zip",
+     "size": 46488122,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-5599836/greytide-linux64.zip",
+     "sha256": "edd6d64081fe8b6b6b546c0df397eef154b1dff21fc4c4b77128b2bd24773b45"
+    },
+    {
+     "platform": "web",
+     "label": "Web build (zip)",
+     "name": "greytide-web.zip",
+     "size": 29808948,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-5599836/greytide-web.zip",
+     "sha256": "0abc75d1eb1466bab9364fc1cc42a05a2d10a911cb9b8c5dfec21348445c268d"
+    }
+   ],
+   "shots": [
+    {
+     "path": "shots/dev-5599836/issue-115-windows-1600x900-overlay.jpg",
+     "issue": 115,
+     "caption": "windows 1600x900 overlay"
+    },
+    {
+     "path": "shots/dev-5599836/issue-115-windows-harness-1280x720.jpg",
+     "issue": 115,
+     "caption": "windows harness 1280x720"
+    },
+    {
+     "path": "shots/dev-5599836/issue-110-d-960x540-low.jpg",
+     "issue": 110,
+     "caption": "d 960x540 low"
+    },
+    {
+     "path": "shots/dev-5599836/issue-110-run1-1600x900.jpg",
+     "issue": 110,
+     "caption": "run1 1600x900"
+    },
+    {
+     "path": "shots/dev-5599836/issue-100-airbrush-kid-speckled.png",
+     "issue": 100,
+     "caption": "airbrush kid speckled"
+    },
+    {
+     "path": "shots/dev-5599836/issue-100-nine-towers.png",
+     "issue": 100,
+     "caption": "nine towers"
+    },
+    {
+     "path": "shots/dev-5599836/issue-98-bed-wide.jpg",
+     "issue": 98,
+     "caption": "bed wide"
+    },
+    {
+     "path": "shots/dev-5599836/issue-98-kitchen-wide.jpg",
+     "issue": 98,
+     "caption": "kitchen wide"
+    },
+    {
+     "path": "shots/dev-5599836/issue-96-bed-blanket-fold.jpg",
+     "issue": 96,
+     "caption": "bed blanket fold"
+    },
+    {
+     "path": "shots/dev-5599836/issue-96-bed-cat-shoves.jpg",
+     "issue": 96,
+     "caption": "bed cat shoves"
+    },
+    {
+     "path": "shots/dev-5599836/issue-91-bed-low-power.png",
+     "issue": 91,
+     "caption": "bed low power"
+    },
+    {
+     "path": "shots/dev-5599836/issue-91-bed-phone.png",
+     "issue": 91,
+     "caption": "bed phone"
+    }
+   ],
+   "playable": false
+  },
+  {
+   "tag": "dev-2802a8f",
+   "sha": "2802a8f0313970c20676d58c396d6bbefd5352d0",
+   "short": "2802a8f",
+   "published": "2026-10-03T07:29:23+00:00",
+   "committed": "2026-10-03T03:19:29-04:00",
+   "headline": "Music: ACE-generated medieval dubstep/electroclash candidates, player and demo (#59)",
+   "previous": null,
+   "changes": [
+    {
+     "number": 77,
+     "title": "Music: ACE-generated medieval dubstep/electroclash candidates, player and demo (#59)",
+     "mergedAt": "2026-10-03T07:19:29Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/77"
+    },
+    {
+     "number": 76,
+     "title": "unity: the other five grunts (#71)",
+     "mergedAt": "2026-10-03T07:19:06Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/76"
+    },
+    {
+     "number": 74,
+     "title": "unity: re-lay desk props for board C (#73)",
+     "mergedAt": "2026-10-03T07:16:41Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/74"
+    },
+    {
+     "number": 72,
+     "title": "unity: four satisfying sound themes (#58)",
+     "mergedAt": "2026-10-03T07:06:42Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/72"
+    },
+    {
+     "number": 69,
+     "title": "unity: first-table enemy slice (4 grunts, mini-boss, boss) (#57)",
+     "mergedAt": "2026-10-03T07:05:28Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/69"
+    },
+    {
+     "number": 68,
+     "title": "unity: board C, 120 x 60 with the winding road (#52)",
+     "mergedAt": "2026-10-03T07:05:07Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/68"
+    },
+    {
+     "number": 66,
+     "title": "Tower: Lady Wash, the fourth tower (area)",
+     "mergedAt": "2026-10-03T07:04:08Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/66"
+    },
+    {
+     "number": 65,
+     "title": "unity: card and tag rules library (#55)",
+     "mergedAt": "2026-10-03T07:04:03Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/65"
+    },
+    {
+     "number": 32,
+     "title": "unity: Linux command-line tools (compile/build/shot)",
+     "mergedAt": "2026-10-03T06:54:06Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/32"
+    },
+    {
+     "number": 51,
+     "title": "unity: compress the Web build and cap the phone render scale (#49)",
+     "mergedAt": "2026-10-02T08:19:38Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/51"
+    },
+    {
+     "number": 50,
+     "title": "unity: shot.ps1 follows the player default demo (#46)",
+     "mergedAt": "2026-10-02T08:06:32Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/50"
+    },
+    {
+     "number": 48,
+     "title": "unity: run the Web build in a browser and measure it (#17)",
+     "mergedAt": "2026-10-02T07:59:24Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/48"
+    },
+    {
+     "number": 47,
+     "title": "unity: death animations worth watching (#26)",
+     "mergedAt": "2026-10-02T07:47:23Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/47"
+    },
+    {
+     "number": 45,
+     "title": "unity: make the toy the default demo (#44)",
+     "mergedAt": "2026-10-02T07:42:28Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/45"
+    },
+    {
+     "number": 43,
+     "title": "unity: assemble the toy (#16)",
+     "mergedAt": "2026-10-02T07:34:29Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/43"
+    },
+    {
+     "number": 38,
+     "title": "unity: terrain board (#10)",
+     "mergedAt": "2026-10-02T07:14:56Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/38"
+    },
+    {
+     "number": 37,
+     "title": "unity: the god-hand (#13)",
+     "mergedAt": "2026-10-02T07:12:29Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/37"
+    },
+    {
+     "number": 36,
+     "title": "unity: stage (desk, lamp lighting, tilt-shift, camera rig)",
+     "mergedAt": "2026-10-02T07:12:26Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/36"
+    },
+    {
+     "number": 35,
+     "title": "unity: painted tower minis (#12)",
+     "mergedAt": "2026-10-02T07:08:47Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/35"
+    },
+    {
+     "number": 29,
+     "title": "unity: grey dudes and ragdolls",
+     "mergedAt": "2026-10-02T07:08:29Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/29"
+    },
+    {
+     "number": 34,
+     "title": "unity: sound effects (procedural audio)",
+     "mergedAt": "2026-10-02T07:07:40Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/34"
+    },
+    {
+     "number": 31,
+     "title": "unity: hobby desk clutter (issue 14)",
+     "mergedAt": "2026-10-02T07:07:06Z",
+     "url": "https://github.com/tehrandom2/greytide/pull/31"
+    }
+   ],
+   "moreChanges": 0,
+   "commit_url": "https://github.com/tehrandom2/greytide/commit/2802a8f0313970c20676d58c396d6bbefd5352d0",
+   "assets": [
+    {
+     "platform": "win",
+     "label": "Windows",
+     "name": "greytide-win64.zip",
+     "size": 48196927,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-2802a8f/greytide-win64.zip",
+     "sha256": "827c3d3c9124a9392aee88d4c8fbe9231c7d19e3091d7f0906ae14e1e04a94ba"
+    },
+    {
+     "platform": "linux",
+     "label": "Linux",
+     "name": "greytide-linux64.zip",
+     "size": 46339734,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-2802a8f/greytide-linux64.zip",
+     "sha256": "bac715362177bf6b74b5935c1bd9ea199563cd603e85522d9ee0ddaac6edb00c"
+    },
+    {
+     "platform": "web",
+     "label": "Web build (zip)",
+     "name": "greytide-web.zip",
+     "size": 29605012,
+     "url": "https://github.com/tehrandom2/greytide-builds/releases/download/dev-2802a8f/greytide-web.zip",
+     "sha256": "144a89c1f88b419df667b9788a4521633de610db31cb5d7dd014ace1d21563e4"
+    }
+   ],
+   "shots": [
+    {
+     "path": "shots/dev-2802a8f/issue-73-closeup-paint.jpg",
+     "issue": 73,
+     "caption": "closeup paint"
+    },
+    {
+     "path": "shots/dev-2802a8f/issue-73-default.jpg",
+     "issue": 73,
+     "caption": "default"
+    },
+    {
+     "path": "shots/dev-2802a8f/issue-71-lineup-nine-grunts.jpg",
+     "issue": 71,
+     "caption": "lineup nine grunts"
+    },
+    {
+     "path": "shots/dev-2802a8f/issue-71-traits-lefty-tangle-loot-tip.jpg",
+     "issue": 71,
+     "caption": "traits lefty tangle loot tip"
+    },
+    {
+     "path": "shots/dev-2802a8f/issue-59-music-3.png",
+     "issue": 59,
+     "caption": "music 3"
+    },
+    {
+     "path": "shots/dev-2802a8f/issue-59-music-4.png",
+     "issue": 59,
+     "caption": "music 4"
+    },
+    {
+     "path": "shots/dev-2802a8f/issue-58-sfx-final-cartoon.png",
+     "issue": 58,
+     "caption": "sfx final cartoon"
+    },
+    {
+     "path": "shots/dev-2802a8f/issue-58-sfx-final-chunky.png",
+     "issue": 58,
+     "caption": "sfx final chunky"
+    },
+    {
+     "path": "shots/dev-2802a8f/issue-57-box-spills-grunts.png",
+     "issue": 57,
+     "caption": "box spills grunts"
+    },
+    {
+     "path": "shots/dev-2802a8f/issue-57-lineup.png",
+     "issue": 57,
+     "caption": "lineup"
+    },
+    {
+     "path": "shots/dev-2802a8f/issue-56-four-towers-and-puddles.jpg",
+     "issue": 56,
+     "caption": "four towers and puddles"
+    },
+    {
+     "path": "shots/dev-2802a8f/issue-56-lady-wash-closeup.jpg",
+     "issue": 56,
+     "caption": "lady wash closeup"
+    }
+   ],
+   "playable": false
+  }
+ ]
+}

@@ -1,0 +1,13 @@
+title: Third Take Shuffle (build phase)
+idea: slacker garage-band groove with fuzzy bass, wobbly organ and tremolo guitar
+mood: build
+bpm: 90
+key: B minor
+seed: 701150
+model: ACE-Step 1.5 (acestep-v15-turbo, LM acestep-5Hz-lm-1.7B)
+prompt: Laid back slacker garage-band groove, fuzzy bass, cheap drum kit played behind the beat, wobbly organ, guitar through a small amp with tremolo, charmingly not very good, loose and sloppy but friendly, no shredding, 90 bpm, a fuzzy guitar riff played too softly and a rattling shaker, calm and spacious, steady loopable arrangement, instrumental, no vocals, no singing, no speech, no drops, no wobble bass, no build-ups, no aggressive drums, no sub bass, light thin low end, bass in the mid range only
+rejected seeds: none
+measured: -16.0 LUFS (gain +1.0 dB), tempo ~90 bpm, 0.9% above 6 kHz, 6% below 60 Hz, 3.1 onsets/s
+checks: all automatic checks passed
+date: 2026-10-05
+licence: MIT model weights; output generated locally on littlebluebox from a text prompt, no samples or reference audio, no third-party rights claimed

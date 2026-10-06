@@ -1,0 +1,13 @@
+title: Price Gun Shuffle (wave)
+idea: plastic-toy keyboard funk
+mood: wave
+bpm: 79
+key: A minor
+seed: 700455
+model: ACE-Step 1.5 (acestep-v15-turbo, LM acestep-5Hz-lm-1.7B)
+prompt: Laid back slow laid back groove, cheap toy keyboards and music-box plucks over a slow fuzzy bass groove, soft lo-fi drum machine, sparse kazoo-like lead used sparingly, sunny childlike melody that goes a little sour, dreamy and good-humoured, 79 bpm, plastic recorder-like lead and clacking toy percussion, the same groove with a little more drive and bounce, steady loopable arrangement, instrumental, no vocals, no singing, no speech, no drops, no wobble bass, no build-ups, no aggressive drums, no sub bass, light thin low end, bass in the mid range only
+rejected seeds: none
+measured: -16.0 LUFS (gain -0.6 dB), tempo ~79 bpm, 0.5% above 6 kHz, 13% below 60 Hz, 2.5 onsets/s
+checks: all automatic checks passed
+date: 2026-10-05
+licence: MIT model weights; output generated locally on littlebluebox from a text prompt, no samples or reference audio, no third-party rights claimed
