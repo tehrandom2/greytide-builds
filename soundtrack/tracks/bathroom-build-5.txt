@@ -1,0 +1,13 @@
+title: Loo Roll Dub (build phase)
+idea: echoey tiled-room dub with dripping percussion and melodica
+mood: build
+bpm: 80
+key: C minor
+seed: 700350
+model: ACE-Step 1.5 (acestep-v15-turbo, LM acestep-5Hz-lm-1.7B)
+prompt: Laid back echoey dub, spring reverb and tape echo, dripping percussion, plinky melodica, round gentle bass, loose rimshot drum machine, tiled-room acoustics, steamy and good-humoured, 80 bpm, bubbling synth arpeggio and rimshots, calm and spacious, steady loopable arrangement, instrumental, no vocals, no singing, no speech, no drops, no wobble bass, no build-ups, no aggressive drums, no sub bass, light thin low end, bass in the mid range only
+rejected seeds: none
+measured: -17.2 LUFS (gain +1.4 dB), tempo ~79 bpm, 1.1% above 6 kHz, 24% below 60 Hz, 2.2 onsets/s
+checks: all automatic checks passed
+date: 2026-10-05
+licence: MIT model weights; output generated locally on littlebluebox from a text prompt, no samples or reference audio, no third-party rights claimed

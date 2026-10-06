@@ -1,0 +1,13 @@
+title: Rain On The Glass (build phase)
+idea: wind-chime and rain-stick drift with a wandering slide whistle
+mood: build
+bpm: 74
+key: D major
+seed: 700620
+model: ACE-Step 1.5 (acestep-v15-turbo, LM acestep-5Hz-lm-1.7B)
+prompt: Laid back airy drifting groove, wind chimes and rain stick, wandering slide whistle, soft marimba, airy warm pads, light shaker drum machine, gentle fuzzy bass, sunny window-sill daydream, good-humoured, 74 bpm, steel-drum-like plucks and a slow tambourine, calm and spacious, steady loopable arrangement, instrumental, no vocals, no singing, no speech, no drops, no wobble bass, no build-ups, no aggressive drums, no sub bass, light thin low end, bass in the mid range only
+rejected seeds: none
+measured: -16.0 LUFS (gain -0.1 dB), tempo ~74 bpm, 1.3% above 6 kHz, 15% below 60 Hz, 3.0 onsets/s
+checks: all automatic checks passed
+date: 2026-10-05
+licence: MIT model weights; output generated locally on littlebluebox from a text prompt, no samples or reference audio, no third-party rights claimed

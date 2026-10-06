@@ -1,0 +1,13 @@
+title: Shrinkwrap Funk (build phase)
+idea: plastic-toy keyboard funk
+mood: build
+bpm: 78
+key: G major
+seed: 652002
+model: ACE-Step 1.5 (acestep-v15-turbo, LM acestep-5Hz-lm-1.7B)
+prompt: Slow laid back groove, 78 bpm, cheap toy keyboards and music-box plucks over a slow fuzzy bass groove, soft lo-fi drum machine, sparse kazoo-like lead used sparingly, sunny childlike melody that goes a little sour, dreamy and good-humoured, steady loopable arrangement, instrumental, no vocals, no singing, no speech, no drops, no wobble bass, no build-ups, no aggressive drums
+rejected seeds: 650002, 651002
+measured: -16.0 LUFS (gain -0.3 dB), tempo ~78 bpm, 1.6% above 6 kHz, 12% below 60 Hz, 2.3 onsets/s
+checks: all automatic checks passed
+date: 2026-10-05
+licence: MIT model weights; output generated locally on littlebluebox from a text prompt, no samples or reference audio, no third-party rights claimed

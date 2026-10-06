@@ -1,0 +1,13 @@
+title: Plughole Skank (wave)
+idea: echoey tiled-room dub with dripping percussion and melodica
+mood: wave
+bpm: 81
+key: D minor
+seed: 701325
+model: ACE-Step 1.5 (acestep-v15-turbo, LM acestep-5Hz-lm-1.7B)
+prompt: Laid back echoey dub, spring reverb and tape echo, dripping percussion, plinky melodica, round gentle bass, loose rimshot drum machine, tiled-room acoustics, steamy and good-humoured, 81 bpm, tapped bottles and a drowsy organ skank, the same groove with a little more drive and bounce, steady loopable arrangement, instrumental, no vocals, no singing, no speech, no drops, no wobble bass, no build-ups, no aggressive drums, no sub bass, light thin low end, bass in the mid range only
+rejected seeds: 700325
+measured: -16.0 LUFS (gain +2.7 dB), tempo ~80 bpm, 1.3% above 6 kHz, 8% below 60 Hz, 3.9 onsets/s
+checks: all automatic checks passed
+date: 2026-10-05
+licence: MIT model weights; output generated locally on littlebluebox from a text prompt, no samples or reference audio, no third-party rights claimed

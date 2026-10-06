@@ -1,0 +1,13 @@
+title: Quiz Night Wheeze (build phase)
+idea: wonky pub-piano and wheezy accordion shuffle
+mood: build
+bpm: 94
+key: A major
+seed: 701950
+model: ACE-Step 1.5 (acestep-v15-turbo, LM acestep-5Hz-lm-1.7B)
+prompt: Laid back wonky honky-tonk pub piano, wheezy accordion, shuffling brushed drum machine, walking fuzzy bass, clinking glass percussion, slightly out of tune, tipsy and good-humoured, 94 bpm, a muted trombone-like synth and a rattling shaker, calm and spacious, steady loopable arrangement, instrumental, no vocals, no singing, no speech, no drops, no wobble bass, no build-ups, no aggressive drums, no sub bass, light thin low end, bass in the mid range only
+rejected seeds: 700950
+measured: -16.0 LUFS (gain +1.2 dB), tempo ~94 bpm, 2.3% above 6 kHz, 8% below 60 Hz, 2.5 onsets/s
+checks: all automatic checks passed
+date: 2026-10-05
+licence: MIT model weights; output generated locally on littlebluebox from a text prompt, no samples or reference audio, no third-party rights claimed

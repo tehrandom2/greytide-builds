@@ -1,0 +1,13 @@
+title: Fridge Magnet Muzak (build phase)
+idea: wrong-footed lounge exotica with vibraphone and cheesy organ
+mood: build
+bpm: 95
+key: C major
+seed: 640003
+model: ACE-Step 1.5 (acestep-v15-turbo, LM acestep-5Hz-lm-1.7B)
+prompt: Laid back lounge exotica and mall muzak played slightly wrong, 95 bpm, mellow vibraphone, cheesy electric organ with a straight face, soft bossa nova drum box, upright bass, a melodica that wanders off the tune, sunny melody that turns a little sour, quirky and relaxed, good-humoured, steady loopable arrangement, instrumental, no vocals, no singing, no speech, no drops, no wobble bass, no build-ups, no aggressive drums
+rejected seeds: none
+measured: -16.0 LUFS (gain +0.0 dB), tempo ~95 bpm, 0.1% above 6 kHz, 6% below 60 Hz, 3.4 onsets/s
+checks: all automatic checks passed
+date: 2026-10-05
+licence: MIT model weights; output generated locally on littlebluebox from a text prompt, no samples or reference audio, no third-party rights claimed

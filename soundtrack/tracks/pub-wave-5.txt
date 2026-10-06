@@ -1,0 +1,13 @@
+title: Quiz Night Wheeze (wave)
+idea: wonky pub-piano and wheezy accordion shuffle
+mood: wave
+bpm: 99
+key: A major
+seed: 701955
+model: ACE-Step 1.5 (acestep-v15-turbo, LM acestep-5Hz-lm-1.7B)
+prompt: Laid back wonky honky-tonk pub piano, wheezy accordion, shuffling brushed drum machine, walking fuzzy bass, clinking glass percussion, slightly out of tune, tipsy and good-humoured, 99 bpm, a muted trombone-like synth and a rattling shaker, the same groove with a little more drive and bounce, steady loopable arrangement, instrumental, no vocals, no singing, no speech, no drops, no wobble bass, no build-ups, no aggressive drums, no sub bass, light thin low end, bass in the mid range only
+rejected seeds: 700955
+measured: -16.0 LUFS (gain -1.2 dB), tempo ~131 bpm, 1.5% above 6 kHz, 17% below 60 Hz, 3.2 onsets/s
+checks: all automatic checks passed
+date: 2026-10-05
+licence: MIT model weights; output generated locally on littlebluebox from a text prompt, no samples or reference audio, no third-party rights claimed
