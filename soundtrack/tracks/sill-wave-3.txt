@@ -1,0 +1,13 @@
+title: Cactus Daydream (wave)
+idea: wind-chime and rain-stick drift with a wandering slide whistle
+mood: wave
+bpm: 75
+key: A major
+seed: 800635
+model: ACE-Step 1.5 (acestep-v15-turbo, LM acestep-5Hz-lm-1.7B)
+prompt: Laid back airy drifting groove, wind chimes, rain-stick shakes and soft woodblock taps as a drum kit, wandering slide whistle used as an instrument, soft marimba, warm pads, fuzzy round bass, dusty shaker drum machine, sunny window-sill daydream, good-humoured, 75 bpm, glass harmonica pad and tiny bells, the same groove with a little more drive and bounce, steady loopable arrangement, instrumental, no vocals, no singing, no speech, no drops, no wobble bass, no build-ups, no aggressive drums, no sub bass, light thin low end, bass in the mid range only
+rejected seeds: 801635
+measured: -16.0 LUFS (gain -0.4 dB), tempo ~74 bpm, 1.1% above 6 kHz, 5% below 60 Hz, 2.9 onsets/s
+checks: all automatic checks passed
+date: 2026-10-06
+licence: MIT model weights; output generated locally on littlebluebox from a text prompt, no samples or reference audio, no third-party rights claimed
