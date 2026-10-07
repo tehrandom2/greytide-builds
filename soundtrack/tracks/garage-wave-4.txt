@@ -1,0 +1,13 @@
+title: Carpet Square Boogie (wave)
+idea: slacker garage-band groove with fuzzy bass, wobbly organ and tremolo guitar
+mood: wave
+bpm: 89
+key: G major
+seed: 805145
+model: ACE-Step 1.5 (acestep-v15-turbo, LM acestep-5Hz-lm-1.7B)
+prompt: Laid back slacker garage-band groove, cardboard-box kick, tambourine and cowbell as a drum kit, wobbly cheap organ and tremolo guitar through a small amp used as instruments, fuzzy round bass, dusty drum machine played behind the beat, charmingly not very good, friendly, no shredding, good-humoured, 89 bpm, a detuned electric piano and a lazy cowbell, the same groove with a little more drive and bounce, steady loopable arrangement, instrumental, no vocals, no singing, no speech, no drops, no wobble bass, no build-ups, no aggressive drums, no sub bass, light thin low end, bass in the mid range only
+rejected seeds: 804145
+measured: -17.3 LUFS (gain +0.0 dB), tempo ~87 bpm, 0.6% above 6 kHz, 5% below 60 Hz, 1.9 onsets/s
+checks: all automatic checks passed
+date: 2026-10-06
+licence: MIT model weights; output generated locally on littlebluebox from a text prompt, no samples or reference audio, no third-party rights claimed

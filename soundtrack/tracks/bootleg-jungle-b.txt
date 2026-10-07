@@ -1,0 +1,14 @@
+title: PIRATE 94.3 FM (second take)
+idea: mid-nineties UK jungle with a ragga toast (original words)
+mood: bootleg
+bpm: 162
+key: F minor
+seed: 576007
+model: ACE-Step 1.5 (acestep-v15-turbo, LM acestep-5Hz-lm-1.7B)
+prompt: Pirate-radio jungle, 162 bpm, chopped and time-stretched funk breakbeats with rolling snare fills, a huge sine sub-bass on a half-time reggae pattern, dancehall horn stabs and a skanking offbeat organ, dub siren and a spin-back rewind at the drop, tape hiss and heavy radio compression, a male ragga-style toast riding the beat: fast, rhythmic and half-sung, with echo throws on the line ends, an intro of horns and skank over a half-time beat, then the full breakbeat drop, loopable
+rejected seeds: 576001, 576002, 576003, 576005, 576006, 576008
+measured: -16.5 LUFS (gain -0.9 dB), tempo ~80 bpm, 2.6% above 6 kHz, 7% below 60 Hz, 3.8 onsets/s
+checks: all automatic checks passed
+lyrics: original, written for this game by the project; the model was given only those words (the sung text is in prompts.json); no existing track's melody, hook, words or title, and no sample, went in
+date: 2026-10-06
+licence: MIT model weights; output generated locally on littlebluebox from a text prompt, no samples or reference audio, no third-party rights claimed
