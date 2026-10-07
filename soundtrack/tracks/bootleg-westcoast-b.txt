@@ -1,0 +1,14 @@
+title: GREY PLASTIC (HORDE ANTHEM)
+idea: modern West Coast rap with a signature piano loop and a chanted hook (original words)
+mood: bootleg
+bpm: 102
+key: A minor
+seed: 581016
+model: ACE-Step 1.5 (acestep-v15-turbo, LM acestep-5Hz-lm-1.7B)
+prompt: Modern West Coast hip-hop, 102 bpm, a minimal bouncy beat built on one signature loop: a staccato two-note piano stab on the upbeat, a round sub-bass 808 that slides, sparse claps and hi-hats with a swung bounce, a hand clap on the backbeat, a short vocal chop as a texture, a male rapper with a sharp nasal-forward tone, confident and playful, pocketed tight to the beat, a laid-back half-time flow in the verses and a fast double-time run before each hook, internal rhymes, the hook chanted by a small group with the lead on top in call and response, an intro of the loop alone for two bars, a breakdown with the beat dropped to claps under the end of the second verse, then the final hook twice, clean dry mix with a short room on the vocal, loopable
+rejected seeds: 581001, 581002, 581003, 581005, 581006, 581007, 581008, 581009, 581010, 581011, 581012, 581013, 581014, 581015
+measured: -16.5 LUFS (gain -0.8 dB), tempo ~100 bpm, 3.1% above 6 kHz, 10% below 60 Hz, 2.8 onsets/s
+checks: all automatic checks passed
+lyrics: original, written for this game by the project; the model was given only those words (the sung text is in prompts.json); no existing track's melody, hook, words or title, and no sample, went in
+date: 2026-10-06
+licence: MIT model weights; output generated locally on littlebluebox from a text prompt, no samples or reference audio, no third-party rights claimed
