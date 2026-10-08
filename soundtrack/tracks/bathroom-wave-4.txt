@@ -1,0 +1,13 @@
+title: Soap Dish Shuffle (wave)
+idea: echoey tiled-room dub with dripping percussion and melodica
+mood: wave
+bpm: 79
+key: G minor
+seed: 801345
+model: ACE-Step 1.5 (acestep-v15-turbo, LM acestep-5Hz-lm-1.7B)
+prompt: Laid back echoey tiled-room dub, dripping-tap clicks, tapped bottles and rubber-duck squeaks as a drum kit, spring reverb and tape echo, plinky melodica used as an instrument, fuzzy round bass, dusty rimshot drum machine, steamy bathroom daydream, good-humoured, 79 bpm, echoing hand percussion and a warm electric piano, the same groove with a little more drive and bounce, steady loopable arrangement, instrumental, no vocals, no singing, no speech, no drops, no wobble bass, no build-ups, no aggressive drums, no sub bass, light thin low end, bass in the mid range only
+rejected seeds: 800345
+measured: -16.0 LUFS (gain +1.5 dB), tempo ~79 bpm, 0.5% above 6 kHz, 6% below 60 Hz, 3.3 onsets/s
+checks: all automatic checks passed
+date: 2026-10-06
+licence: MIT model weights; output generated locally on littlebluebox from a text prompt, no samples or reference audio, no third-party rights claimed

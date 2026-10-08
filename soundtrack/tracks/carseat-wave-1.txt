@@ -1,0 +1,13 @@
+title: Indicator Ticks (wave)
+idea: night-drive groove with indicator ticks and a radio between stations
+mood: wave
+bpm: 85
+key: A minor
+seed: 801415
+model: ACE-Step 1.5 (acestep-v15-turbo, LM acestep-5Hz-lm-1.7B)
+prompt: Laid back night-drive groove, indicator ticks, windscreen-wiper swishes and seat-belt clicks as a drum kit, a radio drifting between stations, engine hum under warm pads, tape-warped electric piano used as an instrument, fuzzy round bass, dusty drum machine, back-seat streetlight daydream, good-humoured, 85 bpm, a woozy detuned synth and soft streetlight pings, the same groove with a little more drive and bounce, steady loopable arrangement, instrumental, no vocals, no singing, no speech, no drops, no wobble bass, no build-ups, no aggressive drums, no sub bass, light thin low end, bass in the mid range only
+rejected seeds: 802415
+measured: -16.0 LUFS (gain +1.8 dB), tempo ~84 bpm, 1.0% above 6 kHz, 30% below 60 Hz, 2.4 onsets/s
+checks: all automatic checks passed
+date: 2026-10-07
+licence: MIT model weights; output generated locally on littlebluebox from a text prompt, no samples or reference audio, no third-party rights claimed

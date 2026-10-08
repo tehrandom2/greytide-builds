@@ -1,0 +1,13 @@
+title: Nightlight Waltz (build phase)
+idea: sleepy music-box and soft fuzz bass
+mood: build
+bpm: 70
+key: D major
+seed: 800240
+model: ACE-Step 1.5 (acestep-v15-turbo, LM acestep-5Hz-lm-1.7B)
+prompt: Laid back sleepy lullaby groove, music-box plucks, felt-piano and soft pillow-thump kick, slow shaker and brushed drum machine, celesta used as an instrument, warm fuzzy round bass, tape hiss, duvet-warm bedroom daydream, good-humoured, 70 bpm, music-box melody over a humming bass, calm and spacious, steady loopable arrangement, instrumental, no vocals, no singing, no speech, no drops, no wobble bass, no build-ups, no aggressive drums, no sub bass, light thin low end, bass in the mid range only
+rejected seeds: 801240
+measured: -16.0 LUFS (gain +0.7 dB), tempo ~139 bpm, 0.8% above 6 kHz, 11% below 60 Hz, 1.9 onsets/s
+checks: all automatic checks passed
+date: 2026-10-06
+licence: MIT model weights; output generated locally on littlebluebox from a text prompt, no samples or reference audio, no third-party rights claimed
