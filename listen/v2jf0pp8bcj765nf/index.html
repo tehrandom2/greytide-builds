@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>slow bounce - two takes</title>
+<meta name="theme-color" content="#120d0a">
+<link rel="icon" href="../../icon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../css/site.css">
+<style>
+  .take { background: var(--desk-2); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px; margin: 18px 0; }
+  .take h2 { font-family: var(--display); font-weight: 800; font-size: 28px; margin: 0 0 4px; }
+  .take p { margin: 6px 0 14px; }
+  .take .meas { font-family: var(--mono); font-size: 13px; color: var(--dim); }
+  .take audio { width: 100%; display: block; margin-top: 10px; }
+  .playbtn { font-family: var(--display); font-weight: 700; font-size: 20px; letter-spacing: .04em; text-transform: uppercase; padding: 10px 22px;
+    border: 0; border-radius: 999px; background: var(--lamp); color: var(--paper-ink); cursor: pointer; }
+  .playbtn:hover { background: var(--lamp-2); }
+  .tag { font-family: var(--mono); font-size: 12px; border: 1px solid var(--red); color: var(--red); padding: 1px 6px; border-radius: 4px; vertical-align: middle; margin-left: 8px; }
+  main { padding: 40px 0 64px; }
+  h1 { font-family: var(--display); font-weight: 800; font-size: clamp(36px, 7vw, 56px); margin: 0 0 8px; }
+</style>
+</head>
+<body>
+<main class="wrap">
+  <h1>slow bounce <span class="tag">explicit</span></h1>
+  <p>Two takes of one unreleased track: slow, bass-heavy West Coast hip-hop with a sing-talk lead, and dirty words about the towers. Not in the game or on the soundtrack page. Both takes are about 105 seconds and loop.</p>
+
+  <section class="take" aria-label="Take A">
+    <h2>Take A</h2>
+    <button class="playbtn" type="button" data-for="a">Play</button>
+    <audio id="a" preload="none" src="slowbounce-a.mp3"></audio>
+    <p class="meas">-16.9 LUFS (workbench set -16.5), tempo ~90 bpm, 3.5% above 6 kHz, 6% below 60 Hz, seam step 0.07x, 106 s</p>
+  </section>
+
+  <section class="take" aria-label="Take B">
+    <h2>Take B</h2>
+    <button class="playbtn" type="button" data-for="b">Play</button>
+    <audio id="b" preload="none" src="slowbounce-b.mp3"></audio>
+    <p class="meas">-16.9 LUFS (workbench set -16.5), tempo ~90 bpm, 2.9% above 6 kHz, 7% below 60 Hz, seam step 0.01x, 105 s</p>
+  </section>
+
+  <p class="meas" style="font-family:var(--mono);font-size:13px;color:var(--faint)">Made locally with ACE-Step 1.5 (MIT weights) from a text description of the sound and our own words; no sample, reference audio or existing song went in.</p>
+</main>
+<script>
+  document.querySelectorAll('.playbtn').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var mine = document.getElementById(btn.dataset.for);
+      document.querySelectorAll('audio').forEach(function (a) { if (a !== mine) { a.pause(); } });
+      if (mine.paused) { mine.play(); } else { mine.pause(); }
+    });
+  });
+  document.querySelectorAll('audio').forEach(function (a) {
+    var b = document.querySelector('.playbtn[data-for="' + a.id + '"]');
+    a.addEventListener('play', function () { b.textContent = 'Pause'; });
+    a.addEventListener('pause', function () { b.textContent = 'Play'; });
+    a.addEventListener('ended', function () { b.textContent = 'Play'; });
+  });
+</script>
+</body>
+</html>

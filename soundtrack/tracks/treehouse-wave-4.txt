@@ -1,0 +1,13 @@
+title: Torch Under The Blanket (wave)
+idea: creaking-wood dusk groove with a kid's whistle
+mood: wave
+bpm: 77
+key: C major
+seed: 802245
+model: ACE-Step 1.5 (acestep-v15-turbo, LM acestep-5Hz-lm-1.7B)
+prompt: Laid back dusk treehouse groove, creaking plank taps, rope-knot thumps and a tin-can tick as a drum kit, wind-in-leaves shaker, a kid's whistle used as an instrument, soft marimba, warm pads, fuzzy round bass, dusty drum machine, back-garden treehouse at dusk daydream, good-humoured, 77 bpm, a lazy ukulele-like pluck and soft claps, the same groove with a little more drive and bounce, steady loopable arrangement, instrumental, no vocals, no singing, no speech, no drops, no wobble bass, no build-ups, no aggressive drums, no sub bass, light thin low end, bass in the mid range only
+rejected seeds: 801245
+measured: -16.0 LUFS (gain +0.1 dB), tempo ~77 bpm, 1.5% above 6 kHz, 18% below 60 Hz, 2.6 onsets/s
+checks: all automatic checks passed
+date: 2026-10-07
+licence: MIT model weights; output generated locally on littlebluebox from a text prompt, no samples or reference audio, no third-party rights claimed
