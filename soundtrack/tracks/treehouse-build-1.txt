@@ -1,0 +1,13 @@
+title: Dusk In The Branches (build phase)
+idea: creaking-wood dusk groove with a kid's whistle
+mood: build
+bpm: 76
+key: G major
+seed: 802210
+model: ACE-Step 1.5 (acestep-v15-turbo, LM acestep-5Hz-lm-1.7B)
+prompt: Laid back dusk treehouse groove, creaking plank taps, rope-knot thumps and a tin-can tick as a drum kit, wind-in-leaves shaker, a kid's whistle used as an instrument, soft marimba, warm pads, fuzzy round bass, dusty drum machine, back-garden treehouse at dusk daydream, good-humoured, 76 bpm, an easy whistled tune and a wooden flute-like synth, calm and spacious, steady loopable arrangement, instrumental, no vocals, no singing, no speech, no drops, no wobble bass, no build-ups, no aggressive drums, no sub bass, light thin low end, bass in the mid range only
+rejected seeds: 801210
+measured: -16.0 LUFS (gain +1.1 dB), tempo ~76 bpm, 2.3% above 6 kHz, 17% below 60 Hz, 3.9 onsets/s
+checks: all automatic checks passed
+date: 2026-10-07
+licence: MIT model weights; output generated locally on littlebluebox from a text prompt, no samples or reference audio, no third-party rights claimed

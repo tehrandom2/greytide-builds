@@ -1,0 +1,13 @@
+title: Quiz Show Nap (build phase)
+idea: daytime-television muzak gone sour
+mood: build
+bpm: 86
+key: F major
+seed: 801530
+model: ACE-Step 1.5 (acestep-v15-turbo, LM acestep-5Hz-lm-1.7B)
+prompt: Laid back daytime-television muzak gone slightly sour, remote-button clicks and cushion pats as a drum kit, smooth electric piano, cheesy saxophone-like synth used as an instrument, game-show melody drifting out of tune, fuzzy round bass, dusty brushed drum machine, sofa daydream, warm and tired and good-humoured, 86 bpm, talk-box texture and a soft clavinet, calm and spacious, steady loopable arrangement, instrumental, no vocals, no singing, no speech, no drops, no wobble bass, no build-ups, no aggressive drums, no sub bass, light thin low end, bass in the mid range only
+rejected seeds: 800530
+measured: -16.0 LUFS (gain +2.0 dB), tempo ~84 bpm, 1.0% above 6 kHz, 9% below 60 Hz, 4.0 onsets/s
+checks: all automatic checks passed
+date: 2026-10-06
+licence: MIT model weights; output generated locally on littlebluebox from a text prompt, no samples or reference audio, no third-party rights claimed

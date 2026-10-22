@@ -1,0 +1,13 @@
+title: Tile Echo Dub (wave)
+idea: echoey tiled-room dub with dripping percussion and melodica
+mood: wave
+bpm: 83
+key: A minor
+seed: 801315
+model: ACE-Step 1.5 (acestep-v15-turbo, LM acestep-5Hz-lm-1.7B)
+prompt: Laid back echoey tiled-room dub, dripping-tap clicks, tapped bottles and rubber-duck squeaks as a drum kit, spring reverb and tape echo, plinky melodica used as an instrument, fuzzy round bass, dusty rimshot drum machine, steamy bathroom daydream, good-humoured, 83 bpm, rubber-duck squeaky toy melody and plunking keys, the same groove with a little more drive and bounce, steady loopable arrangement, instrumental, no vocals, no singing, no speech, no drops, no wobble bass, no build-ups, no aggressive drums, no sub bass, light thin low end, bass in the mid range only
+rejected seeds: 800315
+measured: -16.0 LUFS (gain +1.7 dB), tempo ~83 bpm, 1.3% above 6 kHz, 5% below 60 Hz, 3.4 onsets/s
+checks: all automatic checks passed
+date: 2026-10-06
+licence: MIT model weights; output generated locally on littlebluebox from a text prompt, no samples or reference audio, no third-party rights claimed

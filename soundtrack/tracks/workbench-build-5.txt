@@ -1,0 +1,13 @@
+title: Hot Glue Boogie (build phase)
+idea: clanky found-percussion groove with a talk-box lead
+mood: build
+bpm: 92
+key: C minor
+seed: 700850
+model: ACE-Step 1.5 (acestep-v15-turbo, LM acestep-5Hz-lm-1.7B)
+prompt: Laid back clanky found-percussion groove, tin cans, wrench and pipe taps, metal tool clinks as a drum kit, talk-box lead used as an instrument, fuzzy round bass, dusty drum machine, workshop daydream, good-humoured, 92 bpm, drill-like synth buzz and rimshots, calm and spacious, steady loopable arrangement, instrumental, no vocals, no singing, no speech, no drops, no wobble bass, no build-ups, no aggressive drums, no sub bass, light thin low end, bass in the mid range only
+rejected seeds: none
+measured: -16.8 LUFS (gain +1.7 dB), tempo ~92 bpm, 2.1% above 6 kHz, 6% below 60 Hz, 4.3 onsets/s
+checks: all automatic checks passed
+date: 2026-10-05
+licence: MIT model weights; output generated locally on littlebluebox from a text prompt, no samples or reference audio, no third-party rights claimed

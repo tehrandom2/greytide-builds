@@ -1,0 +1,13 @@
+title: Trunk Of Old Tapes (build phase)
+idea: dusty music box and warbling old-tape organ
+mood: build
+bpm: 72
+key: A minor
+seed: 701720
+model: ACE-Step 1.5 (acestep-v15-turbo, LM acestep-5Hz-lm-1.7B)
+prompt: Laid back dusty attic groove, warbling old-tape organ, slightly out-of-tune music box, harmonium, creaky soft drum machine, warm fuzzy bass, cobweb-soft and nostalgic, never creepy, good-humoured, 72 bpm, cracked vinyl-like crackle and a harmonium waltz feel in four, calm and spacious, steady loopable arrangement, instrumental, no vocals, no singing, no speech, no drops, no wobble bass, no build-ups, no aggressive drums, no sub bass, light thin low end, bass in the mid range only
+rejected seeds: 700720
+measured: -16.0 LUFS (gain -0.3 dB), tempo ~72 bpm, 2.4% above 6 kHz, 18% below 60 Hz, 1.4 onsets/s
+checks: all automatic checks passed
+date: 2026-10-05
+licence: MIT model weights; output generated locally on littlebluebox from a text prompt, no samples or reference audio, no third-party rights claimed

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, viewport-fit=cover">
+<title>greytide · Discord Activity</title>
+<meta name="description" content="greytide, the tabletop tower defence, as a Discord Activity.">
+<style>
+  :root { color-scheme: dark; }
+  html, body { margin: 0; padding: 0; height: 100%; background: #0b0a09; color: #e8dcc4; overflow: hidden; }
+  [hidden] { display: none !important; }
+  #unity-canvas { display: block; position: fixed; left: 0; top: 0; width: 100vw; height: 100vh; height: 100dvh; background: #0b0a09; touch-action: none; outline: none; }
+  #loading { position: fixed; left: 0; right: 0; top: 50%; transform: translateY(-50%); text-align: center; font: 14px/1.4 system-ui, sans-serif; color: #b9a98c; pointer-events: none; }
+  #what { display: block; font-size: 12px; color: #857761; margin-top: 4px; }
+  #bar { width: 160px; height: 4px; margin: 10px auto 4px; background: #2a2620; border-radius: 2px; overflow: hidden; }
+  #bar > div { width: 0; height: 100%; background: #e0b25c; }
+  #pct { font-size: 12px; color: #857761; }
+  #error { position: fixed; left: 8px; right: 8px; top: 8px; padding: 10px; background: #8a1c1c; color: #fff; font: 14px system-ui, sans-serif; }
+  /* margin:auto on the card centres it but lets it scroll from the top when the frame is shorter than the card (Discord's small views) */
+  #outside { box-sizing: border-box; height: 100%; overflow: auto; display: flex; padding: 24px 16px;
+             background: radial-gradient(ellipse at 50% 30%, #2b2117 0%, #15120f 55%, #0b0a09 100%); font: 16px/1.55 ui-monospace, Menlo, Consolas, monospace; }
+  #outside .card { margin: auto; box-sizing: border-box; max-width: 560px; width: 100%; border: 1px solid #3a2f24; border-radius: 10px; padding: 24px 22px; background: rgba(21,18,15,.85); box-shadow: 0 10px 40px rgba(0,0,0,.5); }
+  #outside h1 { font-size: 20px; letter-spacing: .08em; margin: 0 0 4px; }
+  #outside .sub { color: #857761; font-size: 13px; margin: 0 0 18px; }
+  #outside p { color: #b9a98f; margin: 0 0 14px; }
+  #outside ol { color: #b9a98f; margin: 0 0 18px; padding-left: 2.2em; }
+  #outside .note { color: #ffb45f; font-size: 13px; }
+  #outside a { color: #e8dcc4; }
+  #outside .play { display: inline-block; margin-top: 4px; padding: 9px 16px; border-radius: 999px; background: #e0b25c; color: #15120f; text-decoration: none; font-weight: 600; }
+  #outside .play:hover, #outside .play:focus-visible { background: #ffc46e; }
+  #outside .foot { font-size: 13px; color: #857761; margin: 18px 0 0; }
+</style></head>
+<body>
+<main id="outside" hidden>
+  <div class="card">
+    <h1>GREYTIDE</h1>
+    <p class="sub">Discord Activity</p>
+    <p class="note" id="why" hidden></p>
+    <p>This page runs the game inside Discord. It does not start in an ordinary browser tab. To open it in Discord:</p>
+    <ol>
+      <li>Join a voice channel (or a DM call) on a server that has the greytide app.</li>
+      <li>Press the rocket button, <b>Activities</b>, and pick <b>greytide</b>.</li>
+    </ol>
+    <p>Or play the same build right here, no Discord needed:</p>
+    <a class="play" href="../play/">Play in the browser</a>
+    <p class="foot"><a href="../">builds</a> · <a href="../trailer/">trailer</a> · <a href="../blog/">devlog</a></p>
+  </div>
+</main>
+<canvas id="unity-canvas" width="1280" height="720" tabindex="-1" hidden></canvas>
+<div id="loading" hidden>greytide<div id="bar"><div></div></div><span id="pct"></span><span id="what"></span></div>
+<div id="error" hidden></div>
+<noscript><p style="padding:16px;font-family:monospace">greytide needs JavaScript. Open it inside Discord, or play at <a href="../play/">../play/</a>.</p></noscript>
+<script src="discord-sdk-2.5.0.js"></script>
+<script src="activity.js"></script>
+<script>GreytideActivity.start();</script>
+</body></html>

@@ -1,0 +1,13 @@
+title: Wrong Floor Lounge (build phase)
+idea: wrong-footed lounge exotica with vibraphone and cheesy organ
+mood: build
+bpm: 95
+key: F major
+seed: 801110
+model: ACE-Step 1.5 (acestep-v15-turbo, LM acestep-5Hz-lm-1.7B)
+prompt: Laid back wrong-footed lounge exotica, spoon taps, pan lid clinks and a kettle-whistle blip as a drum kit, mellow vibraphone, cheesy electric organ with a straight face, melodica used as an instrument that wanders off the tune, fuzzy round bass, dusty bossa nova drum box, late-night kitchen daydream, good-humoured, 95 bpm, calm and spacious, steady loopable arrangement, instrumental, no vocals, no singing, no speech, no drops, no wobble bass, no build-ups, no aggressive drums, no sub bass, light thin low end, bass in the mid range only
+rejected seeds: 800110
+measured: -16.0 LUFS (gain +1.0 dB), tempo ~94 bpm, 0.2% above 6 kHz, 10% below 60 Hz, 2.3 onsets/s
+checks: all automatic checks passed
+date: 2026-10-06
+licence: MIT model weights; output generated locally on littlebluebox from a text prompt, no samples or reference audio, no third-party rights claimed
