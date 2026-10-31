@@ -1,0 +1,13 @@
+title: Plughole Skank (build phase)
+idea: echoey tiled-room dub with dripping percussion and melodica
+mood: build
+bpm: 76
+key: D minor
+seed: 800320
+model: ACE-Step 1.5 (acestep-v15-turbo, LM acestep-5Hz-lm-1.7B)
+prompt: Laid back echoey tiled-room dub, dripping-tap clicks, tapped bottles and rubber-duck squeaks as a drum kit, spring reverb and tape echo, plinky melodica used as an instrument, fuzzy round bass, dusty rimshot drum machine, steamy bathroom daydream, good-humoured, 76 bpm, tapped bottles and a drowsy organ skank, calm and spacious, steady loopable arrangement, instrumental, no vocals, no singing, no speech, no drops, no wobble bass, no build-ups, no aggressive drums, no sub bass, light thin low end, bass in the mid range only
+rejected seeds: 801320
+measured: -16.0 LUFS (gain +0.7 dB), tempo ~76 bpm, 1.1% above 6 kHz, 12% below 60 Hz, 3.4 onsets/s
+checks: all automatic checks passed
+date: 2026-10-06
+licence: MIT model weights; output generated locally on littlebluebox from a text prompt, no samples or reference audio, no third-party rights claimed

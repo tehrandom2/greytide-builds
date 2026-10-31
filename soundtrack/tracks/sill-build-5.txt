@@ -1,0 +1,13 @@
+title: Pigeon Overhead (build phase)
+idea: wind-chime and rain-stick drift with a wandering slide whistle
+mood: build
+bpm: 78
+key: E major
+seed: 800650
+model: ACE-Step 1.5 (acestep-v15-turbo, LM acestep-5Hz-lm-1.7B)
+prompt: Laid back airy drifting groove, wind chimes, rain-stick shakes and soft woodblock taps as a drum kit, wandering slide whistle used as an instrument, soft marimba, warm pads, fuzzy round bass, dusty shaker drum machine, sunny window-sill daydream, good-humoured, 78 bpm, birdsong-like synth chirps and a warm organ, calm and spacious, steady loopable arrangement, instrumental, no vocals, no singing, no speech, no drops, no wobble bass, no build-ups, no aggressive drums, no sub bass, light thin low end, bass in the mid range only
+rejected seeds: 801650
+measured: -16.0 LUFS (gain +0.1 dB), tempo ~78 bpm, 1.2% above 6 kHz, 12% below 60 Hz, 3.9 onsets/s
+checks: all automatic checks passed
+date: 2026-10-06
+licence: MIT model weights; output generated locally on littlebluebox from a text prompt, no samples or reference audio, no third-party rights claimed

@@ -1,0 +1,13 @@
+title: Third Take Shuffle (wave)
+idea: slacker garage-band groove with fuzzy bass, wobbly organ and tremolo guitar
+mood: wave
+bpm: 95
+key: B minor
+seed: 802155
+model: ACE-Step 1.5 (acestep-v15-turbo, LM acestep-5Hz-lm-1.7B)
+prompt: Laid back slacker garage-band groove, cardboard-box kick, tambourine and cowbell as a drum kit, wobbly cheap organ and tremolo guitar through a small amp used as instruments, fuzzy round bass, dusty drum machine played behind the beat, charmingly not very good, friendly, no shredding, good-humoured, 95 bpm, a fuzzy guitar riff played too softly and a rattling shaker, the same groove with a little more drive and bounce, steady loopable arrangement, instrumental, no vocals, no singing, no speech, no drops, no wobble bass, no build-ups, no aggressive drums, no sub bass, light thin low end, bass in the mid range only
+rejected seeds: 801155
+measured: -16.0 LUFS (gain +0.3 dB), tempo ~92 bpm, 0.5% above 6 kHz, 8% below 60 Hz, 3.3 onsets/s
+checks: all automatic checks passed
+date: 2026-10-06
+licence: MIT model weights; output generated locally on littlebluebox from a text prompt, no samples or reference audio, no third-party rights claimed

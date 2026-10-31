@@ -1,0 +1,13 @@
+title: Rafter Fuzz (wave)
+idea: dusty music box and warbling old-tape organ
+mood: wave
+bpm: 79
+key: G minor
+seed: 700745
+model: ACE-Step 1.5 (acestep-v15-turbo, LM acestep-5Hz-lm-1.7B)
+prompt: Laid back dusty attic groove, warbling old-tape organ, slightly out-of-tune music box, harmonium, creaky soft drum machine, warm fuzzy bass, cobweb-soft and nostalgic, never creepy, good-humoured, 79 bpm, creaky rocking-horse bass and music-box bells, the same groove with a little more drive and bounce, steady loopable arrangement, instrumental, no vocals, no singing, no speech, no drops, no wobble bass, no build-ups, no aggressive drums, no sub bass, light thin low end, bass in the mid range only
+rejected seeds: none
+measured: -16.0 LUFS (gain +2.2 dB), tempo ~77 bpm, 1.3% above 6 kHz, 12% below 60 Hz, 2.2 onsets/s
+checks: all automatic checks passed
+date: 2026-10-05
+licence: MIT model weights; output generated locally on littlebluebox from a text prompt, no samples or reference audio, no third-party rights claimed
