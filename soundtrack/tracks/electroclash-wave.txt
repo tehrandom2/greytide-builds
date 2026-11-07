@@ -1,0 +1,8 @@
+title: Court Jester Electroclash (wave)
+idea: medieval-electroclash
+mood: wave
+bpm: 128
+seed: 590006
+model: ACE-Step 1.5 (acestep-v15-turbo, LM acestep-5Hz-lm-1.7B)
+prompt: Medieval electroclash, 128 bpm, driving four-on-the-floor kick, gritty distorted sawtooth synth bass, harpsichord stabs, aggressive fuzzy lute riffs, handclaps, cowbell, snarling retro synth lead like a battle march, loopable, instrumental, no vocals
+date: 2026-10-03

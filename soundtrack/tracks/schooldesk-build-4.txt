@@ -1,0 +1,13 @@
+title: Hummed Under The Breath (build phase)
+idea: bored-lesson groove with clock ticks, pencil taps and a hummed tune
+mood: build
+bpm: 78
+key: D minor
+seed: 806340
+model: ACE-Step 1.5 (acestep-v15-turbo, LM acestep-5Hz-lm-1.7B)
+prompt: Laid back bored-lesson groove, clock ticks, pencil taps and ruler twangs as a drum kit, a tune hummed under the breath used as an instrument, plinky toy keyboard, fuzzy round bass, dusty drum machine, last-lesson-of-the-day daydream, good-humoured, 78 bpm, a tiny glockenspiel and a lazy organ, calm and spacious, steady loopable arrangement, instrumental, no vocals, no singing, no speech, no drops, no wobble bass, no build-ups, no aggressive drums, no sub bass, light thin low end, bass in the mid range only
+rejected seeds: 805340
+measured: -17.1 LUFS (gain +0.3 dB), tempo ~78 bpm, 0.8% above 6 kHz, 19% below 60 Hz, 3.5 onsets/s
+checks: all automatic checks passed
+date: 2026-10-07
+licence: MIT model weights; output generated locally on littlebluebox from a text prompt, no samples or reference audio, no third-party rights claimed

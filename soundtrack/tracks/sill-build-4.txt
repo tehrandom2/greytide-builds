@@ -1,0 +1,13 @@
+title: Net Curtain Breeze (build phase)
+idea: wind-chime and rain-stick drift with a wandering slide whistle
+mood: build
+bpm: 76
+key: C major
+seed: 801640
+model: ACE-Step 1.5 (acestep-v15-turbo, LM acestep-5Hz-lm-1.7B)
+prompt: Laid back airy drifting groove, wind chimes, rain-stick shakes and soft woodblock taps as a drum kit, wandering slide whistle used as an instrument, soft marimba, warm pads, fuzzy round bass, dusty shaker drum machine, sunny window-sill daydream, good-humoured, 76 bpm, ocarina-like lead and soft woodblocks, calm and spacious, steady loopable arrangement, instrumental, no vocals, no singing, no speech, no drops, no wobble bass, no build-ups, no aggressive drums, no sub bass, light thin low end, bass in the mid range only
+rejected seeds: 800640
+measured: -17.1 LUFS (gain +0.4 dB), tempo ~76 bpm, 0.8% above 6 kHz, 7% below 60 Hz, 2.6 onsets/s
+checks: all automatic checks passed
+date: 2026-10-06
+licence: MIT model weights; output generated locally on littlebluebox from a text prompt, no samples or reference audio, no third-party rights claimed

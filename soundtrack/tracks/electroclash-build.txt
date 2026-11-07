@@ -1,0 +1,8 @@
+title: Court Jester Electroclash (build phase)
+idea: medieval-electroclash
+mood: build
+bpm: 100
+seed: 590005
+model: ACE-Step 1.5 (acestep-v15-turbo, LM acestep-5Hz-lm-1.7B)
+prompt: Medieval electroclash, calm and cool, 100 bpm, deadpan analog drum machine, squelchy mono synth bass, harpsichord and lute melody, dry chilly pads, detached club-in-a-castle vibe, minimal and loopable, instrumental, no vocals
+date: 2026-10-03
