@@ -1,0 +1,8 @@
+title: Plastic Tournament (build phase)
+idea: medieval-electroclash
+mood: build
+bpm: 90
+seed: 590007
+model: ACE-Step 1.5 (acestep-v15-turbo, LM acestep-5Hz-lm-1.7B)
+prompt: Medieval electroclash, calm, 90 bpm, cheap drum machine groove, bubbly arpeggiated synth, shawm and lute counter-melody, quirky playful toy-soldier mood, light and loopable, instrumental, no vocals
+date: 2026-10-03

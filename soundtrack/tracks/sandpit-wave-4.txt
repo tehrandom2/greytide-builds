@@ -1,0 +1,13 @@
+title: Bee On The Bucket (wave)
+idea: hot lazy afternoon groove with bees, a hose and a far-off ice-cream van
+mood: wave
+bpm: 75
+key: D major
+seed: 801545
+model: ACE-Step 1.5 (acestep-v15-turbo, LM acestep-5Hz-lm-1.7B)
+prompt: Laid back hot lazy afternoon groove, bucket taps, spade scrapes and a dripping hose as a drum kit, buzzing bee-like synth, a far-off ice-cream-van chime used as an instrument, soft steel-drum-like plucks, fuzzy round bass, dusty shaker drum machine, sunny sandpit daydream, good-humoured, 75 bpm, a kazoo-like lead and soft hose-drip clicks, the same groove with a little more drive and bounce, steady loopable arrangement, instrumental, no vocals, no singing, no speech, no drops, no wobble bass, no build-ups, no aggressive drums, no sub bass, light thin low end, bass in the mid range only
+rejected seeds: 802545
+measured: -16.0 LUFS (gain +0.2 dB), tempo ~74 bpm, 0.2% above 6 kHz, 5% below 60 Hz, 3.3 onsets/s
+checks: all automatic checks passed
+date: 2026-10-07
+licence: MIT model weights; output generated locally on littlebluebox from a text prompt, no samples or reference audio, no third-party rights claimed

@@ -1,0 +1,13 @@
+title: Pencil Tap Boogie (wave)
+idea: bored-lesson groove with clock ticks, pencil taps and a hummed tune
+mood: wave
+bpm: 85
+key: C major
+seed: 806325
+model: ACE-Step 1.5 (acestep-v15-turbo, LM acestep-5Hz-lm-1.7B)
+prompt: Laid back bored-lesson groove, clock ticks, pencil taps and ruler twangs as a drum kit, a tune hummed under the breath used as an instrument, plinky toy keyboard, fuzzy round bass, dusty drum machine, last-lesson-of-the-day daydream, good-humoured, 85 bpm, eraser squeaks and a drowsy electric piano, the same groove with a little more drive and bounce, steady loopable arrangement, instrumental, no vocals, no singing, no speech, no drops, no wobble bass, no build-ups, no aggressive drums, no sub bass, light thin low end, bass in the mid range only
+rejected seeds: 805325
+measured: -16.0 LUFS (gain +0.8 dB), tempo ~84 bpm, 2.2% above 6 kHz, 12% below 60 Hz, 3.0 onsets/s
+checks: all automatic checks passed
+date: 2026-10-07
+licence: MIT model weights; output generated locally on littlebluebox from a text prompt, no samples or reference audio, no third-party rights claimed
