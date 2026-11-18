@@ -1,0 +1,13 @@
+title: Leaves Say Bedtime (build phase)
+idea: creaking-wood dusk groove with a kid's whistle
+mood: build
+bpm: 78
+key: E major
+seed: 801250
+model: ACE-Step 1.5 (acestep-v15-turbo, LM acestep-5Hz-lm-1.7B)
+prompt: Laid back dusk treehouse groove, creaking plank taps, rope-knot thumps and a tin-can tick as a drum kit, wind-in-leaves shaker, a kid's whistle used as an instrument, soft marimba, warm pads, fuzzy round bass, dusty drum machine, back-garden treehouse at dusk daydream, good-humoured, 78 bpm, a breathy ocarina-like lead and rustling shakers, calm and spacious, steady loopable arrangement, instrumental, no vocals, no singing, no speech, no drops, no wobble bass, no build-ups, no aggressive drums, no sub bass, light thin low end, bass in the mid range only
+rejected seeds: 802250
+measured: -16.0 LUFS (gain +0.2 dB), tempo ~78 bpm, 0.8% above 6 kHz, 1% below 60 Hz, 3.2 onsets/s
+checks: all automatic checks passed
+date: 2026-10-07
+licence: MIT model weights; output generated locally on littlebluebox from a text prompt, no samples or reference audio, no third-party rights claimed

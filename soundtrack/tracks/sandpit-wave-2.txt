@@ -1,0 +1,13 @@
+title: Ice Cream Van Far Away (wave)
+idea: hot lazy afternoon groove with bees, a hose and a far-off ice-cream van
+mood: wave
+bpm: 77
+key: G major
+seed: 805525
+model: ACE-Step 1.5 (acestep-v15-turbo, LM acestep-5Hz-lm-1.7B)
+prompt: Laid back hot lazy afternoon groove, bucket taps, spade scrapes and a dripping hose as a drum kit, buzzing bee-like synth, a far-off ice-cream-van chime used as an instrument, soft steel-drum-like plucks, fuzzy round bass, dusty shaker drum machine, sunny sandpit daydream, good-humoured, 77 bpm, a wheezy melodica and a slow tambourine, the same groove with a little more drive and bounce, steady loopable arrangement, instrumental, no vocals, no singing, no speech, no drops, no wobble bass, no build-ups, no aggressive drums, no sub bass, light thin low end, bass in the mid range only
+rejected seeds: 806525
+measured: -16.0 LUFS (gain +0.6 dB), tempo ~77 bpm, 1.6% above 6 kHz, 10% below 60 Hz, 3.1 onsets/s
+checks: all automatic checks passed
+date: 2026-10-07
+licence: MIT model weights; output generated locally on littlebluebox from a text prompt, no samples or reference audio, no third-party rights claimed

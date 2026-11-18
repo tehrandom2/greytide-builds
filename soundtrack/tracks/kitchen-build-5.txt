@@ -1,0 +1,13 @@
+title: Pantry Cha-Cha (build phase)
+idea: wrong-footed lounge exotica with vibraphone and cheesy organ
+mood: build
+bpm: 96
+key: D major
+seed: 800150
+model: ACE-Step 1.5 (acestep-v15-turbo, LM acestep-5Hz-lm-1.7B)
+prompt: Laid back wrong-footed lounge exotica, spoon taps, pan lid clinks and a kettle-whistle blip as a drum kit, mellow vibraphone, cheesy electric organ with a straight face, melodica used as an instrument that wanders off the tune, fuzzy round bass, dusty bossa nova drum box, late-night kitchen daydream, good-humoured, 96 bpm, slide whistle, bongos and a muted trumpet-like synth, calm and spacious, steady loopable arrangement, instrumental, no vocals, no singing, no speech, no drops, no wobble bass, no build-ups, no aggressive drums, no sub bass, light thin low end, bass in the mid range only
+rejected seeds: 801150
+measured: -16.0 LUFS (gain +0.4 dB), tempo ~95 bpm, 0.2% above 6 kHz, 2% below 60 Hz, 2.7 onsets/s
+checks: all automatic checks passed
+date: 2026-10-06
+licence: MIT model weights; output generated locally on littlebluebox from a text prompt, no samples or reference audio, no third-party rights claimed

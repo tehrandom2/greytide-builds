@@ -1,0 +1,33 @@
+# Deploys the whole site to GitHub Pages on every push to main (publish.py force-pushes one orphan commit;
+# publish.py keeps .github/ across publishes, greytide #839). Replaces the legacy branch builder, whose
+# builds hung and errored. A new push queues behind a running deploy rather than cancelling it.
+name: Deploy Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - id: deployment
+        uses: actions/deploy-pages@v4

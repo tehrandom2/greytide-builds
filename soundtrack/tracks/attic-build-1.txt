@@ -1,0 +1,13 @@
+title: Dusty Music Box Organ (build phase)
+idea: dusty music box and warbling old-tape organ
+mood: build
+bpm: 76
+key: D minor
+seed: 700710
+model: ACE-Step 1.5 (acestep-v15-turbo, LM acestep-5Hz-lm-1.7B)
+prompt: Laid back dusty attic groove, warbling old-tape organ, slightly out-of-tune music box, harmonium, creaky soft drum machine, warm fuzzy bass, cobweb-soft and nostalgic, never creepy, good-humoured, 76 bpm, wobbly toy piano and a slow shaker, calm and spacious, steady loopable arrangement, instrumental, no vocals, no singing, no speech, no drops, no wobble bass, no build-ups, no aggressive drums, no sub bass, light thin low end, bass in the mid range only
+rejected seeds: none
+measured: -16.0 LUFS (gain +2.4 dB), tempo ~76 bpm, 1.7% above 6 kHz, 5% below 60 Hz, 1.8 onsets/s
+checks: all automatic checks passed
+date: 2026-10-05
+licence: MIT model weights; output generated locally on littlebluebox from a text prompt, no samples or reference audio, no third-party rights claimed

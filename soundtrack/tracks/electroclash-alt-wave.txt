@@ -1,0 +1,8 @@
+title: Plastic Tournament (wave)
+idea: medieval-electroclash
+mood: wave
+bpm: 132
+seed: 590008
+model: ACE-Step 1.5 (acestep-v15-turbo, LM acestep-5Hz-lm-1.7B)
+prompt: Medieval electroclash, 132 bpm, relentless pounding drum machine, buzzing acid synth line, trumpet fanfare samples, snare rolls like a marching band, distorted lute chords, urgent playful chaos, loopable, instrumental, no vocals
+date: 2026-10-03

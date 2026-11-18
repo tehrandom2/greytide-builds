@@ -1,0 +1,13 @@
+title: Back Seat Hum (build phase)
+idea: night-drive groove with indicator ticks and a radio between stations
+mood: build
+bpm: 76
+key: G minor
+seed: 801440
+model: ACE-Step 1.5 (acestep-v15-turbo, LM acestep-5Hz-lm-1.7B)
+prompt: Laid back night-drive groove, indicator ticks, windscreen-wiper swishes and seat-belt clicks as a drum kit, a radio drifting between stations, engine hum under warm pads, tape-warped electric piano used as an instrument, fuzzy round bass, dusty drum machine, back-seat streetlight daydream, good-humoured, 76 bpm, a dreamy slide guitar-like synth and rimshots, calm and spacious, steady loopable arrangement, instrumental, no vocals, no singing, no speech, no drops, no wobble bass, no build-ups, no aggressive drums, no sub bass, light thin low end, bass in the mid range only
+rejected seeds: 802440
+measured: -16.0 LUFS (gain +1.1 dB), tempo ~76 bpm, 1.1% above 6 kHz, 4% below 60 Hz, 1.8 onsets/s
+checks: all automatic checks passed
+date: 2026-10-07
+licence: MIT model weights; output generated locally on littlebluebox from a text prompt, no samples or reference audio, no third-party rights claimed

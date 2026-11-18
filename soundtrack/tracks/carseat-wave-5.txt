@@ -1,0 +1,13 @@
+title: Nearly Home (wave)
+idea: night-drive groove with indicator ticks and a radio between stations
+mood: wave
+bpm: 87
+key: C minor
+seed: 802455
+model: ACE-Step 1.5 (acestep-v15-turbo, LM acestep-5Hz-lm-1.7B)
+prompt: Laid back night-drive groove, indicator ticks, windscreen-wiper swishes and seat-belt clicks as a drum kit, a radio drifting between stations, engine hum under warm pads, tape-warped electric piano used as an instrument, fuzzy round bass, dusty drum machine, back-seat streetlight daydream, good-humoured, 87 bpm, a distant radio-static texture and a wandering melodica, the same groove with a little more drive and bounce, steady loopable arrangement, instrumental, no vocals, no singing, no speech, no drops, no wobble bass, no build-ups, no aggressive drums, no sub bass, light thin low end, bass in the mid range only
+rejected seeds: 801455
+measured: -16.0 LUFS (gain +0.9 dB), tempo ~85 bpm, 1.0% above 6 kHz, 8% below 60 Hz, 2.7 onsets/s
+checks: all automatic checks passed
+date: 2026-10-07
+licence: MIT model weights; output generated locally on littlebluebox from a text prompt, no samples or reference audio, no third-party rights claimed
